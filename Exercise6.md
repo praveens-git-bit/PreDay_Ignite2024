@@ -2,7 +2,6 @@
  
 Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
 
-
 ### Task 6.1: Build ML models and experiments using Copilot in Fabric
 
 ![task-3.1.1.png](media/labMedia/exercise5_1.1.png)
@@ -158,12 +157,16 @@ Create a seaborn scatterplot with Tenure Total Amount and Churn
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.14.png)
 
-With prepared data and with the help of copilot as we just saw, you may explore the data to understand the patterns it contained.
+With the data prepared with the help of Copilot, Data Scientists like you can explore the data to understand the patterns it contains.
 
 The rest of the notebook has similar PySpark queries to explore customer churn prediction.
 
 
 ### Task 6.2: Leverage AI skills for Q&A
+
+AI Skill, a new capability in Fabric, allows Data Analysts like Serena to create their own generative AI experiences. Serena believes that generative AI offers a transformative way to interact with data, significantly boosting data-driven decision-making in organizations worldwide. 
+
+In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage AI Skill to create conversational question-and-answer (Q&A) systems. 
 
 1. From the left navigation pane select **Data Science** experience.
 
