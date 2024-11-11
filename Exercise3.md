@@ -14,7 +14,9 @@
 
 ### Task 3.2 : Integrating Azure OpenAI to refine search results and deliver more precise, context-aware answers to users.
 
-1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button. 
+1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button.
+
+   Note: If the left side bar is collapsed, please click on **expand** from the above of the **left side bar**.
 
 ![Task-2.3_10.png](media/labMedia/ai_3.png)
 	
