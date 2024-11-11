@@ -42,6 +42,8 @@
 
 7. Once the **AI Search is connected**, click on the **Close** button.
 
+Note: If the **close** button is not visible, please reduce the screen size of the browser.
+
 ![Task-2.3_10.png](media/labMedia/ai_9.png)
 
 8. Here it is Azure Open AI and Azure AI Search Connections.
