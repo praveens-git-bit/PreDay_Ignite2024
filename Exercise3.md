@@ -153,7 +153,7 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 
 <img src="media/35_5.1.png" width="800"/>
 
-10. Once it is validated, click on the **Connection** dropdown and then select **openAIResource...**.
+10. Once it is validated, click on the **Connection** dropdown and then select **openAI...**.
 
 <img src="media/35_5.2.png" width="800"/>
 
