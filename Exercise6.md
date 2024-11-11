@@ -1,18 +1,17 @@
 ### Exercise 6: Explorer Data Science experience in Microsoft Fabric (Optional)
  
-Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights.
+Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
 
-You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
 
 ### Task 6.1: Build ML models and experiments using Copilot in Fabric
 
 ![task-3.1.1.png](media/labMedia/exercise5_1.1.png)
 
-To understand the cause behind Contoso’s declining revenue, the team needed to dive deeper into their customers’ spending pattern. 
+To understand the cause behind Contoso’s declining revenue, the team needed to dive deeper into their customers’ spending pattern.
 
 Copilot responds to queries in natural language or generates customized code snippets for tasks like creating charts, filtering data, applying transformations, and building machine learning models.
 
-Let’s see how copilot for notebook helped you to quickly create data science notebooks.
+Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly create Data Science Notebooks.
 
 1. Switch to the **Data Science** experience using the experience switcher icon in the left corner.
 
