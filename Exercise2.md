@@ -82,7 +82,7 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 https://app.powerbi.com/
 ```
 
-2. Click on the **ContosoSales...** and select **New item** from menu bar.
+2. Go to the **ContosoSales...** and select **New item** from menu bar.
 
    Note: If the contosoSales.. workspace is not found in the sidebar, click on the workspace and navigate to **contosoSales..**
 
