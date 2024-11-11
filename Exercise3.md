@@ -137,7 +137,7 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 
 <img src="media/35_2.1.png" width="800"/>
 
-8. Click on the **acs_index_connection** dropdown and select the **AI Search service name**.
+8. Click on the **acs_index_connection** dropdown and select the **srch....**.
 
 8. Click on the **acs_index_name** dropdown and select the **cosmosdb-index**.
 
