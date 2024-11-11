@@ -20,7 +20,7 @@ Open the new tab in the browser and copy paste the below URL to verify app servi
 
 ### Task 1.1: Create a Microsoft Fabric enabled workspace
 
-In this exercise, you will act as the Data Engineer and transfer Contoso's data from Azure SQL Database into the Lakehouse. 
+In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's data from Azure SQL Database into the Lakehouse and initiate data preparation for the upcoming merger between Contoso and Litware Inc.
 
 1. Open **PowerBI** in a new tab by copy pasting the below link.
 
@@ -57,7 +57,7 @@ In this exercise, you will act as the Data Engineer and transfer Contoso's data 
 
 ### Create/Build a Lakehouse
 
-Now, let's see how each department can easily create a Lakehouse in the Contoso workspace without any provisioning. They simply provide a name, given the proper access rights of course!
+Now, let's see how each department can easily create a Lakehouse in the Contoso workspace without any provision. They simply provide a name, given the proper access rights of course!
 
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Power BI** is selected as an "Experience") and then select **Data Engineering**.
 
@@ -85,9 +85,7 @@ lakehouse
 
 ### Task 1.2: Use the ‘New Shortcut’ option from external data sources
 
-Now, this is something exciting and powerful! This section shows how easy it is to create Shortcuts without actually moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 as an illustration.
-
-
+Now, this is something exciting! This section shows how easy it is to create Shortcuts without moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 using the New Shortcut option. Let’s see how!
 
 5. Click on the **three dots (ellipses)** on the right side of Files.
 
@@ -138,6 +136,8 @@ Now, this is something exciting and powerful! This section shows how easy it is 
 ![task-wb7.png](media/labMedia/64.1.png)
 
 ### Task 1.3: Create Delta tables using Spark Notebook
+
+Now, let’s see how Data Engineer, Eva, got the remaining data into OneLake by creating Delta tables using Spark Notebook. By using a Spark Notebook to create Delta tables, Eva can ensure more reliable, scalable, and efficient data management, which is essential for handling big data workflows.
 
 1. Click on **Workspace** 
 
@@ -203,9 +203,9 @@ for file in csv_files:
 
 ### Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
 
-In this exercise, you will experience how easy it is to use fastcopy to transform of Litware's sales data into the lakehouse. 
+Using another great feature in Fabric’s Data Factory, called Fast Copy, Contoso’s Data Engineer, Eva, quickly ingests terabytes of data with dataflows, thanks to the scalable Copy Activity in the pipeline. With so much data from Litware, there is bound to be a lot of clean up needed. Let’s step into Eva’s shoes to explore how she used fast copy to ingest data and Copilot to transform it, just in time to derive meaningful customer insights before their big Thanksgiving Sale!
 
-In this exercise, you will experience how easy it is to use Copilot to transform Litware's sales data into the lakehouse. 
+You will experience how easy it is to use Fast Copy to transform 100M rows 0f Litware's sales data into the Lakehouse.
 
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Data Engineering** is selected as an "Experience") and then select **Data Factory**.
 
@@ -301,10 +301,15 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 <img src="media/61.png" width="800"/>
 
-Congrats for completing this data transformation exercise! As you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso – they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). Now, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence.
+Congrats on completing this data transformation exercise! Looking at that, it took just 10 minutes to copy 100 million records. 
+
+As you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso – they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). Now, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence.
 
 
 ### Task 1.5: Explore Task Flows in Microsoft Fabric
+
+To streamline collaboration and project management for the entire team, IT admin Chou set up a task flow within the Microsoft Fabric workspace. Fabric task flow is a workspace feature that enables you to build a visualization of the workflow in the workspace. It helps you understand how items are related and work together, making it easier to navigate your workspace, even as it becomes more complex over time. 
+In this exercise, you’ll step into the shoes of each of the IT admins to see how easy it is to set up a task flow in Microsoft Fabric.
 
 1. Click on workspace **ContosoSales...** and drag the **bar down** to view Taskflow feature tab.
   
