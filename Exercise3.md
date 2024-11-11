@@ -111,9 +111,7 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 
 <img src="media/32.1.png" width="800"/>
 
-4. Copy the path **C:\LabFiles\01_Pre_Day\artifacts\aistudio**, paste it in the **File name** textbox and then click on the **Open** button.
-
-![promptziploc.png](media/32.1.1.png)
+4. Navigate to the path **C:\LabFiles\01_Pre_Day\artifacts\aistudio**, by clicking on the **browse** button.
 
 5. Click on **shopping-assistant-prompt-flow** and then click on the **Open** button.
 
