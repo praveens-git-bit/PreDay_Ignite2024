@@ -58,7 +58,7 @@
 
 `Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Maybe Later" to skip the tour and close the window.`
 
-6. Now you will see the Azure Portal Dashboard, Click on search bar and search for "rg-ignite24" Resource Group and select the Resource Group.
+6. Now you will see the Azure Portal Dashboard, Click on search bar and search for <inject key= "resourcegroup" enableCopy="true"/> Resource Group and select the Resource Group.
 
 ![Started.](GetStarted/Task11.png)
 
