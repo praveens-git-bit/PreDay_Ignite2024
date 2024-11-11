@@ -143,7 +143,7 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 
 8. Click on the **embedding_type** dropdown and select the **Azure OpenAI**.
 
-8. Click on the **aoai_embedding_connection** dropdown and select the **openAIResource2...**.
+8. Click on the **aoai_embedding_connection** dropdown and select the **openAI2...**.
 
 9. Click on the **Save** button.
 
