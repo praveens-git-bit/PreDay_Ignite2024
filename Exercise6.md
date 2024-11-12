@@ -240,15 +240,19 @@ In addition to instructions, examples serve as another effective way to guide th
 
 ![task-5.2](media/labMedia/AIskill11.png)
 
-14. Type **who are the top 5 customers by total sales amount?** in the chatbox and click on **Send** button.
+14. Type  the below prompt in the chatbox and click on **Send** button.
+
+```
+who are the top 5 customers by total sales amount?
+```
 
 ![task-5.2](media/labMedia/AIskill12.png)
 
-15. Click on **Publish**.
+15. Click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill13.png)
 
-16. In the pop-up screen click on **Publish**.
+16. In the pop-up screen click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill14.png)
 
