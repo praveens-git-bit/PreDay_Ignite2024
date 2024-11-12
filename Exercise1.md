@@ -31,18 +31,18 @@ https://app.fabric.microsoft.com/home
 
 > **Note:** Wait for the Microsoft Fabric page to load and *close* the top bar for a better view.
 
-8. Scroll down below to the, **"Synapse Data Engineering"** and click on it.
+2. Scroll down below to the, **"Synapse Data Engineering"** and click on it.
 
    <img src="media/dataengineer.png" width="800"/>   
 
-9. click on the **"+ New Workspace"** and copy the workspace name from below.
+3. click on the **"+ New Workspace"** and copy the workspace name from below.
 
   <img src="media/newworkspace.png" width="800"/> 
 
 ```BASH
  <inject key= "WorkspaceName" enableCopy="true"/>
 ```
-10. Paste the Worksapce name copied in the **Name** field and click on **Apply** to create the workspace.
+4. Paste the Worksapce name copied in the **Name** field and click on **Apply** to create the workspace.
 
 >**Note:** Only use the workspace name provided above.
 
@@ -80,9 +80,7 @@ lakehouse
 
 ![task-1.2.3.png](media/labMedia/task-1.2.3.png)
 
-5. Expand the Lakehouse Explorer.
 
-![task-1.2.3.png](media/labMedia/task-1.2.3.1.png)
 
 ---
 
