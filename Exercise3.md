@@ -294,3 +294,4 @@ Once the Prompt flow is deployed as an endpoint, It can be consumed in the webap
   
 ![Answer1webapp.png](media/labMedia/Answer1webapp.png)
  
+With their new Shopping Copilot, Contoso was able to provide their customers with an online shopping experience that has an in-store feel. This simulates a personalized shopping experience that helps increase customers’ engagement with enhanced data insights.
