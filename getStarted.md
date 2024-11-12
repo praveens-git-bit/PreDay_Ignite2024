@@ -34,7 +34,7 @@
 
 ![Started.](GetStarted/Task6.png)
 
-2. If you see the popup notification to Restore pages, click on  **"x"** close.
+2. If you see the popup notification to Restore pages, click on  **"x"**  to close.
 
 ![Started.](GetStarted/Task7.png)
 
