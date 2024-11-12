@@ -286,9 +286,9 @@ Note: If the pop up page **Options** appears, scroll down to select **Scale** an
 <img src="media/56.png" width="800"/> 
 
 
-14. Click on **Add destination**, select **Lakehouse**.
+14. click on **Query** dropdown and click on **Add destination** to select "Lakehouse".
   
-  Note: If **Add destination** is not visible, click on **Query** dropdown and click on **Add destination** to select "Lakehouse" 
+  Note: Click on **Add destination**, select **Lakehouse** if Query is not seen on the screen.
 
 <img src="media/57.png" width="800"/> 
 
@@ -298,9 +298,13 @@ Note: If the pop up page **Options** appears, scroll down to select **Scale** an
   <img src="media/58.png" width="800"/> 
 
 
-16. Expand Lakehouse, expand the workspace **ContosoSales...**, then select **lakehouse**.
+16. Expand Lakehouse, expand the workspace **<inject key= "WorkspaceName" enableCopy="false"/>**, then select **lakehouse**.
 
-17. Enter the table name as **sales_data_updated** and then click on the **Next** button.
+17. Copy the table name **sales_data_updated** from below and paste it into the **Table Name** field. Then, click on the **Next** button.
+
+```BASH
+sales_data_updated
+```
 
    <img src="media/labMedia/59.png"/> 
 
@@ -320,11 +324,13 @@ Congrats on completing this data transformation exercise! Looking at that, it to
 To streamline collaboration and project management for the entire team, IT admin Chou set up a task flow within the Microsoft Fabric workspace. Fabric task flow is a workspace feature that enables you to build a visualization of the workflow in the workspace. It helps you understand how items are related and work together, making it easier to navigate your workspace, even as it becomes more complex over time. 
 In this exercise, you’ll step into the shoes of each of the IT admins to see how easy it is to set up a task flow in Microsoft Fabric.
 
-1. Click on workspace **ContosoSales...** and drag the **bar down** to view Taskflow feature tab.
+1. Click on workspace **<inject key= "WorkspaceName" enableCopy="false"/>** and drag the **bar down** to view Taskflow feature tab.
   
   <img src="media/41.png" width="800"/>
   
-2. Click on the **Select a predesigned task flow** , 
+2. Click on the **Select a predesigned task flow** button.
+
+   Note: If **Select a predesigned task flow** button is not visible, try to reduce the browser size to make it visible.
 
   <img src="media/42.png" width="800"/>
 
