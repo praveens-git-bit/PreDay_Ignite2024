@@ -37,11 +37,13 @@ https://app.fabric.microsoft.com/home
 
 3. click on the **"+ New Workspace"** and copy the workspace name from below.
 
-  <img src="media/newworkspace.png" width="800"/> 
+   Note: Screenshots in the exercises may sometimes differ from the actual lab. Please adjust your screen resolution to locate items and select them as needed.
 
 ```BASH
  <inject key= "WorkspaceName" enableCopy="true"/>
 ```
+  <img src="media/newworkspace.png" width="800"/> 
+
 4. Paste the Worksapce name copied in the **Name** field and click on **Apply** to create the workspace.
 
 >**Note:** Only use the workspace name provided above.
@@ -80,6 +82,11 @@ lakehouse
 
 ![task-1.2.3.png](media/labMedia/task-1.2.3.png)
 
+**Note:** Expand the Lakehouse Explorer if it is collapsed.
+
+![task-1.2.3.png](media/labMedia/task-1.2.3.1.png)
+
+In just a few seconds, the Lakehouse is ready. With the right access, you, as a Data Engineer, can effortlessly create a new Lakehouse. There is no need to set up any storage accounts or worry about network, infrastructure, key vault, Azure subscriptions, etc.
 
 
 ---
@@ -88,27 +95,27 @@ lakehouse
 
 Now, this is something exciting! This section shows how easy it is to create Shortcuts without moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 using the New Shortcut option. Let’s see how!
 
-5. Click on the **three dots (ellipses)** on the right side of Files.
+1. Click on the **three dots (ellipses)** on the right side of Files.
 
-6. Click on **New shortcut**.
+2. Click on **New shortcut**.
 
 >**Note:** Make sure you create a shortcut under **files** and not under **tables** in the lakehouse explorer pane.
 
 ![task-wb5.png](media/labMedia/task-wb5.png)
 
-7. In the pop-up window, under **External sources**, select the **Azure Data Lake Storage Gen2** source.
+3. In the pop-up window, under **External sources**, select the **Azure Data Lake Storage Gen2** source.
 
 ![task-1.3-ext-shortcut4.png](media/labMedia/task-1.3-ext-shortcut4.png)
 
 >**Note:** Wait for the screen to load.
 
-8. Select **Create new Connection**
+4. Select **Create new Connection**
 
-9. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut.
+5. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut.
 
 ![task-1.3-ext-shortcut11.png](media/labMedia/task-1.3-ext-shortcut11.png)
 
-10.Copy the **Data Lake Storage endpoint** from the below and paste it into the **URL** field. Select **Organization account** for the **Authentication Kind**, and then click on **Sign in**.
+6.Copy the **Data Lake Storage endpoint** from the below and paste it into the **URL** field. Select **Organization account** for the **Authentication Kind**, and then click on **Sign in**.
 
 ```BASH
 <inject key= "storageEndpoint" enableCopy="true"/>
@@ -116,25 +123,27 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcut-11.png](media/labMedia/task-1.3-ext-shortcut-11.png)
 
-11. Click on your ID to complete the Sign in.
+7. Click on your ID to complete the Sign in.
 
 ![task-1.3-ext-shortcuts-11.png](media/labMedia/task-1.3-ext-shortcuts-11.png)
 
-12. Click on **Next** button.
+8. Click on **Next** button.
 
 ![task-1.3-ext-shortcut9.png](media/labMedia/task-1.3-ext-shortcut9.png)
 
-13. Select the **data** and **litwaredata** checkbox and then Click on the **Next** button.
+9. Select the **data** and **litwaredata** checkbox and then Click on the **Next** button.
 
 ![task-wb6.png](media/labMedia/task-wb6.png)
 
-14. Click on the **Create** button.
+10. Click on the **Create** button.
 
 ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-15. And there you go! Your shortcut is now ready! Simply click (do not expand) on the newly created shortcut named **litwaredata**.
+11. And there you go! Your shortcut is now ready! Simply click (do not expand) on the newly created shortcut named **litwaredata**.
 
 ![task-wb7.png](media/labMedia/64.1.png)
+
+Prior to Microsoft Fabric, departments in Contoso had to move the data they needed from other departments via time-consuming ETL processes. But look, now they have created shortcuts. No need to move any of this data. That is the power of OneLake!
 
 ### Task 1.3: Create Delta tables using Spark Notebook
 
@@ -183,7 +192,7 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.8.png)
 
-7. Once the execution is successful, **stop the Spark session** and click on **Lakehouse**.
+7. Once the execution is successful, **stop the Spark session** and go back to the **Lakehouse** in  <inject key= "WorkspaceName" enableCopy="false"/>.
 
 ![task-wb8S.png](media/labMedia/64.9.png)
 
@@ -281,7 +290,9 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 <img src="media/55.png" width="800"/>  
 
 
-Note: If the pop up page **Options** appears, scroll down to select **Scale** and then select **Fast copy**.
+Note: If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
+
+Note: If **Allow use of fast copy connectors** checkbox is already checked click on **OK**.
 
 <img src="media/56.png" width="800"/> 
 
