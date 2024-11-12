@@ -280,25 +280,30 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 <img src="media/55.png" width="800"/>  
 
-14. Click on **Options**, scroll down to select **Scale** and then select **Fast copy**.
+
+Note: If the pop up page **Options** appears, scroll down to select **Scale** and then select **Fast copy**.
 
 <img src="media/56.png" width="800"/> 
 
-15. Click on **Add destination**, select **Lakehouse**.
+
+14. Click on **Add destination**, select **Lakehouse**.
   
   Note: If **Add destination** is not visible, click on **Query** dropdown and click on **Add destination** to select "Lakehouse" 
 
 <img src="media/57.png" width="800"/> 
 
-16. Select the connection and click on **Next** button.
+
+15. Select the connection and click on **Next** button.
 
   <img src="media/58.png" width="800"/> 
 
-17. Expand Lakehouse, expand the workspace **ContosoSales...**, then select **lakehouse**.
 
-18. Enter the table name as **sales_data_updated** and then click on the **Next** button.
+16. Expand Lakehouse, expand the workspace **ContosoSales...**, then select **lakehouse**.
+
+17. Enter the table name as **sales_data_updated** and then click on the **Next** button.
 
    <img src="media/labMedia/59.png"/> 
+
 
 18. Click on the **Save settings** button.
 
@@ -349,5 +354,6 @@ In this exercise, you’ll step into the shoes of each of the IT admins to see h
 
 ![databrickssignin.png](media/labMedia/task15.4.png)
 
+**Note:** Similarly, you can attach other fabric items for any taskflow activities.
 
 As you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso – they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). Now, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence.
