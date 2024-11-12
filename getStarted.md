@@ -15,9 +15,9 @@
 
 2. Before starting the Lab, take a moment to explore the following tabs:
 
-    **- Lab Guide**
-    **- Environment**
-    **- Help**
+    - **Lab Guide**
+    - **Environment**
+    - **Help**
 
 ![Started.](GetStarted/Task4.png)
 
