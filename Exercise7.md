@@ -10,9 +10,9 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 1. Navigate to the Microsoft Fabric tab on your browser 
 
 ```
-https://app.fabric.microsoft.com
+https://app.powerbi.com
 ```
-2. Click on your workspace, and select **New item** from menu bar.
+2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false"/>**, and select **New item** from menu bar.
 
 ![Task-6.1_1.png](media/labMedia/Task-6.1_1.png)
 
@@ -52,7 +52,11 @@ Smoothie@2024
 
 ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
-8. Enter the name for your mirrored db and click on **Create mirrored database** button.
+8. Enter the name for your mirrored db as **Mirrored_SalesDb1** and click on Create **mirrored database** button.
+
+```
+Mirrored_SalesDb1
+```
 
 ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
 
@@ -60,7 +64,7 @@ Smoothie@2024
 
 ![Task-6.1_10.png](media/labMedia/Task-6.1_10.png)
 
-10. Wait until the **Rows replicated** statistics are displayed. Now, Azure SQL DB has been successfully mirrored.
+10. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
 
 ![Task-6.1_11.png](media/labMedia/Task-6.1_11.png)
 
