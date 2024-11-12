@@ -215,7 +215,9 @@ You will experience how easy it is to use Fast Copy to transform 100M rows 0f Li
 
 ![task-1.2.02.png](media/labMedia/task-1.2.02.png)
 
-3. Click on the top part of the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**), if the **Get data** is not seen, click on the drop down.
+3. Click on the drop down of the **New Query** icon and click on the **Get data**.
+
+   Note: If **New Query** is not visible due to the screen resolution, please click directly on top part of the **Get data**.
 
 ![getdataSs.png](media/labMedia/getdataSs.png)
 
