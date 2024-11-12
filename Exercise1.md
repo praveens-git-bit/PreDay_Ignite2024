@@ -44,8 +44,6 @@ https://app.fabric.microsoft.com/home
 ```
 10. Paste the Worksapce name copied in the **Name** field and click on **Apply** to create the workspace.
 
-   <img src="media/createworkspace.png" width="800"/> 
-
 >**Note:** Only use the workspace name provided above.
 
 ![works-apply.png](media/labMedia/works-apply.png)
