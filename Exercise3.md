@@ -1,6 +1,57 @@
 ## Exercise 3: Building an AI-Powered Enterprise Chatbot with Microsoft Fabric and Azure AI Studio
 
-### Task 3.1 :  Setting up Azure AI Studio
+### Task 3.1: Integrate Fabric data with Azure AI Studio using Azure AI Search and Vector Indexing for Hybrid Search
+
+Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI Studio and leverages data stored in Microsoft OneLake as knowledge base.
+
+
+1. Navigate back to the Microsoft Fabric tab on your browser.
+ 
+2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false"/>**.
+ 
+![task-1.3.02.png](media/labMedia/task-1.3.02.png)
+ 
+3. Click on **Filter** and select **Lakehouse**.
+ 
+![task-1.3-ext-shortcut1.png](media/labMedia/task-1.3-ext-shortcut1.png)
+ 
+4. Click on the **lakehouse**.
+ 
+>**Note:** There are 3 options for lakehouse, namely Lakehouse, Semantic model (Default) and SQL endpoint. Make sure you select the **Lakehouse** option.
+ 
+![task-wb11.png](media/labMedia/task-wb11.png)
+ 
+5. Click on the three dots next to **Files** folder and select **New subfolder**.
+
+![task-wb11.png](media/labMedia/bot1.png)
+ 
+6. Enter name of folder as **input** and click on **Create** button.
+ 
+![task-wb11.png](media/labMedia/bot2.png)
+
+7. Click on the three dots next to the newly created folder **input** and select **Upload**, then **Upload files**.
+
+![task-wb11.png](media/labMedia/bot3.png)
+ 
+8. In the Upload files window, click on the browse icon.
+
+![task-wb11.png](media/labMedia/bot4.png)
+ 
+9. Navigate to path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, select all the files in the folder and click on **Open** button.
+
+![task-wb11.png](media/labMedia/bot5.png)
+ 
+10. Click on **Upload** button.
+
+![task-wb11.png](media/labMedia/bot6.png)
+ 
+11. Wait for the files to get uploaded and click on close button.
+
+![task-wb11.png](media/labMedia/bot7.png)
+ 
+12. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the ABFS path and save it on your notepad.
+
+![task-wb11.png](media/labMedia/bot8.png)
 
 1. Go back to the Azure Portal and Resource Group <inject key= "resourcegroup" enableCopy="false"/>
 
