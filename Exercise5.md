@@ -36,7 +36,7 @@ Contoso-Eventhouse
 
 ![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
 
-6. Select **Eventstream**.
+6. click on **Eventstream** button.
 
 ![eventhouse4.png](media/labMedia/eventhouse4.png)
 
@@ -179,7 +179,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 ![eventhouse3.png](media/labMedia/eventhouse3.png)
 
-3. Select **KQL Queryset**.
+3. Click on **KQL Queryset** button.
 
 ![eventhouse9.png](media/labMedia/eventhouse9.png)
 
@@ -222,4 +222,4 @@ Create a query to summarize average temperature every 1 min in line chart
 
 ![task-5.3.8.png](media/labMedia/task-5.3.8.png)
 
-So, imagine if one of the aisles had a sudden rise in temperature. Customers start leaving that aisle and the wait times in the checkout lines start to increase. But thanks to the KQL Queries, those anomalies would be tracked, and immedia/labMediate notifications would be generated to bring the aisle temperature back to optimal levels! Now, after all these amazing data transformations in OneLake in a healthy ecosystem with Azure Databricks, can we actually predict customer churn for the future? Absolutely! In fact, in the next exercise, let’s see the power of Microsoft Fabric and Azure Databricks to do just that!
+Imagine one of the aisles had a sudden rise in temperature due to an anomaly. Customers start leaving that aisle and the wait times in the checkout lines start to increase but thanks to the KQL Queries, those anomalies would be tracked, and immediately notifications would be generated to bring the aisle temperature back to optimal levels!
