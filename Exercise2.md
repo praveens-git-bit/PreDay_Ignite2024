@@ -129,7 +129,8 @@ https://app.powerbi.com/
 
 ![Task-2.3_7.1.png](media/labMedia/Task-2.3_7.1.png)
 
-9. In the **Choose data** screen, select the **Catalog name** from the dropdown box, and select the tables to be mirrored into Fabric, then select the checkbox **Automatically sync future catalog changes for the selected schema** to mirror future tables and click on **Next** button.
+9. In the **Choose data** screen, select the Catalog name as **litware_unity_catalog** from the dropdown box, and select the **rag** schema if not selected, then select the checkbox **Automatically sync future catalog changes for the selected schema** (to mirror future tables) if not ticked and click on **Next** button.
+ 
 
 ![Task-2.3_8.png](media/labMedia/Task-2.3_8.png)
 
