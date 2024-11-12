@@ -102,6 +102,8 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ### Task 3.2 : Integrating Azure OpenAI to refine search results and deliver more precise, context-aware answers to users.
 
+Contoso integrated all of their data sources using Microsoft Fabric, including customer feedback, sales records, social media interactions, and encompassing internal company policy documents such as SOPs and research articles on customer behavior into Azure AI Search. This created a unified, searchable knowledge base.. Let’s step into Data Engineer, Eva’s shoes to see how.
+
 1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button.
 
    Note: If the left side bar is collapsed, please click on **expand** from the above of the **left side bar**.
@@ -144,6 +146,8 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 
 ### Task 3.3 : Indexing data in Azure AI Studio, enabling efficient search and retrieval based on user queries.
 
+Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of searching and retrieving large datasets, enabling faster, data-driven decision-making across the organization. This approach enhances accessibility, scalability, and workflow for data scientists and analysts, while also providing a better user experience and reducing operational costs.. Let’s see how Eva, the Data Engineer, indexed OneLake data in Azure AI Studio.
+
 1. Scroll down in the left navigation pane, click on **Indexes** and then click on the **+ New index** button.
 
 <img src="media/22.png" width="800"/>
@@ -159,6 +163,8 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 4. In the Select Azure AI Search service dropdown, select **existing Azure AI Search service**.
 
 5. In the Select Azure AI Search index dropdown, select **cosmosdb-index** and then click on the **Next** button.
+
+   Note: If you get an error like "Unable to load search service indexes.Request failed with status code 403." please proceed by selecting Index.
 
 <img src="media/25_1.png" width="800"/>
 
@@ -176,7 +182,7 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 
 >*Please wait for the index to load*
 
-8. It will show a screen somewhat similar to the screenshot below with text as **Index not found**, don't confuse, wait for some time and click on **Indexes**.
+8. A screen similar to the screenshot below will appear with the message **Index not found**. Please wait for some time and then click on **Indexes**.
 
 <img src="media/28.png" width="800"/>
 
@@ -186,6 +192,8 @@ Note: If the **close** button is not visible, please reduce the screen size of t
 
 
 ### Task 3.4 : Deploying and testing a Prompt flow to automate query handling, ensuring quick and optimized responses.
+
+Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment for creating AI applications. It provides a visual interface for orchestrating flows, and enables iterative prompt engineering. Azure AI Studio includes built-in evaluation tools, seamless deployment options, and integration with Azure's ecosystem. It also offers enterprise-level security and scalability, making it ideal for developing, testing, and deploying sophisticated AI solutions efficiently. Let’s explore how Contoso deployed and tested a Prompt flow.
 
 1. Click on **Prompt flow** from the left navigation pane and then click on the **+ Create** button.
 
