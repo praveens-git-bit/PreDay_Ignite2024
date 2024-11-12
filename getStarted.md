@@ -28,7 +28,9 @@
 
 # Login to Azure Portal
 
-1. In the JumpVM/Bastion, click on the Azure portal shortcut of the Microsoft Edge browser, which is created on the desktop.
+1. In the JumpVM/Bastion, **double click** on the **Azure portal shortcut** of the Microsoft Edge browser, which is created on the desktop.
+
+   Note: If the browser is not opening, please **refresh the main VM browser page**.
 
 ![Started.](GetStarted/Task6.png)
 
@@ -56,7 +58,7 @@
 
 ![Started.](GetStarted/Task10.png)
 
-**Note:** After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on **Cancel** to skip the tour and close the window.
+**Note:** After signing in to the Azure portal, if a popup page titled **"Welcome to Microsoft Azure"** appears, click **Cancel** to skip the tour.
 
 6. Now you will see the Azure Portal Dashboard, Click on search bar and search for **<inject key= "resourcegroup" enableCopy="true"/>** Resource Group and select the Resource Group.
 
