@@ -138,7 +138,7 @@ https://app.powerbi.com/
 
 ![Task-2.3_9.png](media/labMedia/Task-2.3_9.png)
 
-11. Click on **Monitor catalog** button to track the mirroring status.
+11. Click on the **Monitor catalog** button to track the mirroring status and then **x** close it.
 
 ![Task-2.3_10.1.png](media/labMedia/Task-2.3_10.1.png)
 
