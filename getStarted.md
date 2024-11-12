@@ -63,7 +63,7 @@
 ![Started.](GetStarted/Task11.png)
 
 
-`Note: In the Resource Group there will be 7 resources.`
+`Note: In the Resource Group there will be 23 resources.`
 
 #
 
