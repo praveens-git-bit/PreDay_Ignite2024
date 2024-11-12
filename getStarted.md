@@ -8,7 +8,7 @@
 
 ### Know the right side of the tab, before performing the lab.
 
-1.The Lab Guide tab contains all the steps required to complete the lab. You can use the numbers at the bottom of the Lab Guide to navigate between different exercises.
+1.The Lab Guide tab contains all the steps required to complete the lab. You can use the numbers at the bottom of the Lab Guide to navigate between different **exercises**.
 
 ![Started.](GetStarted/Task3.png)
 
@@ -63,11 +63,11 @@
 ![Started.](GetStarted/Task11.png)
 
 
-`Note: In the Resource Group there will be 23 resources.`
+**Note:** In the Resource Group there will be **23 resources**.
 
 #
 
-`Note: If you are facing any issue while opening something in the JumpVM/Bastion like downloading html file, press *ctrl + Shift + R* or refresh the main browser page to resolve the issue.`
+**Note:** If you encounter any issues while accessing resources in the JumpVM/Bastion, such as **downloading an HTML file**, try **refreshing the main VM browser** page to resolve the problem.
 
 ![Started.](GetStarted/Issue1.png)
 
