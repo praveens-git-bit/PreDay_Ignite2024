@@ -16,7 +16,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
    ![task-3.1.1.png](media/labMedia/exercise5_1.2.png)
 
-2. Click on Import notebook.
+2. Click on **Import notebook** button.
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.png)
 
@@ -24,7 +24,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Browse to the fabricnotebooks folder "C:\LabFiles\01_Pre_Day\artifacts\fabricnotebooks" in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+4. Browse to the fabricnotebooks folder **"C:\LabFiles\01_Pre_Day\artifacts\fabricnotebooks"** in the VM and select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 5. Click on the **Open** button.
 
@@ -34,7 +34,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.3.png)
 
-7. Click on the **ContosoSales...** workspace from the left navigation pane.
+7. Click on the ** <inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
@@ -76,7 +76,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 17. Click on the **Copilot** button and then click on the **Get Started** button.
  
- Note: If the Copilot is not visible please click on eclipse **:** and select Copilot.
+  Note: If the Copilot is not visible please click on eclipse **":"** and select Copilot.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
@@ -106,9 +106,19 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
-23. Paste the **copied query** and run the new **cell**.
+23. Paste the copied **query** and run the new **cell**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
+
+**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
+
+```
+# Load the table into a Spark DataFrame
+spark_df = spark.table('lakehouse.customerchurndata')
+ 
+# Convert the Spark DataFrame to a pandas DataFrame
+df = spark_df.toPandas()
+```
 
 24. Paste the following at the **end of your browser URL** and press the **Enter** key. 
 
@@ -140,7 +150,7 @@ Create a pivot table of average with min and max total amount by store contract 
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.12.1.png)
 
-30. Add a **new code cell** to the notebook, paste following **query** to the cell and then run the **cell**.
+30. Add a **new code cell** to the notebook, paste following **query** to the cell and then **run** the **cell**.
 
 ```
 %%chat 
@@ -172,7 +182,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 ![task-5.2](media/labMedia/AIskill1.png)
 
-2. Click on **>** Forward Arrow and select **AI Skill**.
+2. Select **AI Skill**. If it is not visible, scroll down the page.
 
 ![task-5.2](media/labMedia/AIskill2.png)
 
@@ -195,7 +205,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 ![task-5.2](media/labMedia/AIskill5.png)
 
-6. Click on **Get Started**.
+6. Click on **Get Started** button.
 
 ![task-5.2](media/labMedia/AIskill6.png)
 
@@ -217,6 +227,9 @@ The primary table to use is FactInternetSales. Only use FactResellerSales if exp
 
 10. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
+```
+What is the most sold product ?
+```
 Asking the question again returns a different answer, **Mountain-200 Black, 46**, as shown in the below screenshot:
 
 ![task-5.2](media/labMedia/AIskill8.png)
