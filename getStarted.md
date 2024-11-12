@@ -14,8 +14,8 @@
 
 2. Before Getting Started with the Lab explore all the tabs.
 
-    - Environment Details
-    - Resources
+    - Lab Guide
+    - Environment
     - Help
 
 ![Started.](GetStarted/Task4.png)
