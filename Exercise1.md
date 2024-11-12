@@ -22,24 +22,29 @@ Open the new tab in the browser and copy paste the below URL to verify app servi
 
 In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's data from Azure SQL Database into the Lakehouse and initiate data preparation for the upcoming merger between Contoso and Litware Inc.
 
-1. Open **PowerBI** in a new tab by copy pasting the below link.
+1. Open **Microsoft Fabric** in a new tab by copy pasting the below link.
 
 ```BASH
-  https://app.powerbi.com/
+https://app.fabric.microsoft.com/home
 ```
 `Note: After you paste the link in the browser, the page will automatically login, if the user has completed the earlier steps of Get Started instructions.`
 
-> **Note:** Wait for the Power BI workspace to load and *close* the top bar for a better view.
+> **Note:** Wait for the Microsoft Fabric page to load and *close* the top bar for a better view.
 
-8. From the left navigation pane, click on **Workspaces** and then the **+ New workspace** button.
+8. Scroll down below to the, **"Synapse Data Engineering"** and click on it.
 
-![task-1.1.2.png](media/labMedia/task-1.1.2.png)
+   <img src="media/dataengineer.png" width="800"/>   
 
-9. Copy the below name and paste it in the **Name** field of workspace.
+9. click on the **"+ New Workspace"** and copy the workspace name from below.
+
+  <img src="media/newworkspace.png" width="800"/> 
 
 ```BASH
  <inject key= "WorkspaceName" enableCopy="true"/>
 ```
+10. Paste the Worksapce name copied in the **Name** field and click on **Apply** to create the workspace.
+
+   <img src="media/createworkspace.png" width="800"/> 
 
 >**Note:** Only use the workspace name provided above.
 
