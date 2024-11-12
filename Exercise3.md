@@ -12,6 +12,43 @@
 
 ![Task-2.3_10.png](media/labMedia/ai_2.png)
 
+4. To connect with Fabric data go to **Indexes** from the left navigation pane.
+
+![Task 3.1_4.png](media/labMedia/task3.1_s4.png)
+
+5. From the Indexes page, click on **+ New Index**
+
+![Task 3.1_4.png](media/labMedia/task3.1_s5.png)
+
+6. In a new tab, open Fabric workspace and navigate to the folder where your files are stored. Click on the 3 dots beside the folder and copy the URL.
+
+![Task 3.1_6.png](media/labMedia/task3.1_s6.png)
+
+7. Navigate back to Azure AI Studio. From Data Source dropdown select **Storage URL**. In Type select **Folder** and paste the URL. Click Next.
+
+![Task 3.1_7.png](media/labMedia/task3.1_s7.png)
+
+8. In **Select Azure AI Search service** select the default AI Search or the AI Search service you want to use. Give a meaningful name to the index. For virtual machine select **Auto Select**. Click Next.
+
+![Task 3.1_8.png](media/labMedia/task3.1_s8.png)
+
+9. In Next page check the option of adding vector,this allows Hybrid search. Select your preferred OpenAI connection and click Next.
+
+![Task 3.1_9.png](media/labMedia/task3.1_s9.png)
+
+10. Review your vector settings and click **Create Vector Index**.
+
+![Task 3.1_9.png](media/labMedia/task3.1_s10.png)
+
+11. Your index is being created, wait for the Result to show Completed. This step takes approximately 7 to 9 minutes.
+
+![Task 3.1_9.png](media/labMedia/task3.1_s11.png)
+
+12. Your documents from Fabric are now indexed.
+
+![Task 3.1_9.png](media/labMedia/task3.1_s12.png)
+
+
 ### Task 3.2 : Integrating Azure OpenAI to refine search results and deliver more precise, context-aware answers to users.
 
 1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button.
