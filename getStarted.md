@@ -1,6 +1,6 @@
 # Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM/Bastion) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. 
+1. Once the **environment** is provisioned, a virtual machine (JumpVM/Bastion) and **lab guide** will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. 
 
 
 ![Started.](GetStarted/Task1.png)
@@ -8,11 +8,11 @@
 
 ### Know the right side of the tab, before performing the lab.
 
-1. Lab guide tab contains all the steps you need to perform and complete the lab. You can see the number on the lab guide bottom area to switch to different exercises in the lab guide.
+1.The Lab Guide tab contains all the steps required to complete the lab. You can use the numbers at the bottom of the Lab Guide to navigate between different exercises.
 
 ![Started.](GetStarted/Task3.png)
 
-2. Before Getting Started with the Lab explore all the tabs.
+2. Before starting the lab, take a moment to explore all the tabs.
 
     - Lab Guide
     - Environment
@@ -21,7 +21,7 @@
 ![Started.](GetStarted/Task4.png)
 
 
-3. You can also view the lab guide in a separate and full window by selecting Split Window and collapse hides the lab guide by sliding out of the right screen.
+3. You can view the lab guide in a separate full window by selecting **Split Window**, or hide the lab guide by **collapsing it**, which slides it out of the right side of the screen.
 
 ![Started.](GetStarted/Task5.png)
 
@@ -32,11 +32,11 @@
 
 ![Started.](GetStarted/Task6.png)
 
-2. If you see the popup notification to Restore pages, close it.
+2. If you see the popup notification to Restore pages, click on **close**.
 
 ![Started.](GetStarted/Task7.png)
 
-3. On the Sign into Microsoft Azure tab, you will see the login screen. Paste the following email/username and then click on Next.
+3. On the **Sign in to Microsoft Azure tab**, you will see the login screen. Paste the provided **Username** and click Next.
 
 ```BASH
  <inject key= "AzureAdUserEmail" enableCopy="true"/>
@@ -44,7 +44,7 @@
 
 ![Started.](GetStarted/Task8.png)
 
-4. Now paste the following password and click on Signin.
+4. Now paste the following **Password** and click on **Sign in**.
 
 ```BASH
  <inject key= "AzureAdUserPassword" enableCopy="true"/>
@@ -56,9 +56,9 @@
 
 ![Started.](GetStarted/Task10.png)
 
-`Note: After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on "Maybe Later" to skip the tour and close the window.`
+**Note:** After getting signed in to the Azure Portal, if you see a popup "Welcome to Microsoft Azure" click on **Cancel** to skip the tour and close the window.
 
-6. Now you will see the Azure Portal Dashboard, Click on search bar and search for <inject key= "resourcegroup" enableCopy="true"/> Resource Group and select the Resource Group.
+6. Now you will see the Azure Portal Dashboard, Click on search bar and search for **<inject key= "resourcegroup" enableCopy="true"/>** Resource Group and select the Resource Group.
 
 ![Started.](GetStarted/Task11.png)
 
