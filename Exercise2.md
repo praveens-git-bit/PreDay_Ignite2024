@@ -32,7 +32,7 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
 ![task-2.2.3.1new.png](media/labMedia/task-2.2.3.1new.png)
 
-7. Enter the name of the pipeline as "DLT_Pipeline" , scroll down to the **Paths** and click on the **file icon** to browse the notebook.
+7. Enter the name of the pipeline as **"DLT_Pipeline"** , scroll down to the **Paths** and click on the **file icon** to browse the notebook.
 
 ```BASH
 DLT_Pipeline
@@ -82,9 +82,9 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 https://app.powerbi.com/
 ```
 
-2. Go to the **ContosoSales...** and select **New item** from menu bar.
+2. Go to the **<inject key= "WorkspaceName" enableCopy="true"/>** and select **New item** from menu bar.
 
-   Note: If the contosoSales.. workspace is not found in the sidebar, click on the workspace and navigate to **contosoSales..**
+   Note: If the  <inject key= "WorkspaceName" enableCopy="false"/> workspace is not found in the sidebar, click on Workspace and navigate to **<inject key= "WorkspaceName" enableCopy="true"/>**
 
  <img src="media/labMedia/Task-2.3_1.png" width="800"/> 
 
@@ -102,7 +102,7 @@ https://app.powerbi.com/
  <inject key= "databricksurl" enableCopy="true"/>
 ```
 
-8. Now, select **Service principal** from 'Authentication kind' dropdown box, and enter the following details.
+6. Now, select **Service principal** from 'Authentication kind' dropdown box, and enter the following details.
 
 - Tenant ID: 
 
@@ -121,26 +121,28 @@ https://app.powerbi.com/
 <inject key= "Secret" enableCopy="true"/>
 ```
 
-9. click on the **Connect** button.
+7. click on the **Connect** button.
 
 ![Task-2.3_7.png](media/labMedia/Task-2.3_7.png)
 
-10. Click on **Next** button.
+8. Click on **Next** button.
 
 ![Task-2.3_7.1.png](media/labMedia/Task-2.3_7.1.png)
 
-11. In the **Choose data** screen, select the **Catalog name** from the dropdown box, and select the tables to be mirrored into Fabric, then select the checkbox **Automatically sync future catalog changes for the selected schema** to mirror future tables and click on **Next** button.
+9. In the **Choose data** screen, select the **Catalog name** from the dropdown box, and select the tables to be mirrored into Fabric, then select the checkbox **Automatically sync future catalog changes for the selected schema** to mirror future tables and click on **Next** button.
 
 ![Task-2.3_8.png](media/labMedia/Task-2.3_8.png)
 
-12. Enter the **Artifact name** for your mirrored Databricks Catalog and click on **Create** button.
+10. Enter the **Artifact name** for your mirrored Databricks Catalog and click on **Create** button.
 
 ![Task-2.3_9.png](media/labMedia/Task-2.3_9.png)
 
-13. Click on **Monitor catalog** button to track the mirroring status.
+11. Click on **Monitor catalog** button to track the mirroring status.
 
 ![Task-2.3_10.1.png](media/labMedia/Task-2.3_10.1.png)
 
-14. Click on the **View SQL endpoint** button. You can also select the tables to preview data.
+12. Click on the **View SQL endpoint** button. You can also select the tables to preview data.
 
 ![Task-2.3_10.png](media/labMedia/Task-2.3_10.png)
+
+
