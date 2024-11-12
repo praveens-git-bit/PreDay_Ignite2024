@@ -55,7 +55,7 @@
 
 ![Started.](GetStarted/Task9.png)
 
-5. Click on **Yes**.
+5. Click on **Yes** button.
 
 ![Started.](GetStarted/Task10.png)
 
@@ -63,7 +63,7 @@
 
 ![Started.](GetStarted/signinpopup.png)
    
-**Note:** After log into the Azure Portal, if a pop-up page titled **"Welcome to Microsoft Azure"** appears, click **Cancel** to skip the tour.
+**Note:** After logging into the Azure Portal, if a pop-up page titled **"Welcome to Microsoft Azure"** appears, click **Cancel** to skip the tour.
 
 6. Now, on the **Azure Portal** Dashboard, click on Search bar to search and select the Resource Group as **<inject key= "resourcegroup" enableCopy="true"/>**.
    
