@@ -229,11 +229,13 @@ You will experience how easy it is to use Fast Copy to transform 100M rows 0f Li
 
 ![task-1.2.05.1.png](media/labMedia/task-1.2.05.1.png)
 
-6. Expand **lakehouse**, expand **Files** and then expand **litwaredata**. 
+6. Expand **lakehouse**, expand **Files** and expand **data** then scroll down.
+
+![task-wb9.S.png](media/chosedata001.png)
 
 7. Select the **sales_data.csv** checkbox, then **click** on the **Create** button.
 
-![task-wb9.S.png](media/labMedia/task-wb9.S.1.png)
+![task-wb9.S.png](media/labMedia/chosesalesdata.png)
 
 8. Collapse the **Queries** pane and take a look at the sales dataset (**note that the first row of this dataset is not a header**).
 
