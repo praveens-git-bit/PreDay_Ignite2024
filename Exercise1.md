@@ -310,9 +310,6 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 Congrats on completing this data transformation exercise! Looking at that, it took just 10 minutes to copy 100 million records. 
 
-As you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso – they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). Now, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence.
-
-
 ### Task 1.5: Explore Task Flows in Microsoft Fabric
 
 To streamline collaboration and project management for the entire team, IT admin Chou set up a task flow within the Microsoft Fabric workspace. Fabric task flow is a workspace feature that enables you to build a visualization of the workflow in the workspace. It helps you understand how items are related and work together, making it easier to navigate your workspace, even as it becomes more complex over time. 
@@ -351,3 +348,6 @@ In this exercise, you’ll step into the shoes of each of the IT admins to see h
 6. Select the lakehouse **checkbox** and then click on the **Select** button.
 
 ![databrickssignin.png](media/labMedia/task15.4.png)
+
+
+As you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso – they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). Now, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence.
