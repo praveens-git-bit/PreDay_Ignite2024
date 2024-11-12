@@ -108,7 +108,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcut11.png](media/labMedia/task-1.3-ext-shortcut11.png)
 
-10. Copy the below **Data Lake Storage** endpoint and paste it in the URL field of **New Shortcut** and select **Organization account** for the **Authentication Kind**, and then Click on **Sign in**.
+10.Copy the **Data Lake Storage endpoint** from the below and paste it into the **URL** field. Select **Organization account** for the **Authentication Kind**, and then click on **Sign in**.
 
 ```BASH
 <inject key= "storageEndpoint" enableCopy="true"/>
