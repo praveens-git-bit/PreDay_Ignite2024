@@ -20,7 +20,7 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
  <img src="media/launchdatabricks.png" width="800"/>
 
-4. Click on the **Sign in with Microsoft Entra ID**.
+**Note:** Click on the **Sign in with Microsoft Entra ID** if it appears.
 
 ![databrickssignin.png](media/labMedia/databrickssignin.png)
 
