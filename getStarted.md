@@ -8,7 +8,7 @@
 
 ### Know the right side of the tab, before performing the lab.
 
-1.The Lab Guide tab contains all the steps required to complete the lab. You can use the numbers at the bottom of the Lab Guide to navigate between different **exercises**.
+1. The Lab Guide tab contains all the steps required to complete the lab. You can use the numbers at the bottom of the Lab Guide to navigate between different **Exercises**.
 
 ![Started.](GetStarted/Task3.png)
 
@@ -34,7 +34,7 @@
 
 ![Started.](GetStarted/Task6.png)
 
-2. If you see the popup notification to Restore pages, click on **close**.
+2. If you see the popup notification to Restore pages, click on  **"x"** close.
 
 ![Started.](GetStarted/Task7.png)
 
@@ -58,6 +58,10 @@
 
 ![Started.](GetStarted/Task10.png)
 
+6. Click **No, Thanks** button on the popup prompting to **Sign in to Microsoft Edge**.
+
+![Started.](GetStarted/signinpopup.png)
+   
 **Note:** After signing in to the Azure portal, if a popup page titled **"Welcome to Microsoft Azure"** appears, click **Cancel** to skip the tour.
 
 6. Now you will see the Azure Portal Dashboard, Click on search bar and search for **<inject key= "resourcegroup" enableCopy="true"/>** Resource Group and select the Resource Group.
