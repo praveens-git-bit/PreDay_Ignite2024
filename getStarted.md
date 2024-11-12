@@ -27,7 +27,7 @@
 ![Started.](GetStarted/Task5.png)
 
 
-# Login to Azure Portal
+# Log into Azure Portal
 
 1. In the JumpVM/Bastion, **double click** on the **Azure Portal** shortcut of the Microsoft Edge browser on the desktop.
 
