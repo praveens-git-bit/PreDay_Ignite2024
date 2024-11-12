@@ -148,8 +148,8 @@ Now, let’s see how Data Engineer, Eva, got the remaining data into OneLake by 
 ![task-wb8S.png](media/labMedia/64.3.png)
 
 >**Note:**  If the Pop-up appears click on **Skip tour**
-
-![task-wb8S.png](media/labMedia/64.4.png)
+ 
+<img src="media/labMedia/64.4.png" width="800"/>  
 
 3. Click on the **+ Data Sources** button and then select **Lakehouses**
 
