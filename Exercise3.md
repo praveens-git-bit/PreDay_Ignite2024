@@ -53,49 +53,49 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot8.png)
 
-1. Go back to the Azure Portal and Resource Group <inject key= "resourcegroup" enableCopy="false"/>
+13. Go back to the Azure Portal and Resource Group <inject key= "resourcegroup" enableCopy="false"/>
 
-2. Search **hub** then select <inject key= "hub" enableCopy="false"/>.
+14. Search **hub** then select <inject key= "hub" enableCopy="false"/>.
 
 ![Task-2.3_10.png](media/labMedia/ai_1.png)
 	
-3. Click on the **Launch Azure AI Studio** button.  
+15. Click on the **Launch Azure AI Studio** button.  
 
 ![Task-2.3_10.png](media/labMedia/ai_2.png)
 
-4. To connect with Fabric data go to **Indexes** from the left navigation pane.
+16. To connect with Fabric data go to **Indexes** from the left navigation pane.
 
 ![Task 3.1_4.png](media/labMedia/task3.1_s4.png)
 
-5. From the Indexes page, click on **+ New Index**
+17. From the Indexes page, click on **+ New Index**
 
 ![Task 3.1_4.png](media/labMedia/task3.1_s5.png)
 
-6. In a new tab, open Fabric workspace and navigate to the folder where your files are stored. Click on the 3 dots beside the folder and copy the URL.
+18. In a new tab, open Fabric workspace and navigate to the folder where your files are stored. Click on the 3 dots beside the folder and copy the URL.
 
 ![Task 3.1_6.png](media/labMedia/task3.1_s6.png)
 
-7. Navigate back to Azure AI Studio. From Data Source dropdown select **Storage URL**. In Type select **Folder** and paste the URL. Click Next.
+19. Navigate back to Azure AI Studio. From Data Source dropdown select **Storage URL**. In Type select **Folder** and paste the URL. Click Next.
 
 ![Task 3.1_7.png](media/labMedia/task3.1_s7.png)
 
-8. In **Select Azure AI Search service** select the default AI Search or the AI Search service you want to use. Give a meaningful name to the index. For virtual machine select **Auto Select**. Click Next.
+20. In **Select Azure AI Search service** select the default AI Search or the AI Search service you want to use. Give a meaningful name to the index. For virtual machine select **Auto Select**. Click Next.
 
 ![Task 3.1_8.png](media/labMedia/task3.1_s8.png)
 
-9. In Next page check the option of adding vector,this allows Hybrid search. Select your preferred OpenAI connection and click Next.
+21. In Next page check the option of adding vector,this allows Hybrid search. Select your preferred OpenAI connection and click Next.
 
 ![Task 3.1_9.png](media/labMedia/task3.1_s9.png)
 
-10. Review your vector settings and click **Create Vector Index**.
+22. Review your vector settings and click **Create Vector Index**.
 
 ![Task 3.1_9.png](media/labMedia/task3.1_s10.png)
 
-11. Your index is being created, wait for the Result to show Completed. This step takes approximately 7 to 9 minutes.
+23. Your index is being created, wait for the Result to show Completed. This step takes approximately 7 to 9 minutes.
 
 ![Task 3.1_9.png](media/labMedia/task3.1_s11.png)
 
-12. Your documents from Fabric are now indexed.
+24. Your documents from Fabric are now indexed.
 
 ![Task 3.1_9.png](media/labMedia/task3.1_s12.png)
 
