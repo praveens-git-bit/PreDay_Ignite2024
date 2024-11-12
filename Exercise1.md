@@ -266,6 +266,8 @@ You will experience how easy it is to use Fast Copy to transform 100M rows 0f Li
 ```BASH
 Remove empty rows from GrossRevenue and NetRevenue columns.
 ```
+![DFData12.png](media/rememptyrow.png)
+
 12. Scroll to the right hand side and observe the **GrossRevenue** and **NetRevenue** columns (**there are no empty rows with null values**).
 
 ![DFData13.png](media/labMedia/DFData13.png)
