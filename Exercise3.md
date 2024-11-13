@@ -49,9 +49,9 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot7.png)
  
-12. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the ABFS path and save it on your notepad.
+12. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the URL path and save it on your notepad.
 
-![task-wb11.png](media/labMedia/bot8.png)
+![task-wb11.png](media/labMedia/fabricurl.png)
 
 13. Copy paste the below URL in the new browser tab to open Azure AI Studio Project.
 
@@ -71,33 +71,23 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-19. In Type select **Folder** and paste the URL copied in **URL** field in the 12th step. Click Next.
+19. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step, then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click Next.
 
-![Task 3.1_7.png](media/labMedia/addurl.png)
+![Task 3.1_7.png](media/labMedia/url.png)
 
-20. In the **Data name** field type as **input** and click on **Create**
+20. Select the **fabric_onelake** connection you created for  Data Source field and select the input folder and click on **Next**.
 
-![Task 3.1_7.png](media/labMedia/createdata.png)
+![Task 3.1_7.png](media/labMedia/storagepath.png)
 
-20. In **Select Azure AI Search service** select the default AI Search or the AI Search service you want to use. Give a meaningful name to the index. For virtual machine select **Auto Select**. Click Next.
+21. In the Data name field enter **input01** and click on **Create** button.
 
-![Task 3.1_8.png](media/labMedia/task3.1_s8.png)
+![storagepath.png](media/labMedia/createdata.png)
 
-21. In Next page check the option of adding vector,this allows Hybrid search. Select your preferred OpenAI connection and click Next.
+22. Once created, the **files** can be viewed under the input folder.
 
-![Task 3.1_9.png](media/labMedia/task3.1_s9.png)
+![successdata.png](media/labMedia/successdata.png)
 
-22. Review your vector settings and click **Create Vector Index**.
 
-![Task 3.1_9.png](media/labMedia/task3.1_s10.png)
-
-23. Your index is being created, wait for the Result to show Completed. This step takes approximately 7 to 9 minutes.
-
-![Task 3.1_9.png](media/labMedia/task3.1_s11.png)
-
-24. Your documents from Fabric are now indexed.
-
-![Task 3.1_9.png](media/labMedia/task3.1_s12.png)
 
 
 ### Task 3.2 : Integrating Azure OpenAI to refine search results and deliver more precise, context-aware answers to users.
