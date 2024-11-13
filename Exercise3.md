@@ -53,31 +53,31 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot8.png)
 
-13. Go back to the Azure Portal and Resource Group <inject key= "resourcegroup" enableCopy="false"/>
+13. Copy paste the below URL in the new browser tab to open Azure AI Studio Project.
 
-14. Search **hub** then select <inject key= "hub" enableCopy="false"/>.
+``` BASH
+<inject key= "project" enableCopy="true"/>
+```
 
-![Task-2.3_10.png](media/labMedia/ai_1.png)
-	
-15. Click on the **Launch Azure AI Studio** button.  
+14. To connect with Fabric data scroll down in the left navigation pane and click on **Data**.
 
-![Task-2.3_10.png](media/labMedia/ai_2.png)
+![Task 3.1_4.png](media/labMedia/clickdata.png)
 
-16. To connect with Fabric data go to **Indexes** from the left navigation pane.
+17. From the connect, create, or manage your data , click on **+ New Data**
 
-![Task 3.1_4.png](media/labMedia/task3.1_s4.png)
+![Task 3.1_4.png](media/labMedia/newdata.png)
 
-17. From the Indexes page, click on **+ New Index**
+18. Click on the drop down of **Data Source** and select **Get Data with Storage URL**.
 
-![Task 3.1_4.png](media/labMedia/task3.1_s5.png)
+![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-18. In a new tab, open Fabric workspace and navigate to the folder where your files are stored. Click on the 3 dots beside the folder and copy the URL.
+19. In Type select **Folder** and paste the URL copied in **URL** field in the 12th step. Click Next.
 
-![Task 3.1_6.png](media/labMedia/task3.1_s6.png)
+![Task 3.1_7.png](media/labMedia/addurl.png)
 
-19. Navigate back to Azure AI Studio. From Data Source dropdown select **Storage URL**. In Type select **Folder** and paste the URL. Click Next.
+20. In the **Data name** field type as **input** and click on **Create**
 
-![Task 3.1_7.png](media/labMedia/task3.1_s7.png)
+![Task 3.1_7.png](media/labMedia/createdata.png)
 
 20. In **Select Azure AI Search service** select the default AI Search or the AI Search service you want to use. Give a meaningful name to the index. For virtual machine select **Auto Select**. Click Next.
 
