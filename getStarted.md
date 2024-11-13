@@ -72,9 +72,3 @@
 
 **Note:** In the Resource Group, there are **23 resources**.
 
-#
-
-**Note:** If you encounter an **downloading an HTML file** issue, while accessing resources in the JumpVM/Bastion, try refreshing the main VM browser page to fix it.
-
-![Started.](GetStarted/Issue1.png)
-
