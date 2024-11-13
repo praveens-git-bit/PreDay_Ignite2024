@@ -245,44 +245,48 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 <img src="media/35_5.2.png" width="800"/>
 
-18. Click on the **Chat** button.
+18. Click on **max_token**, remove the preset token, and set it to **100**.
+
+<img src="media/max_token.png" width="800"/>
+
+19. Click on the **Chat** button.
 
 <img src="media/36_1.png" width="800"/>
 
-19. Paste the **below question** in chat box replacing the default question.
+20. Paste the **below question** in chat box replacing the default question.
 
 ```
 Can you show me some yellow indian dresses for a wedding in Udaipur?
 ```
-20. Click on the **send** icon.
+21. Click on the **send** icon.
 
 <img src="media/37_1.png" width="800"/>
 
-21. Observe the **response**.
+22. Observe the **response**.
 
 <img src="media/39_1.png" width="800"/>
 
 Once the Prompt flow is deployed as an endpoint, It can be consumed in the webapplication. Let's see how the response look like in the webapp.
  
-22. Copy the below URL and paste it in the browser new tab.
+23. Copy the below URL and paste it in the browser new tab.
 
 ```BASH
 <inject key= "shoppingcopilotwebapp" enableCopy="false"/>
 ```
 
-23. Click on the **terms and conditions checkbox** and then click on the **Login** button.
+24. Click on the **terms and conditions checkbox** and then click on the **Login** button.
 
 ![Contosoterms.png](media/labMedia/Contosoterms.png)
  
-24. Click on the **Copilot icon** at the bottom right of the page.
+25. Click on the **Copilot icon** at the bottom right of the page.
  
 ![Copiloticonwebapp.png](media/labMedia/Copiloticonwebapp.png)
 
-25. Click on any of the **pre-populated questions**.
+26. Click on any of the **pre-populated questions**.
  
 ![question1webapp.png](media/labMedia/question1webapp.png)
  
-26. Observe the **response**.
+27. Observe the **response**.
   
 ![Answer1webapp.png](media/labMedia/Answer1webapp.png)
  
