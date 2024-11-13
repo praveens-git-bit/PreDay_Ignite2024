@@ -98,7 +98,7 @@ where [SalesAmount] > 6000
 
 4. Click on **Run**. 
 
-![Task-6.2_3.png](media/labMedia/Task-6.2_3.png)
+![Task-6.2_3.png](media/labMedia/sqlquery.png)
 
 ---
 
