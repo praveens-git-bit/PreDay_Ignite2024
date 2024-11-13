@@ -63,27 +63,29 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_4.png](media/labMedia/clickdata.png)
 
-17. From the connect, create, or manage your data , click on **+ New Data**
+15. From the connect, create, or manage your data , click on **+ New Data**
 
 ![Task 3.1_4.png](media/labMedia/newdata.png)
 
-18. Click on the drop down of **Data Source** and select **Get Data with Storage URL**.
+16. Click on the drop down of **Data Source** and select **Get Data with Storage URL**.
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-19. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step, then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click Next.
+17. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step, then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click Next.
+
+**Note:** Remove **/Input** from the URL.
 
 ![Task 3.1_7.png](media/labMedia/url.png)
 
-20. Select the **fabric_onelake** connection you created for  Data Source field and select the input folder and click on **Next**.
+18. Select the **fabric_onelake** connection you created for  Data Source field and select the input folder and click on **Next**.
 
 ![Task 3.1_7.png](media/labMedia/storagepath.png)
 
-21. In the Data name field enter **input01** and click on **Create** button.
+19. In the Data name field enter **input01** and click on **Create** button.
 
 ![storagepath.png](media/labMedia/createdata.png)
 
-22. Once created, the **files** can be viewed under the input folder.
+20. Once created, the **files** can be viewed under the input folder.
 
 ![successdata.png](media/labMedia/successdata.png)
 
@@ -158,25 +160,25 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 <img src="media/25_1.png" width="800"/>
 
-5. In the Azure OpenAI connection dropdown, select **<inject key= "openai2" enableCopy="false"/>**.  and then click on the **Next** button.
+6. In the Azure OpenAI connection dropdown, select **<inject key= "openai2" enableCopy="false"/>**.  and then click on the **Next** button.
 
 <img src="media/26_1.1.png" width="800"/>
 
-6. Click on the **Next** button.
+7. Click on the **Next** button.
 
 <img src="media/27_1.png" width="800"/>
 
-7. Click on the **Create vector index** button.
+8. Click on the **Create vector index** button.
 
 <img src="media/28_1.png" width="800"/>
 
 >*Please wait for the index to load*
 
-8. A screen similar to the screenshot below will appear with the message **Index not found**. Please wait for some time and then click on **Indexes**.
+9. A screen similar to the screenshot below will appear with the message **Index not found**. Please wait for some time and then click on **Indexes**.
 
 <img src="media/28.png" width="800"/>
 
-9 . Check the Status shown as **Ready** and continue with the next task.
+10. Check the Status shown as **Ready** and continue with the next task.
 
 <img src="media/29_1.png" width="800"/>
 
@@ -203,84 +205,84 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
    ![promptziploc.png](media/labMedia/promptziploc.png)
 
-5. In the Select flow type dropdown, select **Chat flow** and then click on the **Upload** button.
+6. In the Select flow type dropdown, select **Chat flow** and then click on the **Upload** button.
 
 <img src="media/34_1.png" width="800"/>
 
 >**Note:** If clicking on the upload button doesn't redirect you to the Prompt flow screen, click on the Upload button and retry. You might need to do this for twice or thrice.
 
-6. Click on the **Start compute session** button.
+7. Click on the **Start compute session** button.
 
 **Note:** It will take approximately 2-3 minutes to start the compute session. Please wait for some time.
 
 <img src="media/35_1.png" width="800"/>
 
-7. Scroll down to the **lookup** section in the Prompt flow graph and click on it.
+8. Scroll down to the **lookup** section in the Prompt flow graph and click on it.
 
-8. Click on the **Validate and prase input** button.
+9. Click on the **Validate and prase input** button.
 
-9. Once it is validated, click on edit option for **mlindex_content** as shown in the below screenshot.
+10. Once it is validated, click on edit option for **mlindex_content** as shown in the below screenshot.
 
 <img src="media/35_2.1.png" width="800"/>
 
-8. Click on the **acs_index_connection** dropdown and select the **srch....**.
+11. Click on the **acs_index_connection** dropdown and select the **srch....**.
 
-8. Click on the **acs_index_name** dropdown and select the **cosmosdb-index**.
+12. Click on the **acs_index_name** dropdown and select the **cosmosdb-index**.
 
-8. Click on the **embedding_type** dropdown and select the **Azure OpenAI**.
+13. Click on the **embedding_type** dropdown and select the **Azure OpenAI**.
 
-8. Click on the **aoai_embedding_connection** dropdown and select the **<inject key= "openai2" enableCopy="false"/>**.
+14. Click on the **aoai_embedding_connection** dropdown and select the **<inject key= "openai2" enableCopy="false"/>**.
 
-9. Click on the **Save** button.
+15. Click on the **Save** button.
 
 <img src="media/35_4.1.png" width="800"/>
 
-9. Click on **prompt_for_looks** in the Graph and then click on the **Validate and prase input** button in the Input sections. 
+16. Click on **prompt_for_looks** in the Graph and then click on the **Validate and prase input** button in the Input sections. 
 
 <img src="media/35_5.1.png" width="800"/>
 
-10. Once it is validated, click on the **Connection** dropdown and then select **<inject key= "openai" enableCopy="false"/>**.
+17. Once it is validated, click on the **Connection** dropdown and then select **<inject key= "openai" enableCopy="false"/>**.
 
 <img src="media/35_5.2.png" width="800"/>
 
-11. Click on the **Chat** button.
+18. Click on the **Chat** button.
 
 <img src="media/36_1.png" width="800"/>
 
-12. Paste the **below question** in chat box replacing the default question.
+19. Paste the **below question** in chat box replacing the default question.
 
 ```
 Can you show me some yellow indian dresses for a wedding in Udaipur?
 ```
-13. Click on the **send** icon.
+20. Click on the **send** icon.
 
 <img src="media/37_1.png" width="800"/>
 
-13. Observe the **response**.
+21. Observe the **response**.
 
 <img src="media/39_1.png" width="800"/>
 
 Once the Prompt flow is deployed as an endpoint, It can be consumed in the webapplication. Let's see how the response look like in the webapp.
  
-14. Copy the below URL and paste it in the browser new tab.
+22. Copy the below URL and paste it in the browser new tab.
 
 ```BASH
 <inject key= "shoppingcopilotwebapp" enableCopy="false"/>
 ```
 
-15. Click on the **terms and conditions checkbox** and then click on the **Login** button.
+23. Click on the **terms and conditions checkbox** and then click on the **Login** button.
 
 ![Contosoterms.png](media/labMedia/Contosoterms.png)
  
-18. Click on the **Copilot icon** at the bottom right of the page.
+24. Click on the **Copilot icon** at the bottom right of the page.
  
 ![Copiloticonwebapp.png](media/labMedia/Copiloticonwebapp.png)
 
-19. Click on any of the **pre-populated questions**.
+25. Click on any of the **pre-populated questions**.
  
 ![question1webapp.png](media/labMedia/question1webapp.png)
  
-20. Observe the **response**.
+26. Observe the **response**.
   
 ![Answer1webapp.png](media/labMedia/Answer1webapp.png)
  
