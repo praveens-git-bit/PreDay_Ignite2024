@@ -204,11 +204,11 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.10.png)
 
-19. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+10. Click on **website_bounce_rate** delta table and view the website bounce rate data.
 
 ![StloadtableNew.png](media/labMedia/64.11.png)
 
-20. You now have all the table in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
+11. You now have all the table in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
 
 
 ### Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
@@ -367,7 +367,7 @@ In this exercise, you’ll step into the shoes of each of the IT admins to see h
 
 ![databrickssignin.png](media/labMedia/task15.3.png)
 
-6. Select the lakehouse **checkbox** and then click on the **Select** button.
+8. Select the lakehouse **checkbox** and then click on the **Select** button.
 
 ![databrickssignin.png](media/labMedia/task15.4.png)
 
