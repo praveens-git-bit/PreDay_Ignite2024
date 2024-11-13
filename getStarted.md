@@ -72,3 +72,4 @@
 
 **Note:** In the Resource Group, there are **23 resources**.
 
+![Started.](GetStarted/resourcegroup.png)
