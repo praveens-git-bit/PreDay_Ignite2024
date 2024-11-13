@@ -27,9 +27,9 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 ```BASH
 https://app.fabric.microsoft.com/home
 ```
-**Note:** After pasting the link into the browser, the page will automatically log in if the user has completed the earlier steps of the **Get Started** instructions.
+>**Note:** After pasting the link into the browser, the page will automatically log in if the user has completed the earlier steps of the **Get Started** instructions.
 
-> **Note:** Wait for the Microsoft Fabric page to load and *close* the top bar for a better view.
+>**Note:** Wait for the Microsoft Fabric page to load and *close* the top bar for a better view.
 
 2. Scroll down below to the, **"Synapse Data Engineering"** and click on it.
 
@@ -82,7 +82,7 @@ lakehouse
 
 ![task-1.2.3.png](media/labMedia/task-1.2.3.png)
 
-**Note:** Expand the Lakehouse Explorer if it is collapsed.
+>**Note:** Expand the Lakehouse Explorer if it is collapsed.
 
 ![task-1.2.3.png](media/labMedia/task-1.2.3.1.png)
 
@@ -227,7 +227,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows 0f Li
 
 3. Click on the drop down of the **New Query** icon and click on the **Get data**.
 
-   Note: If **New Query** is not visible due to the screen resolution, please click directly on top part of the **Get data**.
+>**Note:** If **New Query** is not visible due to the screen resolution, please click directly on top part of the **Get data**.
 
 ![getdataSs.png](media/labMedia/getdataSs.png)
 
@@ -251,7 +251,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows 0f Li
 
 ![DFData.png](media/labMedia/DFData.png)
 
-> **Let's use Copilot to perform data cleansing.**
+**Let's use Copilot to perform data cleansing.**
 
 9. Click on the **Copilot** button, paste the **prompt** provided below in the following text box and click on the **send** icon.
 
@@ -290,16 +290,16 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 <img src="media/55.png" width="800"/>  
 
 
-Note: If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
+>**Note:** If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
 
-Note: If **Allow use of fast copy connectors** checkbox is already checked click on **OK**.
+>**Note:** If **Allow use of fast copy connectors** checkbox is already checked click on **OK**.
 
 <img src="media/56.png" width="800"/> 
 
 
 14. click on **Query** dropdown and click on **Add destination** to select "Lakehouse".
   
-  Note: Click on **Add destination**, select **Lakehouse** if Query is not seen on the screen.
+>**Note:** Click on **Add destination**, select **Lakehouse** if Query is not seen on the screen.
 
 <img src="media/57.png" width="800"/> 
 
@@ -341,7 +341,7 @@ In this exercise, you’ll step into the shoes of each of the IT admins to see h
   
 2. Click on the **Select a predesigned task flow** button.
 
-   Note: If **Select a predesigned task flow** button is not visible, try to reduce the browser size to make it visible.
+>**Note:** If **Select a predesigned task flow** button is not visible, try to reduce the browser size to make it visible.
 
   <img src="media/42.png" width="800"/>
 
@@ -355,7 +355,7 @@ In this exercise, you’ll step into the shoes of each of the IT admins to see h
 
 5. Click on the **attach** icon on the Bronze data tile.
 
-   Note: Please zoom in, if the tiles are not visible.
+>**Note:** Please zoom in, if the tiles are not visible.
 
 ![databrickssignin.png](media/labMedia/task15.2.png)
 
