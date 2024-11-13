@@ -7,69 +7,69 @@ With the wide spectrum of data sources and Litware's data in OneLake, it is now 
 
 Based on all the gathered data, Wendy is expected to create Power BI reports for other data citizens and stakeholders. Let's step into her shoes to experience the power of Copilot for Power BI in conjunction with Direct Lake Mode.
 
-** Navigate back to the Microsoft Fabric tab on your browser.**
+1. Navigate back to the Microsoft Fabric tab on your browser.
 
-1. Click on **Workspaces** and select **ContosoSales** workspace you created in the First Exercise.
+2. Click on **Workspaces** and select **ContosoSales** workspace you created in the First Exercise.
 
 ![task-1.3.02.png](media/labMedia/task-1.3.02.png)
 
-2. Click on **Filter** and select **Lakehouse**.
+3. Click on **Filter** and select **Lakehouse**.
 
-Note: Please collapse **Task filter** if **Type filter** is not seen.
+>**Note:** Please collapse **Task filter** if **Type filter** is not seen.
 
 ![task-1.3-ext-shortcut1.png](media/labMedia/task-1.3-ext-shortcut1.png)
 
-3. Click on the **lakehouse**.
+4. Click on the **lakehouse**.
 
 >**Note:** There are 3 options for lakehouse, namely Lakehouse, Semantic model(Default) and SQL endpoint. Make sure you select the **Lakehouse** option.
 
 ![task-wb11.png](media/labMedia/task-wb11.png)
 
-4. Click on the **New semantic model** button. 
+5. Click on the **New semantic model** button. 
 
 ![task-new4.png](media/labMedia/task-new4.png)
 
-5. In the Name field enter 
+6. In the Name field enter 
 
 ```BASH
 website_bounce_rate_model
 ```
 
-6. Select workspace as <inject key= "WorkspaceName" enableCopy="false"/> and click on expand icon next to **dbo** checkbox.
+7. Select workspace as <inject key= "WorkspaceName" enableCopy="false"/> and click on expand icon next to **dbo** checkbox.
 
 ![task-new5.png](media/labMedia/task-new5.png)
 
-7. Click on expand icon next to **Tables** checkbox.
+8. Click on expand icon next to **Tables** checkbox.
 
 ![task-new5.1.png](media/labMedia/task-new5.1.png)
 
-8. Scroll down if you see a scroll bar and select **website_bounce_rate** table and click on the **Confirm** button. 
+9. Scroll down if you see a scroll bar and select **website_bounce_rate** table and click on the **Confirm** button. 
 
 ![task-new6.png](media/labMedia/task-new6.png)
 
 >Wait for the semantic model creation.
 
-9. To create a new report using this semantic model, click on **New Report** in the top bar.
+10. To create a new report using this semantic model, click on **New Report** in the top bar.
  
 ![task-new7.png](media/labMedia/task-new7.png)
 
-10. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
+11. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
 
 ![task-new6.1.png](media/labMedia/task-new6.1.png)
 
-11. Select **Semantic models** tab and select your Semantic model.
+12. Select **Semantic models** tab and select your Semantic model.
 
 ![task-new6.2.png](media/labMedia/task-new6.2.png)
 
-12. Scroll down to **Q&A** section, select **Turn on Q&A to ask natural language questions about your data** checkbox, and click on **Apply**.
+13. Scroll down to **Q&A** section, select **Turn on Q&A to ask natural language questions about your data** checkbox, and click on **Apply**.
 
 ![task-new6.3.png](media/labMedia/task-new6.3.png)
 
-13. Click on **Untitled report** from the left pane.
+14. Click on **Untitled report** from the left pane.
 
 ![task-new6.3.png](media/labMedia/qna1.png)
 
-14. Click on the **Copilot** icon and collapse the other panes for Filters, Visualizations and Data.
+15. Click on the **Copilot** icon and collapse the other panes for Filters, Visualizations and Data.
 
 ![task-new6.4.png](media/labMedia/task-new6.4.png)
 
@@ -123,12 +123,11 @@ Based on this report, we notice that the website bounce rate for Contoso is espe
 
 We’ll ask Copilot for suggestions based on the results and data in the report. 
 
-20. Enter the following prompt in Copilot, 
+20. Enter the below prompt in Copilot, and press the **Send** button.
 
 ```
 Based on the data in the page, what can be done to improve the bounce rate of millennials? 
 ```
-and press the **Send** button.
 	
 ![task-new13.png](media/labMedia/task-new13.png)
 	
@@ -148,9 +147,11 @@ and press the **Send** button.
 
 25. Click on **Update** and observe the generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
  
-> **Note:** If you don't see 'Give an executive summary' option, click in the Copilot narrative chat box field, enter the prompt below, and click on **Update** :
-+++Summarize the data, provide an executive summary, indicating important takeaways.+++
+> **Note:** If you don't see 'Give an executive summary' option, click in the Copilot narrative chat box field, enter the prompt below, and click on **Update**.
 
+```
+Summarize the data, provide an executive summary, indicating important takeaways.
+```
 ![task-new16.png](media/labMedia/task-new16.png)
 
 26. Expand the narrative from the corner to get a better readable view of the result.
