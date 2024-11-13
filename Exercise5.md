@@ -4,6 +4,7 @@ Imagine, it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are
 
 ### Task 5.1: Ingest real-time/historical data into Eventhouse using Eventstream
 
+
 In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data from the event hub into the KQL Database to monitor in-store temperatures in real time.
 
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Data Factory** is selected as an "Experience") and then select **Real-Time Intelligence**.
@@ -60,13 +61,12 @@ RealtimeDataTo-KQL-DB
 
 ![eventhouse13.png](media/labMedia/eventhouse13.png)
 
-11. Enter the value for the **Event Hub namespace** as <inject key="eventhubNamespace" enableCopy="true"/> and enter the **Event Hub** value as ```thermostat```.
+11. Enter the value for the **Event Hub namespace** as <inject key="eventhubNamespace" enableCopy="false"/> and enter the **Event Hub** value as **thermostat**.
 
-EventHub Namespace:
 ```BASH
 <inject key="eventhubNamespace" enableCopy="true"/>
 ```
-Event Hub:
+
 ```
 thermostat
 ```
