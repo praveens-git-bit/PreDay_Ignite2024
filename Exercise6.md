@@ -76,7 +76,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 17. Click on the **Copilot** button and then click on the **Get Started** button.
  
-  Note: If the Copilot is not visible please click on eclipse **":"** and select Copilot.
+>**Note:** If the Copilot is not visible please click on eclipse **":"** and select Copilot.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
 
@@ -209,11 +209,11 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 ![task-5.2](media/labMedia/AIskill6.png)
 
-8. Type **What is the most sold product?** in the chatbox and click on the **Send** button.
+7. Type **What is the most sold product?** in the chatbox and click on the **Send** button.
 
 ![task-5.2](media/labMedia/AIskill7.png)
 
-9. AI Skill answered the question fairly well based on the selected tables.
+8. AI Skill answered the question fairly well based on the selected tables.
 
 However, the SQL query needs some improvement, it orders the products by order quantity, when total sales revenue associated with the product is the most important consideration, as shown in the above screenshot.
 
@@ -225,7 +225,7 @@ Whenever I ask about "the most sold" products or items, the metric of interest i
 The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales.
 ```
 
-10. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
+9. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
 ```
 What is the most sold product ?
@@ -236,11 +236,11 @@ Asking the question again returns a different answer, **Mountain-200 Black, 46**
 
 In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your AI skill often receives, or questions that require complex joins.
 
-11. In the example SQL queries click on **edit** icon.
+10. In the example SQL queries click on **edit** icon.
 
 ![task-5.2](media/labMedia/AIskill9.png)
 
-12. Click on **+ Add example** and enter the following question and their respective SQL queries.
+11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
 |Question| SQL query|
 |--------|----------|
@@ -249,11 +249,11 @@ In addition to instructions, examples serve as another effective way to guide th
 
 ![task-5.2](media/labMedia/AIskill10.png)
 
-13. Click on **close(X)** button.
+12. Click on **close(X)** button.
 
 ![task-5.2](media/labMedia/AIskill11.png)
 
-14. Type  the below prompt in the chatbox and click on **Send** button.
+13. Type  the below prompt in the chatbox and click on **Send** button.
 
 ```
 who are the top 5 customers by total sales amount?
@@ -261,14 +261,14 @@ who are the top 5 customers by total sales amount?
 
 ![task-5.2](media/labMedia/AIskill12.png)
 
-15. Click on **Publish** button.
+14. Click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill13.png)
 
-16. In the pop-up screen click on **Publish** button.
+15. In the pop-up screen click on **Publish** button.
 
 ![task-5.2](media/labMedia/AIskill14.png)
 
-17. Notice that AI skill is published successfully.
+16. Notice that AI skill is published successfully.
 
 ![task-5.2](media/labMedia/AIskill15.png)
