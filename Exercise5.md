@@ -163,7 +163,7 @@ thermostat
 
 Real-time data from the event hub has been ingested successfully into the KQL Database. Next, as customers walk in aisles and the temperatures fluctuate, let us see how KQL queries proactively identify anomalies and help maintain an optimal shopping experience!
 
----
+
 
 ### Task 5.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
