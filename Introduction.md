@@ -1,6 +1,6 @@
 
 # Pre-Day 'PREL19': Microsoft Fabric, Azure OpenAI and Azure Databricks DREAM Workshop 
-**The estimated time to complete this lab is 50-60 minutes.**
+**The estimated time to complete this lab is 4 Hours.**
 
 **DISCLAIMER**
 
