@@ -215,7 +215,7 @@ for file in csv_files:
 
 Using another great feature in Fabric’s Data Factory, called Fast Copy, Contoso’s Data Engineer, Eva, quickly ingests terabytes of data with dataflows, thanks to the scalable Copy Activity in the pipeline. With so much data from Litware, there is bound to be a lot of clean up needed. Let’s step into Eva’s shoes to explore how she used fast copy to ingest data and Copilot to transform it, just in time to derive meaningful customer insights before their big Thanksgiving Sale!
 
-You will experience how easy it is to use Fast Copy to transform 100M rows 0f Litware's sales data into the Lakehouse.
+You will experience how easy it is to use Fast Copy to transform 100M rows of Litware's sales data into the Lakehouse.
 
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Data Engineering** is selected as an "Experience") and then select **Data Factory**.
 
@@ -264,7 +264,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows 0f Li
 
 >**Note:** If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details.
 
-10. Scroll to the right hand side and observe the **GrossRevenue** and **NetRevenue** columns. You'll notice the there are some empty rows with null values.
+10. Scroll to the right-hand side and observe the **GrossRevenue** and **NetRevenue** columns. You notice that some rows contain empty or null values.
 
 ![DFData12.png](media/labMedia/DFData12.png)
 
@@ -285,7 +285,7 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 >**Note:** Expand the queries pane collapsed earlier.
 
-13. Right click on the **query** and then select **Require fast copy**.
+13. Right click on the query **sales_data.csv** and then select **Require fast copy**.
 
 <img src="media/55.png" width="800"/>  
 
