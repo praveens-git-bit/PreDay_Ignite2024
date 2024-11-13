@@ -73,7 +73,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 17. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step, then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click Next.
 
-**Note:** Remove **/Input** from the URL.
+>**Note:** Remove **/Input** from the URL.
 
 ![Task 3.1_7.png](media/labMedia/url.png)
 
@@ -98,7 +98,7 @@ Contoso integrated all of their data sources using Microsoft Fabric, including c
 
 1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button.
 
-   Note: If the left side bar is collapsed, please click on **expand** from the above of the **left side bar**.
+>**Note:** If the left side bar is collapsed, please click on **expand** from the above of the **left side bar**.
 
 ![Task-2.3_10.png](media/labMedia/ai_3.png)
 	
@@ -124,7 +124,7 @@ Contoso integrated all of their data sources using Microsoft Fabric, including c
 
 7. Once the **AI Search is connected**, click on the **Close** button.
 
-Note: If the **close** button is not visible, please reduce the screen size of the browser.
+>**Note:** If the **close** button is not visible, please reduce the screen size of the browser.
 
 ![Task-2.3_10.png](media/labMedia/ai_9.png)
 
@@ -156,7 +156,7 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 5. In the Select Azure AI Search index dropdown, select **cosmosdb-index** and then click on the **Next** button.
 
-   Note: If you get an error like "Unable to load search service indexes.Request failed with status code 403." please proceed by selecting Index.
+>**Note:** If you get an error like "Unable to load search service indexes.Request failed with status code 403." please proceed by selecting Index.
 
 <img src="media/25_1.png" width="800"/>
 
@@ -172,7 +172,7 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 <img src="media/28_1.png" width="800"/>
 
->*Please wait for the index to load*
+>**Note:** Please wait for the index to load.
 
 9. A screen similar to the screenshot below will appear with the message **Index not found**. Please wait for some time and then click on **Indexes**.
 
@@ -213,7 +213,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 7. Click on the **Start compute session** button.
 
-**Note:** It will take approximately 2-3 minutes to start the compute session. Please wait for some time.
+>**Note:** It will take approximately 2-3 minutes to start the compute session. Please wait for some time.
 
 <img src="media/35_1.png" width="800"/>
 
