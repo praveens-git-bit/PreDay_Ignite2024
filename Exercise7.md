@@ -35,7 +35,7 @@ SalesDb
 
 ![task-1.3.16.png](media/labMedia/task-6.2.6.png)
 
-6.  Scroll down and select **Basic** for Authentication kind, enter "labsqladmin" as the Username, "Smoothie@2024" as the Password and click on the **Next** button.
+6.  Scroll down and select **Basic** for Authentication kind, enter "labsqladmin" as the Username, "Smoothie@2024" as the Password and click on the **Connect** button.
 
 ```
 labsqladmin
@@ -44,7 +44,7 @@ labsqladmin
 Smoothie@2024
 ```
 
-![task-1.3.16.png](media/labMedia/task-1.3.16.png)
+![task-1.3.16.png](media/labMedia/connect.png)
 
 >**Note:** Close any pop-up that you see throughout the lab.
 
