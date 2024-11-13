@@ -89,8 +89,9 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
 
 ```BASH
-Select distinct [ProductName] from [SalesDb].[dbo].[dbo_FactSales] as fct
-left join [SalesDb].[dbo].[dbo_DimProduct] as prd
+Select distinct [ProductName] 
+from [dbo_FactSales] as fct
+left join [dbo_DimProduct] as prd
 on fct.[ProductKey]=prd.[ProductKey]
 where [SalesAmount] > 6000
 ```
