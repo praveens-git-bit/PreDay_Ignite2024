@@ -34,7 +34,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.3.png)
 
-7. Click on the ** <inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
+7. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace from the left navigation pane.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
