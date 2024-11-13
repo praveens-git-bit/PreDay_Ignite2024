@@ -1,4 +1,4 @@
-## Exercise 3: Building an AI-Powered Shopping Chatbot with Microsoft Fabric and Azure AI Studio
+## Exercise 3: Building an AI-Powered Shopping Copilot with Microsoft Fabric and Azure AI Studio
 
 ### Task 3.1: Integrate Fabric data with Azure AI Studio using Azure AI Search and Vector Indexing for Hybrid Search
 
