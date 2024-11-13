@@ -168,7 +168,7 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 <img src="media/25_1.png" width="800"/>
 
-5. In the Azure OpenAI connection dropdown, select **openAI2...**  and then click on the **Next** button.
+5. In the Azure OpenAI connection dropdown, select **<inject key= "openai2" enableCopy="false"/>**.  and then click on the **Next** button.
 
 <img src="media/26_1.1.png" width="800"/>
 
@@ -239,7 +239,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 8. Click on the **embedding_type** dropdown and select the **Azure OpenAI**.
 
-8. Click on the **aoai_embedding_connection** dropdown and select the **openAI2...**.
+8. Click on the **aoai_embedding_connection** dropdown and select the **<inject key= "openai2" enableCopy="false"/>**.
 
 9. Click on the **Save** button.
 
@@ -249,7 +249,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 <img src="media/35_5.1.png" width="800"/>
 
-10. Once it is validated, click on the **Connection** dropdown and then select **openAI...**.
+10. Once it is validated, click on the **Connection** dropdown and then select **<inject key= "openai" enableCopy="false"/>**.
 
 <img src="media/35_5.2.png" width="800"/>
 
