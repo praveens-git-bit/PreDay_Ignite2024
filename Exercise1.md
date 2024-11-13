@@ -27,7 +27,7 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 ```BASH
 https://app.fabric.microsoft.com/home
 ```
-`Note: After you paste the link in the browser, the page will automatically login, if the user has completed the earlier steps of Get Started instructions.`
+**Note:** After pasting the link into the browser, the page will automatically log in if the user has completed the earlier steps of the **Get Started** instructions.
 
 > **Note:** Wait for the Microsoft Fabric page to load and *close* the top bar for a better view.
 
