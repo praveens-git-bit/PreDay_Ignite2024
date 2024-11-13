@@ -24,32 +24,32 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
 ![databrickssignin.png](media/labMedia/databrickssignin.png)
 
-5. Scroll down in the left navigation pane and click on **Delta Live Table**.
+4. Scroll down in the left navigation pane and click on **Delta Live Table**.
 
 ![task-2.2.2new.png](media/labMedia/task-2.2.2new.png)
 
-6. Click on the **Create pipeline** button.
+5. Click on the **Create pipeline** button.
 
 ![task-2.2.3.1new.png](media/labMedia/task-2.2.3.1new.png)
 
-7. Enter the name of the pipeline as **"DLT_Pipeline"** , scroll down to the **Paths** and click on the **file icon** to browse the notebook.
+6. Enter the name of the pipeline as **"DLT_Pipeline"** , scroll down to the **Paths** and click on the **file icon** to browse the notebook.
 
 ```BASH
 DLT_Pipeline
 ```
 ![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
 
-8. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
+7. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
 
  <img src="media/labMedia/task-2.2.4new.png" width="800"/> 
 
-9. Click on the **Create** button.
+8. Click on the **Create** button.
 
  <img src="media/labMedia/task-2.2.5new.png" width="800"/> 
 
 >**Note**: Do not click on the **Start** button. Due to time constraints, We will not be executing this pipeline.
 
-10. If we were to execute it, we would see a result similar to the one in the following screenshot. Click on the screenshot for a better view.
+9. If we were to execute it, we would see a result similar to the one in the following screenshot. Click on the screenshot for a better view.
 
  <img src="media/labMedia/task-2.2.7.png" width="800"/> 
 
