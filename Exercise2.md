@@ -20,7 +20,7 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
  <img src="media/launchdatabricks.png" width="800"/>
 
-**Note:** Click on the **Sign in with Microsoft Entra ID** if it appears.
+>**Note:** Click on the **Sign in with Microsoft Entra ID** if it appears.
 
 ![databrickssignin.png](media/labMedia/databrickssignin.png)
 
@@ -47,7 +47,7 @@ DLT_Pipeline
 
  <img src="media/labMedia/task-2.2.5new.png" width="800"/> 
 
->**Note**: Do not click on the **Start** button. Due to time constraints, We will not be executing this pipeline.
+>**Note:** Do not click on the **Start** button. Due to time constraints, We will not be executing this pipeline.
 
 9. If we were to execute it, we would see a result similar to the one in the following screenshot. Click on the screenshot for a better view.
 
@@ -84,7 +84,7 @@ https://app.powerbi.com/
 
 2. Go to the **<inject key= "WorkspaceName" enableCopy="true"/>** and select **New item** from menu bar.
 
-   Note: If the  <inject key= "WorkspaceName" enableCopy="false"/> workspace is not found in the sidebar, click on Workspace and navigate to **<inject key= "WorkspaceName" enableCopy="true"/>**
+>**Note:** If the  <inject key= "WorkspaceName" enableCopy="false"/> workspace is not found in the sidebar, click on Workspace and navigate to **<inject key= "WorkspaceName" enableCopy="true"/>**
 
  <img src="media/labMedia/Task-2.3_1.png" width="800"/> 
 
