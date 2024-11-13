@@ -114,7 +114,7 @@ thermostat
 
 ![task-5.2.1new8.png](media/labMedia/task-5.2.1new8.png)
 
-19. In the Eventstream canvas, click on the **Add destination** dropdown and select **KQL Database**.
+19. In the Eventstream canvas, click on the **Add destination** dropdown and select **Eventhouse**.
 
 ![sel-kql-db.png](media/labMedia/sel-kql-db.png)
 
@@ -124,7 +124,7 @@ thermostat
 RealTimeData
 ```
 
-21. In the **Workspace** field select <inject key="WorkspaceName" enableCopy="true"/>. 
+21. In the **Workspace** field select <inject key="WorkspaceName" enableCopy="false"/>. 
 
 22. In the **Eventhouse** dropdown select **Contoso-Eventhouse**.
 
