@@ -73,7 +73,7 @@ thermostat
 
 ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and select **<inject key="eventhubNamespace" enableCopy="false"/>**.
+12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for "Event Hubs Namespace" and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
 
 ![eventhubnamespace](media/eventhubsearchfield.png)
 
