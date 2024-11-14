@@ -1,5 +1,5 @@
 
-### Exercise 7:  Datawarehouse Experience (Optional)
+### Exercise 7:  Mirroring Azure SQL DB Experience
 
 ### Task 7.1: Create Azure SQL DB Mirroring in Fabric
 
@@ -44,7 +44,7 @@ labsqladmin
 Smoothie@2024
 ```
 
-![task-1.3.16.png](media/labMedia/connect.png)
+![connectsql.png](media/labMedia/connectsql.png)
 
 >**Note:** Close any pop-up that you see throughout the lab.
 
