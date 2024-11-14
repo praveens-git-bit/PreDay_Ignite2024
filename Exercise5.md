@@ -178,7 +178,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 2. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Real-Time Intelligence** is selected as an "Experience") and then select **Real-Time Intelligence**.
 
-![eventhouse3.png](media/labMedia/eventhouse3.png)
+![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
 
 3. Click on **KQL Queryset** button.
 
