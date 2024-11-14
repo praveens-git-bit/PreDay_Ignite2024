@@ -70,6 +70,9 @@
 ![Started.](GetStarted/Task11.png)
 
 
->**Note:** In the Resource Group, there are **23 resources**.
+>**Note:** To ensure the **deployment is successful!** Verify that the **Resource Group** contains **23 resources**.
 
 ![Started.](GetStarted/resourcegroup.png)
+
+
+This concludes the setup. You are now all set to explore the features and functionalities. Proceed to the next exercises, keeping the **Resource Group** open, and move forward with the next steps.
