@@ -73,14 +73,13 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
 ![task-wb2.png](media/labMedia/lakehousesearch.png)
 
+3. Copy the name **lakehouse** from the following and paste it in the **Name** field.
 
-3. Paste the name **lakehouse** from the below.
-
+4. Click on the **Lakehouse schemas** checkbox and then click on the **Create** button.
+   
 ```BASH
 lakehouse
 ```
-
-4. Click on the **Lakehouse schemas** checkbox and then click on the **Create** button.
 
 ![task-1.2.3.png](media/labMedia/task-1.2.3.png)
 
