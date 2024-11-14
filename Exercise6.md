@@ -62,7 +62,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.3.10.png) 
 
-14. Make sure that **Existing Lakehouse with Schema** radio button is selected and then click on the **Add** button.
+14. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
 
 ![task-3.1.2.png](media/labMedia/64.6.png)
 
@@ -112,6 +112,7 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 **Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
 
+
 ```
 # Load the table into a Spark DataFrame
 spark_df = spark.table('lakehouse.customerchurndata')
@@ -119,7 +120,7 @@ spark_df = spark.table('lakehouse.customerchurndata')
 # Convert the Spark DataFrame to a pandas DataFrame
 df = spark_df.toPandas()
 ```
-
+<!--
 24. Paste the following at the **end of your browser URL** and press the **Enter** key. 
 
 ```
@@ -166,6 +167,8 @@ Create a seaborn scatterplot with Tenure Total Amount and Churn
 33. Click on **Fix with copilot**.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.14.png)
+
+-->
 
 With the data prepared with the help of Copilot, Data Scientists like you can explore the data to understand the patterns it contains.
 
