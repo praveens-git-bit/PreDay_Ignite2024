@@ -35,13 +35,14 @@ https://app.fabric.microsoft.com/home
 
    <img src="media/dataengineer.png" width="800"/>   
 
-3. click on the **"+ New Workspace"** and copy the workspace name from below.
+3. Click on **+ New Workspace** and copy the workspace name provided as **<inject key= "WorkspaceName" enableCopy="false"/>**.
 
-   Note: Screenshots in the exercises may sometimes differ from the actual lab. Please adjust your screen resolution to locate items and select them as needed.
+>**Note:** The screenshots in the exercises might differ slightly from the actual lab interface. Adjust your screen resolution as needed to locate and select the required items.
 
 ```BASH
  <inject key= "WorkspaceName" enableCopy="true"/>
 ```
+  
   <img src="media/newworkspace.png" width="800"/> 
 
 4. Paste the Worksapce name copied in the **Name** field and click on **Apply** to create the workspace.
@@ -63,8 +64,10 @@ https://app.fabric.microsoft.com/home
 Now, let's see how each department can easily create a Lakehouse in the Contoso workspace without any provision. They simply provide a name, given the proper access rights of course!
 
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Power BI** is selected as an "Experience") and then select **Data Engineering**.
-
-![task-wb1.png](media/labMedia/task-wb1.png)
+   
+1. Click on **+ New item** button.
+   
+![task-wb1.png](media/labMedia/lhnew-item.png)
 
 2. In the new window, under Data Engineering, click **Lakehouse**.
 
