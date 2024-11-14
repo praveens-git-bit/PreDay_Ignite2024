@@ -196,7 +196,7 @@ for file in csv_files:
 
 ![task-wb8S.png](media/64.9.png)
 
-10. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
+10. Expand **Tables** and expand **dbo** under Tables. Click on the **three dots** (Ellipses) next to dbo and click **Refresh** from dropdown options.
 
 ![task-wb8S.png](media/labMedia/64.10.1.png)
 
@@ -284,7 +284,7 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 >**Note:** Expand the queries pane collapsed earlier.
 
-13. Right click on the query **sales_data.csv** and then select **Require fast copy**.
+13. Expand the query section, right-click on the query **sales_data.csv**, and select **Require Fast Copy**.
 
 <img src="media/55.png" width="800"/>  
 
