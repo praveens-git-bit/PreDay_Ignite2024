@@ -86,7 +86,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
 
-19. Copy and paste the **below prompt** in the textbox.
+19. Copy and paste the following **prompt** in the textbox.
 
 ```
 Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Then convert that into pandas dataframe as df
@@ -212,9 +212,15 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 ![task-5.2](media/labMedia/AIskill6.png)
 
-7. Type **What is the most sold product?** in the chatbox and click on the **Send** button.
+7. Past the following question **What is the most sold product?** in the chatbox and click on the **Send** button.
+
+```
+What is the most sold product?
+```
 
 ![task-5.2](media/labMedia/AIskill7.png)
+
+>**Note:** This may take some time; please wait until a response is received.
 
 8. AI Skill answered the question fairly well based on the selected tables.
 
@@ -228,7 +234,9 @@ Whenever I ask about "the most sold" products or items, the metric of interest i
 The primary table to use is FactInternetSales. Only use FactResellerSales if explicitly asked about resales or when asked about total sales.
 ```
 
-9. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
+9. Copy the above notes and paste it in **Notes for model** box.
+    
+10. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
 ```
 What is the most sold product ?
@@ -243,6 +251,8 @@ In addition to instructions, examples serve as another effective way to guide th
 
 ![task-5.2](media/labMedia/AIskill9.png)
 
+>**Note:** Make sure you have allowed copy to clipboard in the browser lock.
+
 11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
 |Question| SQL query|
@@ -250,13 +260,15 @@ In addition to instructions, examples serve as another effective way to guide th
 |who are the top 5 customers by total sales amount?|SELECT TOP 5 CONCAT(dc.FirstName, ' ', dc.LastName) AS CustomerName, SUM(fis.SalesAmount) AS TotalSpent FROM factinternetsales fis JOIN dimcustomer dc ON fis.CustomerKey = dc.CustomerKey GROUP BY CONCAT(dc.FirstName, ' ', dc.LastName) ORDER BY TotalSpent DESC;|
 |what is the total sales amount by year?|SELECT dd.CalendarYear, SUM(fis.SalesAmount) AS TotalSales FROM factinternetsales fis JOIN dimdate dd ON fis.OrderDateKey = dd.DateKey GROUP BY dd.CalendarYear ORDER BY dd.CalendarYear;|
 
+>**Note:** This may take some time; please wait until the SQL query is copied to the box.
+
 ![task-5.2](media/labMedia/AIskill10.png)
 
 12. Click on **close(X)** button.
 
 ![task-5.2](media/labMedia/AIskill11.png)
 
-13. Type  the below prompt in the chatbox and click on **Send** button.
+13. Type  the following **prompt** in the chatbox and click on **Send** button.
 
 ```
 who are the top 5 customers by total sales amount?
