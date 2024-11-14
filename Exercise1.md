@@ -56,9 +56,7 @@ https://app.fabric.microsoft.com/home
 
 ![gotit-popup.png](media/labMedia/gotit-popup.1.png)
 
->**Note:** Wait for the Power BI Workspace to load.
 
-![task-1.1.0-new520.png](media/labMedia/task-1.1.0-new520.png)
 
 ### Create/Build a Lakehouse
 
@@ -72,19 +70,18 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
 ![task-wb2.png](media/labMedia/task-wb2.png)
 
+>**Note:** Screenshots in the exercises may sometimes differ from the actual lab. Please adjust your screen resolution to locate items and select them as needed.
+
 3. Paste the name **lakehouse** from the below.
 
 ```BASH
 lakehouse
 ```
 
-4. Click on the **checkbox** and then click on the **Create** button.
+4. Click on the **Lakehouse schemas** checkbox and then click on the **Create** button.
 
 ![task-1.2.3.png](media/labMedia/task-1.2.3.png)
 
->**Note:** Expand the Lakehouse Explorer if it is collapsed.
-
-![task-1.2.3.png](media/labMedia/task-1.2.3.1.png)
 
 In just a few seconds, the Lakehouse is ready. With the right access, you, as a Data Engineer, can effortlessly create a new Lakehouse. There is no need to set up any storage accounts or worry about network, infrastructure, key vault, Azure subscriptions, etc.
 
@@ -111,7 +108,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 4. Select **Create new Connection**
 
-5. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut.
+5. In the screen below, we need to enter the connection details for the **ADLS Gen2** shortcut, For this, we need to get the details from the Storage Account resource.
 
 ![task-1.3-ext-shortcut11.png](media/labMedia/task-1.3-ext-shortcut11.png)
 
@@ -157,7 +154,7 @@ Now, let’s see how Data Engineer, Eva, got the remaining data into OneLake by 
 
 ![task-wb8S.png](media/labMedia/64.3.png)
 
->**Note:**  If the Pop-up appears click on **Skip tour**
+>**Note:**  If the **Pop-up** appears click on **Skip tour**
  
 <img src="media/labMedia/64.4.png" width="800"/>  
 
@@ -173,7 +170,7 @@ Now, let’s see how Data Engineer, Eva, got the remaining data into OneLake by 
 
 ![task-wb8S.png](media/labMedia/64.7.png)
 
-6. Once the notebook is created, paste the **below code** in the cell and **run** the cell.
+6. Once the notebook is created, paste the **below code** in the existing cell and run the cell by clicking on the **Run cell** icon.
 
 ```BASH
 import os
@@ -208,7 +205,8 @@ for file in csv_files:
 
 ![StloadtableNew.png](media/labMedia/64.11.png)
 
-11. You now have all the table in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
+
+You now have all the table in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
 
 
 ### Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
@@ -268,7 +266,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 ![DFData12.png](media/labMedia/DFData12.png)
 
-> **Let's use Copilot to remove empty rows.**
+>**Let's use Copilot to remove empty rows.**
 
 11. Similarly, paste the prompt below in Copilot and click on the **send** icon.
 
@@ -281,23 +279,31 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 ![DFData13.png](media/labMedia/DFData13.png)
 
->**Note:** Due to time constraints, we will not publish and run the Dataflow from the Pipeline.
-
 >**Note:** Expand the queries pane collapsed earlier.
 
 13. Right click on the query **sales_data.csv** and then select **Require fast copy**.
 
 <img src="media/55.png" width="800"/>  
 
+>**Note:** **Fast copy** enhances the data handling capabilities within Fabric, making **data transfers** faster and more seamless across the platform.
+
+>**Note:** Due to time constraints, we will not publish and run the Dataflow from the Pipeline.
 
 >**Note:** If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
 
->**Note:** If **Allow use of fast copy connectors** checkbox is already checked click on **OK**.
 
 <img src="media/56.png" width="800"/> 
 
 
-14. click on **Query** dropdown and click on **Add destination** to select "Lakehouse".
+14. Click on the **close** icon at top right of the **Dataflow** window.
+
+<img src="media/dataflowclose.png" width="800"/> 
+
+15. Click on **Yes.**
+
+![dataflowclose.png](media/closeyes.png)
+
+<!-- 14. click on **Query** dropdown and click on **Add destination** to select "Lakehouse".
   
 >**Note:** Click on **Add destination**, select **Lakehouse** if Query is not seen on the screen.
 
@@ -326,10 +332,10 @@ sales_data_updated
 
 19. Click on the **Publish** button.
 
-<img src="media/61.png" width="800"/>
+<img src="media/61.png" width="800"/> -->
 
-Congrats on completing this data transformation exercise! Looking at that, it took just 10 minutes to copy 100 million records. 
-
+Congrats on completing this data transformation exercise!
+<!--
 ### Task 1.5: Explore Task Flows in Microsoft Fabric
 
 To streamline collaboration and project management for the entire team, IT admin Chou set up a task flow within the Microsoft Fabric workspace. Fabric task flow is a workspace feature that enables you to build a visualization of the workflow in the workspace. It helps you understand how items are related and work together, making it easier to navigate your workspace, even as it becomes more complex over time. 
@@ -374,3 +380,4 @@ In this exercise, you’ll step into the shoes of each of the IT admins to see h
 **Note:** Similarly, you can attach other fabric items for any taskflow activities.
 
 As you know, Litware was primarily using Azure Databricks with their data stored in ADLS Gen2 before the acquisition. Post merger, as one unified company – Contoso – they decided to leverage Azure Databricks to build and manage reliable data pipelines via Delta Live Tables (DLT). Now, you will see the amazing power of Unity Catalog that Contoso’s data architects used to quickly learn all about Litware's data without having to go through tons of documents. And all by simply leveraging AI and data intelligence.
+-->
