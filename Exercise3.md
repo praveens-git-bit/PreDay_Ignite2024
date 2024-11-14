@@ -58,6 +58,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 ``` BASH
 <inject key= "project" enableCopy="true"/>
 ```
+![task-wb11.png](media/labMedia/selectproject.png)
 
 14. To connect with Fabric data scroll down in the left navigation pane and click on **Data**.
 
