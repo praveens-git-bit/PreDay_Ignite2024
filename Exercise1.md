@@ -4,9 +4,9 @@
 
 [Click-by-Click](https://regale.cloud/Microsoft/viewer/3088/modern-analytics-with-microsoft-fabric-copilot-and-azure-databricks-dream-lab-fu/index.html#/0/0)
 
-*Now, let's trigger the Simulator App to start streaming data to EventHub (**to be used later in exercise 4**).*
+*Now, trigger the Simulator App to start streaming data to EventHub (**which will be used later in Exercise 4**).*
 
-Open the new tab in the browser and copy paste the below URL to verify app service streaming data.
+Open a new tab in the browser and copy and paste the URL below to verify app service's streaming data.
 
 ```BASH
 <inject key= "WebAppBrowse" enableCopy="true"/>
@@ -22,31 +22,30 @@ Open the new tab in the browser and copy paste the below URL to verify app servi
 
 In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's data from Azure SQL Database into the Lakehouse and initiate data preparation for the upcoming merger between Contoso and Litware Inc.
 
-1. Open **Microsoft Fabric** in a new tab by copy pasting the below link.
+1. Open **Microsoft Fabric** in a new tab by copying and pasting the link below.
 
 ```BASH
 https://app.fabric.microsoft.com/home
 ```
->**Note:** After pasting the link into the browser, the page will automatically log in if the user has completed the earlier steps of the **Get Started** instructions. In some cases, **Microsoft Fabric** may prompt the user to enter their **login details** to verify the account.
+>**Note:** After pasting the link into the browser, Microsoft Fabric should automatically log in if you completed the earlier **Get Started** steps.
 
 >**Note:** Wait for the Microsoft Fabric page to load and *close* the top bar for a better view.
 
-2. Scroll down below to the, **"Synapse Data Engineering"** and click on it.
+2. Scroll down below to the **"Synapse Data Engineering"** section and click on it.
 
    <img src="media/dataengineer.png" width="800"/>   
 
-3. Click on **+ New Workspace**.
+3. Click on **+ New Workspace** and copy the workspace name provided as **<inject key= "WorkspaceName" enableCopy="false"/>**.
 
 >**Note:** The screenshots in the exercises might differ slightly from the actual lab interface. Adjust your screen resolution as needed to locate and select the required items.
-
- <img src="media/newworkspace.png" width="800"/> 
-
-
-4. Copy paste the Worksapce name **<inject key= "WorkspaceName" enableCopy="false"/>** in the **Name** field and click on **Apply** to create the workspace.
 
 ```BASH
  <inject key= "WorkspaceName" enableCopy="true"/>
 ```
+  
+  <img src="media/newworkspace.png" width="800"/> 
+
+4. Paste the Workspace name copied in the **Name** field and click on **Apply** to create the workspace.
 
 >**Note:** Only use the workspace name provided above.
 
@@ -62,7 +61,7 @@ https://app.fabric.microsoft.com/home
 
 ### Create/Build a Lakehouse
 
-Now, let's see how each department can easily create a Lakehouse in the Contoso workspace without any provision. They simply provide a name, given the proper access rights of course!
+Let's see how each department can easily create a Lakehouse in the Contoso workspace without needing any provisioning. They simply need to provide a name, assuming they have the proper access rights of course!
 
 >**Note:** Verify that you are in the **<inject key= "WorkspaceName" enableCopy="false"/>** **Workspace** created in the earlier steps.
 
@@ -70,7 +69,7 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
    
 ![task-wb1.png](media/labMedia/lhnew-item.png)
 
-2. In the pop-up window search for **Lakehouse** in the search bar and click on **Lakehouse**.
+2. In the pop-up window, search for **Lakehouse** in the search bar, then select **Lakehouse**.
 
 ![task-wb2.png](media/labMedia/lakehousesearch.png)
 
@@ -85,20 +84,20 @@ lakehouse
 ![task-1.2.3.png](media/labMedia/task-1.2.3.png)
 
 
-In just a few seconds, the Lakehouse is ready. With the right access, you, as a Data Engineer, can effortlessly create a new Lakehouse. There is no need to set up any storage accounts or worry about network, infrastructure, key vault, Azure subscriptions, etc.
+In just a few seconds, the Lakehouse is ready. With the right access, you, as a Data Engineer, can effortlessly create a new Lakehouse. There’s no need to set up storage accounts or worry about networks, infrastructure, key vaults, Azure subscriptions, and so on.
 
 
 ---
 
 ### Task 1.2: Use the ‘New Shortcut’ option from external data sources
 
-Now, this is something exciting! This section shows how easy it is to create Shortcuts without moving data. That is the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 using the New Shortcut option. Let’s see how!
+Now, this is something exciting! This section shows how easy it is to create Shortcuts without moving data. That’s the power of OneLake! In this exercise, you will ingest the curated bounce rate data for Litware from ADLS Gen2 using the New Shortcut option. Let’s see how!
 
-1. Click on the **three dots (ellipses)** on the right side of Files.
+1. Click the **three dots (ellipsis)** next to Files.
 
 2. Click on **New shortcut**.
 
->**Note:** Make sure you create a shortcut under **files** and not under **tables** in the lakehouse explorer pane.
+>**Note:** Ensure you create a shortcut under **files** and not under **tables** in the Lakehouse Explorer pane.
 
 ![task-wb5.png](media/labMedia/task-wb5.png)
 
@@ -106,15 +105,15 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcut4.png](media/labMedia/task-1.3-ext-shortcut4.png)
 
->**Note:** Wait for the screen to load.
+>**Note:** Wait for the screen to fully load.
 
 4. Select **Create new Connection**
 
-5. In the screen below, we need to enter the connection details for the **ADLS Gen2** shortcut, For this, we need to get the details from the Storage Account resource.
+5. In the screen below, we need to enter the connection details for the **ADLS Gen2** shortcut, To do this, obtain the details from the Storage Account resource.
 
 ![task-1.3-ext-shortcut11.png](media/labMedia/task-1.3-ext-shortcut11.png)
 
-6.Copy the **Data Lake Storage endpoint** from the below and paste it into the **URL** field. Select **Organization account** for the **Authentication Kind**, and then click on **Sign in**.
+6. Copy the **Data Lake Storage endpoint** below, and paste it into **URL** field. Select **Organization account** for the **Authentication Kind**, and then click on **Sign in**.
 
 ```BASH
 <inject key= "storageEndpoint" enableCopy="true"/>
@@ -126,15 +125,15 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcuts-11.png](media/labMedia/task-1.3-ext-shortcuts-11.png)
 
-8. Click on **Next** button.
+8. Click the **Next** button.
 
 ![task-1.3-ext-shortcut9.png](media/labMedia/task-1.3-ext-shortcut9.png)
 
-9. Select the **data** and **litwaredata** checkbox and then Click on the **Next** button.
+9. Select the **data** and **litwaredata** checkboxs, then click the **Next** button.
 
 ![task-wb6.png](media/labMedia/task-wb6.png)
 
-10. Click on the **Create** button.
+10. Click the **Create** button.
 
 ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
@@ -142,37 +141,37 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-wb7.png](media/labMedia/64.1.png)
 
-Prior to Microsoft Fabric, departments in Contoso had to move the data they needed from other departments via time-consuming ETL processes. But look, now they have created shortcuts. No need to move any of this data. That is the power of OneLake!
+Prior to Microsoft Fabric, departments in Contoso had to move the data they needed from other departments via time-consuming ETL processes. But look, now they create shortcuts without moving data That is the power of OneLake!
 
 ### Task 1.3: Create Delta tables using Spark Notebook
 
-Now, let’s see how Data Engineer, Eva, got the remaining data into OneLake by creating Delta tables using Spark Notebook. By using a Spark Notebook to create Delta tables, Eva can ensure more reliable, scalable, and efficient data management, which is essential for handling big data workflows.
+Now, let’s see how Eva, a Data Engineer, got the remaining data into OneLake by creating Delta tables using Spark Notebook. By using a Spark Notebook to create Delta tables, Eva can ensure more reliable, scalable, and efficient data management, which is essential for handling big data workflows.
 
-1. Click on **Workspace** 
+1. Click **Workspace** 
 
 ![task-wb8S.png](media/labMedia/64.2.png)
 
-2. Click on **New Item** and then select **Notebook**
+2. Click **New Item**, then select **Notebook**
 
 ![task-wb8S.png](media/labMedia/64.3.png)
 
->**Note:**  If the **Pop-up** appears click on **Skip tour**
+>**Note:**  If the **Pop-up** appears, click **Skip tour**
  
 <img src="media/labMedia/64.4.png" width="800"/>  
 
-3. Click on the **+ Data Sources** button and then select **Lakehouses**
+3. Click the **+ Data Sources** button, then select **Lakehouses**
 
 ![task-wb8S.png](media/labMedia/64.5.png)
 
-4. Select **Existing Lakehouse with Schema** and then click on ***Add***.
+4. Select **Existing Lakehouse with Schema**, then click ***Add***.
 
 ![task-wb8S.png](media/labMedia/64.6.png)
 
-5. Select the **lakehouse** and then click on **Add**
+5. Select the **lakehouse**, then click **Add**
 
 ![task-wb8S.png](media/labMedia/64.7.png)
 
-6. Once the notebook is created, paste the **below code** in the existing cell and run the cell by clicking on the **Run cell** icon.
+6. After the notebook is created, paste the **below code** in the existing cell and run it by clicking the **Run cell** icon.
 
 ```BASH
 import os
@@ -191,13 +190,13 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.8.png)
 
-7. Once a **Green tick** appears in the cell below, **execution is successful** completed.
+7. When a **Green checkmark** appears in the cell below, **execution is successful** completed.
 8. **Stop the Spark session** from the above.
-9. Click on **Lakehouse** in the left navigation bar.
+9. Go back to the **Lakehouse** from the left navigation bar.
 
-![task-wb8S.png](media/64.9.png)
+![task-wb8S.png](media/labMedia/64.9.png)
 
-10. Expand **Tables** and expand **dbo** under Tables. Click on the **three dots** (Ellipses) next to dbo and click **Refresh** from dropdown options.
+10. Expand **tables**, then **dbo**. Click the **three dots**, and then select **Refresh**. 
 
 ![task-wb8S.png](media/labMedia/64.10.1.png)
 
@@ -205,7 +204,7 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.10.png)
 
-12. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+12. Click **website_bounce_rate** delta table to view the website bounce rate data.
 
 ![StloadtableNew.png](media/labMedia/64.11.png)
 
@@ -219,17 +218,17 @@ Using another great feature in Fabric’s Data Factory, called Fast Copy, Contos
 
 You will experience how easy it is to use Fast Copy to transform 100M rows of Litware's sales data into the Lakehouse.
 
-1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Data Engineering** is selected as an "Experience") and then select **Data Factory**.
+1. Click the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Data Engineering** is selected as an "Experience") and then select **Data Factory**.
 
 ![task-1.3.1.png](media/labMedia/task-1.3.1.png)
 
-2. Click on **Dataflow Gen2**.
+2. Click **Dataflow Gen2**.
 
 ![task-1.2.02.png](media/labMedia/task-1.2.02.png)
 
-3. Click on the drop down of the **New Query** icon and click on the **Get data**.
+3. Click the dropdown of the **New Query** icon, then select **Get data**.
 
->**Note:** If **New Query** is not visible due to the screen resolution, please click directly on top part of the **Get data**.
+>**Note:** If **New Query** is'nt visible due to screen resolution, click the top part of **Get data**.
 
 ![getdataSs.png](media/labMedia/getdataSs.png)
 
@@ -266,7 +265,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 >**Note:** If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details.
 
-10. Scroll to the right-hand side and observe the **GrossRevenue** and **NetRevenue** columns. You notice that some rows contain empty or null values.
+10. Scroll to the right-hand side to observe the **GrossRevenue** and **NetRevenue** columns. You notice that some rows contain empty or null values.
 
 ![DFData12.png](media/labMedia/DFData12.png)
 
@@ -285,7 +284,7 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 >**Note:** Expand the queries pane collapsed earlier.
 
-13. Expand the query section, right-click on the query **sales_data.csv**, and select **Require Fast Copy**.
+13. Right-click the query **sales_data.csv** and select **Require fast copy**.
 
 <img src="media/55.png" width="800"/>  
 
@@ -293,17 +292,17 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 >**Note:** Due to time constraints, we will not publish and run the Dataflow from the Pipeline.
 
->**Note:** If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
+>**Note:** If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click **OK**.
 
 
 <img src="media/56.png" width="800"/> 
 
 
-14. Click on the **close** icon at top right of the **Dataflow** window.
+14. Click the **close** icon at top right of the **Dataflow** window.
 
 <img src="media/dataflowclose.png" width="800"/> 
 
-15. Click on **Yes.**
+15. Click **Yes.**
 
 ![dataflowclose.png](media/closeyes.png)
 

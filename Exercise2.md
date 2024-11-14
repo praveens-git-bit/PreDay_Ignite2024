@@ -6,13 +6,13 @@ This exercise shows how Microsoft Fabric with Databricks enabled Contoso to solv
 
 Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.
 
-1. Go back to the browser tab where you have the Resource Group <inject key= "resourcegroup" enableCopy="false"/> open.
+1. Go back to the azure portal, Resource Group that mentioned below.
 
 ```BASH
  <inject key= "resourcegroup" enableCopy="true"/>
 ```
 
-2. Search for the Azure Databricks in the Resource group search field and click on **adb-ignite...**.
+2. Search for the Azure Databricks in the Resource group search field.
 
  <img src="media/databrickssearch.png" width="800"/> 
 
@@ -88,13 +88,13 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 https://app.powerbi.com/
 ```
 
-2. Go to the **<inject key= "WorkspaceName" enableCopy="false"/>** and click on **New item** from menu bar.
+2. Go to the **<inject key= "WorkspaceName" enableCopy="true"/>** and select **New item** from menu bar.
 
 >**Note:** If the  <inject key= "WorkspaceName" enableCopy="false"/> workspace is not found in the sidebar, click on Workspace and navigate to **<inject key= "WorkspaceName" enableCopy="true"/>**
 
  <img src="media/labMedia/Task-2.3_1.png" width="800"/> 
 
-3. In the **New item** window, scroll down and click on **Mirrored Azure Databricks catalog (preview)**.
+3. In the **New item** window, scroll down and click on **Microsoft Azure Databricks catalog (preview)**.
 
 ![Task-2.3_2.png](media/labMedia/Task-2.3_2.png)
 
@@ -102,7 +102,7 @@ https://app.powerbi.com/
 
 ![Task-2.3_3.png](media/labMedia/Task-2.3_3.png)
 
-5. In the **URL** field of the connection string, copy paste the following URL.
+5. In the URL field of the connection string, copy paste the provided URL below.
 
 ```BASH
  <inject key= "databricksurl" enableCopy="true"/>
