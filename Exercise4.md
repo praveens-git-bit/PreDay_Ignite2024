@@ -9,7 +9,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 1. Navigate back to the Microsoft Fabric tab on your browser.
 
-2. Click on **Workspaces** in the side bar and select **<inject key= "WorkspaceName" enableCopy="false"/>** workspace.
+2. Click on **Workspaces** in the side bar and select **<inject key= "WorkspaceName" enableCopy="false"/>**.
 
 ![task-1.3.02.png](media/labMedia/task-1.3.02.png)
 
