@@ -55,12 +55,12 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
 - Task 5.1: Ingest real-time/historical data into Eventhouse using Eventstream
 - Task 5.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
-## Exercise 6: Explorer Data Science experience in Microsoft Fabric (Optional)
+## Exercise 6: Explorer Data Science experience in Microsoft Fabric
  
 - Task 6.1: Build ML models and experiments using Copilot in Fabric
 - Task 6.2: Leverage AI skills for Q&A 
 
-## Exercise 7: Mirroring Azure SQL DB in Fabric (Optional)
+## Exercise 7: Mirroring Azure SQL DB in Fabric
 - Task 7.1: Create Mirrored Azure SQL DB in Fabric
 - Task 7.2: Analyze the Mirrored Azure SQL Database data using T-SQL
 
