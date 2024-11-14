@@ -53,12 +53,16 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/fabricurl.png)
 
-13. Copy paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **project..**.
+13. Copy paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **prj-ignite..**.
 
 ``` BASH
 <inject key= "project" enableCopy="true"/>
 ```
 ![task-wb11.png](media/labMedia/selectproject.png)
+
+14. Click on **Expand** icon is the left navigation is hidden.
+
+    ![Task 3.1_4.png](media/prjexpand.png)
 
 14. To connect with Fabric data scroll down in the left navigation pane and click on **Data**.
 
