@@ -60,7 +60,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 ```
 ![task-wb11.png](media/labMedia/selectproject.png)
 
-14. Click on **Expand** icon is the left navigation is hidden.
+>**Note:** Click on **Expand** icon is the left navigation is hidden.
 
     ![Task 3.1_4.png](media/prjexpand.png)
 
