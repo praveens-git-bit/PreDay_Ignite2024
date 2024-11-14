@@ -105,6 +105,8 @@ Contoso integrated all of their data sources using Microsoft Fabric, including c
 
 1. Navigate back to Hub by click on the **Hub..** and scroll down below to the **Shared resources**.
 
+>**Note:** If any **item** on the screen is not visible as shown in the screenshot, adjust your screen as per the need.
+
    ![Task-2.3_10.png](media/selecthub.png)
 
 1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button.
