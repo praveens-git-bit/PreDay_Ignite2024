@@ -178,7 +178,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 2. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Real-Time Intelligence** is selected as an "Experience") and then select **Real-Time Intelligence**.
 
-![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
+![Realtime-Intelligence.png](media/labMedia/eventhouse3.png)
 
 3. Click on **KQL Queryset** button.
 
@@ -211,6 +211,8 @@ Create a query to summarize average temperature every 1 min in line chart
 ```
 
 9. Click on the **Send** icon.
+
+>**Note:** If you receive a response from Copilot such as "I am not sure" please ask the question again.
 
 >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response. 
 
