@@ -52,7 +52,7 @@ Smoothie@2024
 
 ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
-8. Enter the name for your mirrored db as **Mirrored_SalesDb1** and click on Create **mirrored database** button.
+8. In the name field, enter **Mirrored_SalesDb1** and click on **Create mirrored database** button.
 
 ```
 Mirrored_SalesDb1
@@ -82,7 +82,7 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
 ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
-2. You can select the mirrored tables to see data preview. Click on **New SQL query** button from the menu bar.
+2. Expand the **Schemas** and You can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
 
 ![Task-6.2_2.png](media/labMedia/Task-6.2_2.png)
 
