@@ -190,19 +190,21 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.8.png)
 
-7. Once the execution is successful, **stop the Spark session** and go back to the **Lakehouse** in  <inject key= "WorkspaceName" enableCopy="false"/>.
+7. Once a **Green tick** appears in the cell below, **execution is successful** completed.
+8. **Stop the Spark session** from the above.
+9. Go back to the **Lakehouse** from the left navigation bar.
 
 ![task-wb8S.png](media/labMedia/64.9.png)
 
-8. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
+10. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
 
 ![task-wb8S.png](media/labMedia/64.10.1.png)
 
-9. View the successfully **loaded tables**.
+11. View the successfully **loaded tables**.
 
 ![task-wb8S.png](media/labMedia/64.10.png)
 
-10. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+12. Click on **website_bounce_rate** delta table and view the website bounce rate data.
 
 ![StloadtableNew.png](media/labMedia/64.11.png)
 
