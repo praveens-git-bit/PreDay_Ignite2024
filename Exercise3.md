@@ -60,7 +60,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 ```
 ![task-wb11.png](media/labMedia/selectproject.png)
 
->**Note:** Click on **Expand** icon is the left navigation is hidden.
+>**Note:** Click on the **Expand** icon, if the left navigation is hidden.
 
 ![Task 3.1_4.png](media/prjexpand.png)
 
@@ -103,13 +103,13 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 Contoso integrated all of their data sources using Microsoft Fabric, including customer feedback, sales records, social media interactions, and encompassing internal company policy documents such as SOPs and research articles on customer behavior into Azure AI Search. This created a unified, searchable knowledge base.. Let’s step into Data Engineer, Eva’s shoes to see how.
 
-1. Navigate back to Hub by click on the **Hub..** and scroll down below to the **Shared Resources**.
+1. Navigate back to Hub by click on the **Hub..** and scroll down below to the **Shared resources**.
 
    ![Task-2.3_10.png](media/selecthub.png)
 
 1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button.
 
->**Note:** If the left side bar is collapsed, please click on **expand** from the above of the **left side bar**.
+>**Note:** If the left side bar is collapsed, please click on **expand** from the above of the **left side bar** and scroll below.
 
 ![Task-2.3_10.png](media/labMedia/ai_3.png)
 	
