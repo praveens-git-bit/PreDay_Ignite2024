@@ -35,17 +35,18 @@ https://app.fabric.microsoft.com/home
 
    <img src="media/dataengineer.png" width="800"/>   
 
-3. Click on **+ New Workspace** and copy the workspace name provided as **<inject key= "WorkspaceName" enableCopy="false"/>**.
+3. Click on **+ New Workspace**.
 
 >**Note:** The screenshots in the exercises might differ slightly from the actual lab interface. Adjust your screen resolution as needed to locate and select the required items.
+
+ <img src="media/newworkspace.png" width="800"/> 
+
+
+4. Copy paste the Worksapce name **<inject key= "WorkspaceName" enableCopy="false"/>** in the **Name** field and click on **Apply** to create the workspace.
 
 ```BASH
  <inject key= "WorkspaceName" enableCopy="true"/>
 ```
-  
-  <img src="media/newworkspace.png" width="800"/> 
-
-4. Paste the Worksapce name copied in the **Name** field and click on **Apply** to create the workspace.
 
 >**Note:** Only use the workspace name provided above.
 
