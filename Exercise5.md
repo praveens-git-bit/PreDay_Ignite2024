@@ -87,9 +87,11 @@ thermostat
 
 15. Click on **Shared access policies** in the left pane under Settings, then click on **thermostat** and finally copy the **primary key** and paste it in a notepad for further use.
 
+>**Note:** Expand the **settings** option if the left navigations are collapsed.
+
 ![eventhubnamespace](media/thermostatkey.png)
 
-16. Scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as **thermostat** and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
+16. Go back to the **Microsoft Fabric** and scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as **thermostat** and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
 
 ```
 thermostat
