@@ -285,7 +285,7 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 >**Note:** Expand the queries pane collapsed earlier.
 
-13. Expand the query section, right-click on the query **sales_data.csv**, and select **Require Fast Copy**.
+13. Right-click on the query **sales_data.csv**, and select **Require Fast Copy**.
 
 <img src="media/55.png" width="800"/>  
 
