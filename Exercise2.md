@@ -39,17 +39,23 @@ DLT_Pipeline
 ```
 ![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
 
-7. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
+7. Click on **Shared**.
+8. click on **Analytics with ADB**.
+9. click on the **01 DLT Notebook** and then click on the **Select** button.
 
  <img src="media/labMedia/task-2.2.4new.png" width="800"/> 
 
-8. Click on the **Create** button.
+10. Click on the **Create** button.
 
  <img src="media/labMedia/task-2.2.5new.png" width="800"/> 
 
->**Note:** Do not click on the **Start** button. Due to time constraints, We will not be executing this pipeline.
+11. Click on **Start** button.
 
-9. If we were to execute it, we would see a result similar to the one in the following screenshot. Click on the screenshot for a better view.
+![Databricks](media/startDLT.png)
+    
+>**Note:** The pipeline will take 5-7 minutes to complete. In the meantime, you can move on to the next section and return to this one afterward.
+
+11. If we were to execute it, we would see a result similar to the one in the following screenshot. Click on the screenshot for a better view.
 
  <img src="media/labMedia/task-2.2.7.png" width="800"/> 
 
