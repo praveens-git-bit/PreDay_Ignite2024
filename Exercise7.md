@@ -87,6 +87,7 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 ![Task-6.2_2.png](media/labMedia/Task-6.2_2.png)
 
 >**Note:** Click on the Refresh button if you are not able view the Tables.
+
 3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
 
 ```BASH
