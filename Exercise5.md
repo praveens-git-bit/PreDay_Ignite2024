@@ -29,7 +29,7 @@ Contoso-Eventhouse
 
 ![eventhouse2.png](media/labMedia/eventhouse2.png)
 
->**Note:** If you see a pop-up like the one in the screenshot below, ignore it and proceed with the next step.
+>**Note:** If you see a **pop-up** like the one in the screenshot below, ignore it and proceed with the next step.
 
 ![eventhouse16.png](media/labMedia/eventhouse16.png)
 
@@ -81,17 +81,16 @@ thermostat
 
 ![eventhubnamespace](media/listeventhubs.png)
 
-14. Click on the thermostat event hub.
+14. Click on the **thermostat event hub**.
 
 ![eventhubnamespace](media/thermostat.png)
 
-15. Click on Shared access policies in the left pane under Settings, then click on thermostat and finally copy the primary key and paste it in a notepad for further use.
+15. Click on **Shared access policies** in the left pane under Settings, then click on **thermostat** and finally copy the **primary key** and paste it in a notepad for further use.
 
 ![eventhubnamespace](media/thermostatkey.png)
 
-16. Scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as "thermostat" and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
+16. Scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as **thermostat** and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
 
-Shared Access Key Name:
 ```
 thermostat
 ```
@@ -134,7 +133,7 @@ RealTimeData
 
 ![eventhouse5.png](media/labMedia/eventhouse5.png)
 
-25. Enter the table name as "thermostat" and then click on the **Done** button.
+25. Enter the table name as **thermostat** and then click on the **Done** button.
 
 ```
 thermostat
@@ -143,11 +142,11 @@ thermostat
 
 26. Enter the Input data format as **Json**.
 
->**Note:** Zoom-out on your screen if the Input data format field is not visible.
+>**Note:** Zoom-out on your screen if the **Input data format field** is not visible.
 
 ![eventhouse7.png](media/labMedia/eventhouse7.png)
 
-27. Drag Arrow from 'RealtimeDataTo-KQL' and connect it to 'RealTimeData'.
+27. Drag Arrow from **RealtimeDataTo-KQL** and connect it to **RealTimeData**.
 
 ![eventhouse8.png](media/labMedia/eventhouse8.png)
 
@@ -204,7 +203,6 @@ Query Thermostat Data in Near Real-time using KQL Script
 ![eventhouse11.png](media/labMedia/eventhouse11.png)
 
 8. **Paste** the query provided below in the Copilot query section.
-
 
 ```
 Create a query to summarize average temperature every 1 min in line chart
