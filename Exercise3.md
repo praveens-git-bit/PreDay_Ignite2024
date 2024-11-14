@@ -37,7 +37,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot4.png)
  
-9. Navigate to path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, select all the files in the folder and click on **Open** button.
+9. Navigate to path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, drag and select all the files in the folder and click on **Open** button.
 
 ![task-wb11.png](media/labMedia/bot5.png)
  
