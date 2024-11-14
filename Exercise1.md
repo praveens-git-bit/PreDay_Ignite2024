@@ -194,7 +194,7 @@ for file in csv_files:
 8. **Stop the Spark session** from the above.
 9. Go back to the **Lakehouse** from the left navigation bar.
 
-![task-wb8S.png](media/labMedia/64.9.png)
+![task-wb8S.png](media/64.9.png)
 
 10. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
 
