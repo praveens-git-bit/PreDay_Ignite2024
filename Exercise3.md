@@ -1,5 +1,11 @@
 ## Exercise 3: Building an AI-Powered Shopping Copilot with Microsoft Fabric and Azure AI Studio
 
+Contoso faced a significant challenge with customer churn, particularly among the millennial demographic. Despite having vast amounts of data from customer interactions, surveys, and market research, they struggled to quickly analyze this data.
+
+The existing systems were not integrated, hindering Contoso’ executives from leveraging their data for strategic insights, which in turn, affected their ability to adapt marketing strategies and product offerings swiftly.
+
+To address this, Contoso implemented an advanced chat solution using Azure OpenAI combined with Azure AI Search on documents from Microsoft Fabric.
+
 ### Task 3.1: Integrate Fabric data with Azure AI Studio using Azure AI Search and Vector Indexing for Hybrid Search
 
 Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI Studio and leverages data stored in Microsoft OneLake as knowledge base.
