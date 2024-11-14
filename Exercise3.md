@@ -62,13 +62,15 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 >**Note:** Click on **Expand** icon is the left navigation is hidden.
 
-    ![Task 3.1_4.png](media/prjexpand.png)
+![Task 3.1_4.png](media/prjexpand.png)
 
-14. To connect with Fabric data scroll down in the left navigation pane and click on **Data**.
+14. To connect with Fabric data **scroll down** in the left navigation pane and click on **Data**.
 
 ![Task 3.1_4.png](media/labMedia/clickdata.png)
 
-15. From the connect, create, or manage your data , click on **+ New Data**
+>**Note:** Due to the screen resolution user might see blank screen, **Scroll up** to proceed with the next steps.
+
+15. Under the connect, create, or manage your data , click on **+ New Data**
 
 ![Task 3.1_4.png](media/labMedia/newdata.png)
 
@@ -76,13 +78,13 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-17. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step (Remove **/Input** from the URL), then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click Next.
+17. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step (Remove **/Input** from the URL), then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click on **Create Connection**.
 
 >**Note:** Remove **/Input** from the URL.
 
 ![Task 3.1_7.png](media/labMedia/url.png)
 
-18. Select the **fabric_onelake** connection you created for  Data Source field and select the input folder and click on **Next**.
+18. Select the **fabric_onelake** connection created for  **Data Source** field and select the input folder and click on **Next**.
 
 ![Task 3.1_7.png](media/labMedia/storagepath.png)
 
@@ -100,6 +102,10 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 ### Task 3.2 : Integrating Azure OpenAI to refine search results and deliver more precise, context-aware answers to users.
 
 Contoso integrated all of their data sources using Microsoft Fabric, including customer feedback, sales records, social media interactions, and encompassing internal company policy documents such as SOPs and research articles on customer behavior into Azure AI Search. This created a unified, searchable knowledge base.. Let’s step into Data Engineer, Eva’s shoes to see how.
+
+1. Navigate back to Hub by click on the **Hub..** and scroll down below to the **Shared Resources**.
+
+   ![Task-2.3_10.png](media/selecthub.png)
 
 1. In Azure AI hub, select **Connections** from the left navigation pane and click on the **+ New Connection** button.
 
