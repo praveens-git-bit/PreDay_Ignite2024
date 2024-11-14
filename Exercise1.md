@@ -192,7 +192,7 @@ for file in csv_files:
 
 7. Once a **Green tick** appears in the cell below, **execution is successful** completed.
 8. **Stop the Spark session** from the above.
-9. Go back to the **Lakehouse** from the left navigation bar.
+9. Click on **Lakehouse** in the left navigation bar.
 
 ![task-wb8S.png](media/64.9.png)
 
