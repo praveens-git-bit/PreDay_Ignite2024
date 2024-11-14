@@ -53,7 +53,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/fabricurl.png)
 
-13. Copy paste the below URL in the new browser tab to open Azure AI Studio Project.
+13. Copy paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **project..**.
 
 ``` BASH
 <inject key= "project" enableCopy="true"/>
@@ -68,11 +68,11 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_4.png](media/labMedia/newdata.png)
 
-16. Click on the drop down of **Data Source** and select **Get Data with Storage URL**.
+16. Click on the **+ New Connection**.
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-17. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step, then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click Next.
+17. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step (Remove **/Input** from the URL), then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click Next.
 
 >**Note:** Remove **/Input** from the URL.
 
