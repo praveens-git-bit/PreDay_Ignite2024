@@ -32,7 +32,6 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  - Task 1.2: Use the ‘New Shortcut’ option from external data sources
  - Task 1.3: Create Delta tables using Spark Notebook
  - Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
- - Task 1.5: Explore Task Flows in Microsoft Fabric
 
 ## Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), Mirrored Azure Databricks Catalog
 
@@ -61,19 +60,19 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
 - Task 6.1: Build ML models and experiments using Copilot in Fabric
 - Task 6.2: Leverage AI skills for Q&A 
 
-## Exercise 7: Data Warehouse experience (Optional)
+## Exercise 7: Mirroring Azure SQL DB in Fabric (Optional)
 - Task 7.1: Create Mirrored Azure SQL DB in Fabric
 - Task 7.2: Analyze the Mirrored Azure SQL Database data using T-SQL
 
 ## Overview
 ![buildarch.png](media/labMedia/ignite_architecture_diagram.png)
 
-This lab showcases Microsoft Fabric with Copilot and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. This architecture unifies our customers' data estate to accelerate data value creation. 
+This lab showcases Microsoft Fabric with Copilot and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. This architecture unifies our customers' data estate to accelerate data value creation.
  
-The visual illustrates the real-world example for Contoso, a fictitious company. 
+The visual illustrates the real-world example for Contoso, a fictitious company.
 
-Contoso is a retailer with thousands of brick-and-mortar stores across the world and an online store. Contoso is acquiring Litware Inc., which has curated marketing data and sales data processed by Azure Databricks and stored in the gold layer in ADLS Gen2. Contoso also has their customer churn data stored in the gold layer in ADLS Gen2. 
- 
+Contoso is a retailer with thousands of brick-and-mortar stores across the world and an online store. Contoso is acquiring Litware Inc., which has curated marketing data and sales data processed by Azure Databricks and stored in the gold layer in ADLS Gen2. Contoso also has their customer churn data stored in the gold layer in ADLS Gen2.
+
 In the following exercises, you will see how the Contoso team leveraged the power of Microsoft Fabric to ingest data from a spectrum of sources, combine Litware's data with their existing data from ADLS Gen2, and derive meaningful insights. Explore how they used a shortcut to reference Litware’s existing data from ADLS Gen2. Finally, you will see how Contoso’s data architects utilized Unity Catalog to quickly get up to speed on the acquired company’s data. You will also see the power of creating LLM Chatbots with the Databricks Data Intelligence Platform to achieve an unprecedented market sentiment for Contoso.
 
 The lab scenario begins on January 30th. The new CEO, April, has noticed some negative trends in the company’s key metrics, including:
