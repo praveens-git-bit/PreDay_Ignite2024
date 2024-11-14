@@ -9,11 +9,11 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 1. Navigate back to the Microsoft Fabric tab on your browser.
 
-2. Click on **Workspaces** and select **ContosoSales** workspace you created in the First Exercise.
+2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="false"/>** workspace you created in the First Exercise.
 
 ![task-1.3.02.png](media/labMedia/task-1.3.02.png)
 
-3. Click on **Filter** and select **Lakehouse**.
+3. Click on **Filter** and under the Type, select **Lakehouse**.
 
 >**Note:** Please collapse **Task filter** if **Type filter** is not seen.
 
@@ -29,7 +29,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 ![task-new4.png](media/labMedia/task-new4.png)
 
-6. In the Name field enter 
+6. In the Name field enter **website_bounce_rate_model**.
 
 ```BASH
 website_bounce_rate_model
@@ -39,7 +39,7 @@ website_bounce_rate_model
 
 ![task-new5.png](media/labMedia/task-new5.png)
 
-8. Click on expand icon next to **Tables** checkbox.
+8. Click on expand icon next to **Tables** checkbox and scroll down.
 
 ![task-new5.1.png](media/labMedia/task-new5.1.png)
 
@@ -54,6 +54,8 @@ website_bounce_rate_model
 ![task-new7.png](media/labMedia/task-new7.png)
 
 11. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
+
+>**Note:** If the Settings icon is not visible, click on the **ellipsis** in the top-right corner and then select **Settings**.
 
 ![task-new6.1.png](media/labMedia/task-new6.1.png)
 
@@ -112,7 +114,8 @@ Create a report Bounce Rate analysis, to show the correlation between customer s
 ![query01.png](media/labMedia/query01.png)
 	
 >**Note:** If you see the error message saying, 'Something went wrong.', try refreshing the page and restart the task. Being in a shared environment, the service may be busy at times.
-- If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details
+> - If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details.
+
 
 >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response.
 
@@ -123,7 +126,7 @@ Based on this report, we notice that the website bounce rate for Contoso is espe
 
 We’ll ask Copilot for suggestions based on the results and data in the report. 
 
-20. Enter the below prompt in Copilot, and press the **Send** button.
+20. Enter the below flollowing prompt in Copilot, and press the **Send** button.
 
 ```
 Based on the data in the page, what can be done to improve the bounce rate of millennials? 
