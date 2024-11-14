@@ -35,7 +35,7 @@ Contoso-Eventhouse
 
 5. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Real-Time Intelligence** is selected as an "Experience") and then select **Real-Time Intelligence**.
 
-![Realtime-Intelligence.png](media/labMedia/Realtime-Intelligence.png)
+![Realtime-Intelligence.png](media/labMedia/eventhouse3.png)
 
 6. click on **Eventstream** button.
 
