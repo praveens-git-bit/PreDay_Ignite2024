@@ -75,4 +75,4 @@
 ![Started.](GetStarted/resourcegroup.png)
 
 
-This concludes the setup. You are now all set to explore the features and functionalities. Proceed to the next exercises, keeping the **Resource Group** open, and move forward with the next steps.
+This concludes the setup. You are now all set to explore the features and functionalities. Proceed to the next exercises, keeping the **Resource Group** tab open, and move forward with the next steps. **Happy Labbing!**
