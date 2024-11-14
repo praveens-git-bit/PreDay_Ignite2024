@@ -12,7 +12,7 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
  <inject key= "resourcegroup" enableCopy="true"/>
 ```
 
-2. Search for the Azure Databricks in the Resource group search field.
+2. Search for the Azure Databricks in the Resource group search field and click on **adb-ignite...**.
 
  <img src="media/databrickssearch.png" width="800"/> 
 
@@ -94,7 +94,7 @@ https://app.powerbi.com/
 
  <img src="media/labMedia/Task-2.3_1.png" width="800"/> 
 
-3. In the **New item** window, scroll down and click on **Microsoft Azure Databricks catalog (preview)**.
+3. In the **New item** window, scroll down and click on **Mirrored Azure Databricks catalog (preview)**.
 
 ![Task-2.3_2.png](media/labMedia/Task-2.3_2.png)
 
