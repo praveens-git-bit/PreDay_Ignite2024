@@ -1,11 +1,5 @@
 ## Exercise 3: Building an AI-Powered Shopping Copilot with Microsoft Fabric and Azure AI Studio
 
-Contoso faced a significant challenge with customer churn, particularly among the millennial demographic. Despite having vast amounts of data from customer interactions, surveys, and market research, they struggled to quickly analyze this data.
-
-The existing systems were not integrated, hindering Contoso’ executives from leveraging their data for strategic insights, which in turn, affected their ability to adapt marketing strategies and product offerings swiftly.
-
-To address this, Contoso implemented an advanced chat solution using Azure OpenAI combined with Azure AI Search on documents from Microsoft Fabric.
-
 ### Task 3.1: Integrate Fabric data with Azure AI Studio using Azure AI Search and Vector Indexing for Hybrid Search
 
 Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI Studio and leverages data stored in Microsoft OneLake as knowledge base.
@@ -43,7 +37,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot4.png)
  
-9. Navigate to path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, drag and select all the files in the folder and click on **Open** button.
+9. Navigate to path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, select all the files in the folder and click on **Open** button.
 
 ![task-wb11.png](media/labMedia/bot5.png)
  
@@ -110,8 +104,6 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 Contoso integrated all of their data sources using Microsoft Fabric, including customer feedback, sales records, social media interactions, and encompassing internal company policy documents such as SOPs and research articles on customer behavior into Azure AI Search. This created a unified, searchable knowledge base.. Let’s step into Data Engineer, Eva’s shoes to see how.
 
 1. Navigate back to Hub by click on the **Hub..** and scroll down below to the **Shared resources**.
-
->**Note:** If any **item** on the screen is not visible as shown in the screenshot, adjust your screen as per the need.
 
    ![Task-2.3_10.png](media/selecthub.png)
 
@@ -193,7 +185,7 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 >**Note:** Please wait for the index to load.
 
-9. A screen similar to the screenshot below with the text **Index not found** will appear. Wait until the screen loads and click on **Indexes**.
+9. A screen similar to the screenshot below will appear with the message **Index not found**. Please wait for some time and then click on **Indexes**.
 
 <img src="media/28.png" width="800"/>
 
