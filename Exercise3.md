@@ -193,7 +193,7 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 >**Note:** Please wait for the index to load.
 
-9. A screen similar to the screenshot below will appear with the message **Index not found**. Please wait for some time and then click on **Indexes**.
+9. A screen similar to the screenshot below with the text **Index not found** will appear. Wait until the screen loads and click on **Indexes**.
 
 <img src="media/28.png" width="800"/>
 
