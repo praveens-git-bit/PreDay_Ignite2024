@@ -110,8 +110,7 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
-**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
-
+>**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
 
 ```
 # Load the table into a Spark DataFrame
@@ -120,6 +119,9 @@ spark_df = spark.table('lakehouse.customerchurndata')
 # Convert the Spark DataFrame to a pandas DataFrame
 df = spark_df.toPandas()
 ```
+
+>**Note:** It may take some time for the copilot to generate query.
+
 <!--
 24. Paste the following at the **end of your browser URL** and press the **Enter** key. 
 
