@@ -109,7 +109,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 
 
-### Task 3.2 : Integrating Azure OpenAI to refine search results and deliver more precise, context-aware answers to users.
+### Task 3.2 : Establish Azure OpenAI, Azure AI Content Safety, and AI Search Connections in Azure AI Studio.
 
 Contoso integrated all of their data sources using Microsoft Fabric, including customer feedback, sales records, social media interactions, and encompassing internal company policy documents such as SOPs and research articles on customer behavior into Azure AI Search. This created a unified, searchable knowledge base.. Let’s step into Data Engineer, Eva’s shoes to see how.
 
@@ -160,7 +160,7 @@ Contoso integrated all of their data sources using Microsoft Fabric, including c
   
 <img src="media/2.png" width="800"/>
 
-### Task 3.3 : Indexing data in Azure AI Studio, enabling efficient search and retrieval based on user queries.
+### Task 3.3 : Create and configure a Vector Index in Azure AI Studio with Azure AI Search and OpenAI Connections.
 
 Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of searching and retrieving large datasets, enabling faster, data-driven decision-making across the organization. This approach enhances accessibility, scalability, and workflow for data scientists and analysts, while also providing a better user experience and reducing operational costs.. Let’s see how Eva, the Data Engineer, indexed OneLake data in Azure AI Studio.
 
@@ -209,7 +209,7 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 <img src="media/29_1.png" width="800"/>
 
 
-### Task 3.4 : Deploying and testing a Prompt flow to automate query handling, ensuring quick and optimized responses.
+### Task 3.4 : Setup and use Prompt Flow in Azure AI Studio.
 
 Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment for creating AI applications. It provides a visual interface for orchestrating flows, and enables iterative prompt engineering. Azure AI Studio includes built-in evaluation tools, seamless deployment options, and integration with Azure's ecosystem. It also offers enterprise-level security and scalability, making it ideal for developing, testing, and deploying sophisticated AI solutions efficiently. Let’s explore how Contoso deployed and tested a Prompt flow.
 
