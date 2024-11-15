@@ -43,7 +43,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot4.png)
  
-9. Copy the path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, paste it into the **File Name** field, and press Enter on the keyboard.
+9. Copy the following path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, paste it into the **File Name** field, and press Enter on the keyboard.
 10. Drag and select all the files in the folder and click on **Open** button.
 
 ![task-wb11.png](media/labMedia/bot5.png)
@@ -246,7 +246,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 8. Scroll down to the **lookup** section in the Prompt flow graph and click on it.
 
-9. Click on the **Validate and prase input** button.
+9. Click on the **Validate and prase input** button in the flow.
 
 10. Once it is validated, click on edit option for **mlindex_content** as shown in the below screenshot.
 
