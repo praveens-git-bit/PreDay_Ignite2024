@@ -112,7 +112,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 Contoso integrated all of their data sources using Microsoft Fabric, including customer feedback, sales records, social media interactions, and encompassing internal company policy documents such as SOPs and research articles on customer behavior into Azure AI Search. This created a unified, searchable knowledge base.. Let’s step into Data Engineer, Eva’s shoes to see how.
 
-1. Navigate back to Hub by clicking on the **Hub..** and **expand** the side bar.
+1. Navigate back to the **Hub..** by clicking on it. To expand the sidebar, click on the **Expand icon**.
 
 >**Note:** If any **item** on the screen is not visible as shown in the screenshot, adjust your browser screen resolution as per the need.
 
