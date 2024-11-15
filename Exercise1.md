@@ -191,7 +191,7 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.8.png)
 
-7. Once a **Green tick** appears in the cell below, **execution is successful** completed.
+7. Once a **Green tick** appears in the cell below, **execution is successful**.
 8. **Stop the Spark session** from the above.
 9. Click on **Lakehouse** in the left navigation bar.
 
