@@ -76,7 +76,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 >**Note:** Due to the screen resolution user might see blank screen, **Scroll up** to proceed with the next steps.
 
-15. Under the connect, create, or manage your data , click on **+ New Data**
+15. Under the connect, create, or manage your data , click on **+ New Data** button
 
 ![Task 3.1_4.png](media/labMedia/newdata.png)
 
@@ -84,21 +84,24 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-17. Select service as **Microsoft OneLake** and paste the URL copied in **URL** field in the 12th step (Remove **/Input** from the URL), then select **Microsoft Entra ID Based** in the **Authentication method** field and provide Connection name as **fabric_onelake** Click on **Create Connection**.
+17. Select service as **Microsoft OneLake**
+18. Paste the URL copied in **OneLake Artifact URL** field in the 12th step (Remove **/Input** from the URL).
+19. Select **Microsoft Entra ID Based** in the **Authentication method** field.
+20. Enter the connection name as **fabric_onelake** and Click on **Create Connection** button.
 
 >**Note:** Remove **/Input** from the URL.
 
 ![Task 3.1_7.png](media/labMedia/url.png)
 
-18. Select the **fabric_onelake** connection created for  **Data Source** field and select the input folder and click on **Next**.
+21. Select the **fabric_onelake** connection created for  **Data Source** field and select the input folder and click on **Next**.
 
 ![Task 3.1_7.png](media/labMedia/storagepath.png)
 
-19. In the Data name field enter **input01** and click on **Create** button.
+22. In the Data name field enter **input01** and click on **Create** button.
 
 ![storagepath.png](media/labMedia/createdata.png)
 
-20. Once created, the **files** can be viewed under the input folder.
+23. Once created, the **files** can be viewed under the input folder.
 
 ![successdata.png](media/labMedia/successdata.png)
 
