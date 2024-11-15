@@ -1,4 +1,4 @@
-## Exercise 3: Building an AI-Powered Shopping Copilot with Microsoft Fabric and Azure AI Studio
+## Exercise 3: Building an AI-Powered Chatbot with Microsoft Fabric and Azure AI Studio
 
 Contoso faced a significant challenge with customer churn, particularly among the millennial demographic. Despite having vast amounts of data from customer interactions, surveys, and market research, they struggled to quickly analyze this data.
 
@@ -264,7 +264,9 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 <img src="media/35_4.1.png" width="800"/>
 
-16. Click on **prompt_for_looks** in the Graph and then click on the **Validate and prase input** button in the Input sections. 
+16. Click on **prompt_for_looks** in the Graph and then click on the **Validate and prase input** button in the **Flow** under input sections.
+
+>**Note:** If the **Validate and Parse Input** button is not visible on the screen, scroll down to locate it.
 
 <img src="media/35_5.1.png" width="800"/>
 
