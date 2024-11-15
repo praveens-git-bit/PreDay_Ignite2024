@@ -39,12 +39,12 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  - Task 2.2: Explore the data in the Azure Databricks environment with Unity Catalog (unified governance solution for data and AI)
  - Task 2.3: Create a mirrored Azure Databricks catalog in Fabric and analyze data using T-SQL
 
-## Exercise 3: Building an AI-Powered Shopping Copilot with Microsoft Fabric and Azure AI Studio
+## Exercise 3: Building an AI-Powered Chatbot with Microsoft Fabric and Azure AI Studio
 
-- Task 3.1 :  Leveraging Microsoft OneLake to store knowledgebase
-- Task 3.2 : Indexing OneLake data in Azure AI Studio, enabling efficient search and retrieval based on user queries.
-- Task 3.3 : Integrating Azure OpenAI to refine search results and deliver more precise, context-aware answers to users.
-- Task 3.4 : Deploying and testing a Prompt flow to automate query handling, ensuring quick and optimized responses.
+- Task 3.1 : Integrate Fabric data with Azure AI Studio using Azure AI Search and Vector Indexing for Hybrid Search
+- Task 3.2 : Establish Azure OpenAI, Azure AI Content Safety, and AI Search Connections in Azure AI Studio
+- Task 3.3 : Create and configure a Vector Index in Azure AI Studio with Azure AI Search and OpenAI Connections
+- Task 3.4 : Setup and use Prompt Flow in Azure AI Studio
  
 ## Exercise 4: Power BI Experience in Fabric
  
