@@ -118,13 +118,14 @@ Contoso integrated all of their data sources using Microsoft Fabric, including c
 
    ![Task-2.3_10.png](media/selecthub.png)
 
-1. In Azure AI hub, scroll down below to the **Shared resources** select **Connections** from the left navigation pane and click on the **+ New Connection** button.
+1. In Azure AI hub, scroll down the left navigation bar  to the **Shared resources** section and click on **Connections** and scroll up.
+2. Click on the **+ New Connection** button.
 
 >**Note:** If the left side bar is collapsed, please click on **expand** from the above of the **left side bar** and scroll below.
 
 ![Task-2.3_10.png](media/labMedia/ai_3.png)
 	
-2. Select **Azure OpenAI Service**.
+3. Select **Azure OpenAI Service**.
 
 ![Task-2.3_10.png](media/labMedia/ai_4.png)
 
@@ -174,33 +175,35 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 <img src="media/24.png" width="800"/>
 
-4. In the Select Azure AI Search service dropdown, select **existing Azure AI Search service**.
-
-5. In the Select Azure AI Search index dropdown, select **cosmosdb-index** and then click on the **Next** button.
+4. In the **Select Azure AI Search service** dropdown, select **srch..**.
 
 >**Note:** If you get an error like "Unable to load search service indexes.Request failed with status code 403." please proceed by selecting Index.
 
+5. In the **Select Azure AI Search index** dropdown, select **cosmosdb-index** and then click on the **Next** button.
+
 <img src="media/25_1.png" width="800"/>
 
-6. In the Azure OpenAI connection dropdown, select **<inject key= "openai2" enableCopy="false"/>**.  and then click on the **Next** button.
+6. In the **Azure OpenAI connection** dropdown, select **<inject key= "openai2" enableCopy="false"/>** (Pre-Selected OpenAI is not GPT-4o, click on the drop down and select the OpenAI starting with name **openAI2**).
+   
+7. Click on the **Next** button.
 
 <img src="media/26_1.1.png" width="800"/>
 
-7. Click on the **Next** button.
+8. Click on the **Next** button.
 
 <img src="media/27_1.png" width="800"/>
 
-8. Click on the **Create vector index** button.
+9. Click on the **Create vector index** button.
 
 <img src="media/28_1.png" width="800"/>
 
 >**Note:** Please wait for the index to load.
 
-9. A screen similar to the screenshot below with the text **Index not found** will appear. Wait until the screen loads and click on **Indexes**.
+10. A screen similar to the screenshot below with the text **Index not found** will appear. Wait until the screen loads and click on **Indexes**.
 
 <img src="media/28.png" width="800"/>
 
-10. Check the Status shown as **Ready** and continue with the next task.
+11. Check the Status shown as **Ready** and continue with the next task.
 
 <img src="media/29_1.png" width="800"/>
 
