@@ -272,6 +272,8 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 17. Once it is validated, click on the **Connection** dropdown and then select **<inject key= "openai" enableCopy="false"/>**.
 
+>**Note:** Scroll up to the heading **prompt_for_looks** to find the **Connection** drop-down below it.
+
 <img src="media/35_5.2.png" width="800"/>
 
 18. Click on **max_token**, remove the preset token, and set it to **100**.
@@ -281,6 +283,10 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 19. Click on the **Chat** button.
 
 <img src="media/36_1.png" width="800"/>
+
+>**Note:** Close any pop-up appears on the screen as seen in the below screenshot.
+
+![popup.png](media/chatpop.png)
 
 20. Paste the **below question** in chat box replacing the default question.
 
