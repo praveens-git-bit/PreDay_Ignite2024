@@ -1,10 +1,12 @@
 ## Exercise 3: Building an AI-Powered Chatbot with Microsoft Fabric and Azure AI Studio
 
-Contoso faced a significant challenge with customer churn, particularly among the millennial demographic. Despite having vast amounts of data from customer interactions, surveys, and market research, they struggled to quickly analyze this data.
+Contoso encountered a major issue with customer churn, especially among millennials. The executives at Contoso struggled to understand this customer segment and figure out how to earn their loyalty. Despite having extensive data from customer interactions, surveys, and market research, Contoso found it difficult to pinpoint the root cause of the churn and determine effective solutions.
 
-The existing systems were not integrated, hindering Contoso’ executives from leveraging their data for strategic insights, which in turn, affected their ability to adapt marketing strategies and product offerings swiftly.
+The main problem was the lack of integration in their existing systems. This prevented Contoso's executives from utilizing their data for root cause analysis and strategic insights, which in turn, hampered their ability to improve marketing strategies, product offerings, and customer experiences.
 
-To address this, Contoso implemented an advanced chat solution using Azure OpenAI combined with Azure AI Search on documents from Microsoft Fabric.
+To solve the data silos issue, Contoso implemented an advanced AI solution using Azure OpenAI, Azure AI Search, and Microsoft Fabric. Once the team discovered that millennials were leaving because they couldn't find products, they developed an Azure OpenAI-powered shopping assistant to help with product search and recommendations.
+
+In this exercise, we will learn how they achieved this!
 
 ### Task 3.1: Integrate Fabric data with Azure AI Studio using Azure AI Search and Vector Indexing for Hybrid Search
 
@@ -56,7 +58,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot7.png)
  
-13. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the URL path and save it on your notepad.
+13. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the URL path, save it on your notepad and remove **/input** from the end of the URL. This will be used in the further step.
 
 ![task-wb11.png](media/labMedia/fabricurl.png)
 
@@ -71,11 +73,11 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_4.png](media/prjexpand.png)
 
-15. To connect with Fabric data **scroll down** in the left navigation pane and click on **Data**.
+15. To connect with data stored in Onelake, **scroll down** in the left navigation pane and click on **Data**.
 
 ![Task 3.1_4.png](media/labMedia/clickdata.png)
 
->**Note:** Due to the screen resolution user might see blank screen, **Scroll up** to proceed with the next steps.
+>**Note:** Due to the screen resolution you might see a difference in the screenshot and actual lab interface, Scroll up to proceed with the next steps.
 
 16. Under the connect, create, or manage your data , click on **+ New Data** button
 
@@ -85,16 +87,16 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-18. Click on the **Service** drop down and select **Microsoft OneLake**.
-19. Paste the URL copied in **OneLake Artifact URL** field in the 12th step (Remove **/Input** from the URL).
-20. Select **Microsoft Entra ID Based** in the **Authentication method** field.
-21. Enter the connection name as **fabric_onelake** and Click on **Create Connection** button.
+18. In the **Service** dropdown select **Microsoft OneLake**. 
+19. In the **OneLake Artifact URL** field, paste the URL that you copied in the notepad earlier (step13). 
+20. In the **Authentication method** dropdown select **Microsoft Entra ID based** 
+21. In the **Connection name** field enter **fabric_onelake**. Finally click on the Create connection button.
 
->**Note:** Remove **/Input** from the URL.
+>**Note:** Ensure that you have removed **/input** from the URL to avoid connection failure.
 
 ![Task 3.1_7.png](media/labMedia/url.png)
 
-22. Select the **fabric_onelake** connection created for  **Data Source** field and select the input folder and click on **Next**.
+22. In the **Data source** dropdown select **fabric_onelake**, click on the **input** radio button and click on the **Next** button.
 
 ![Task 3.1_7.png](media/labMedia/storagepath.png)
 
@@ -102,7 +104,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![storagepath.png](media/labMedia/createdata.png)
 
-24. Once created, the **files** can be viewed under the input folder.
+24. Once the connection is created, the **files** can be viewed under the input folder.
 
 ![successdata.png](media/labMedia/successdata.png)
 
@@ -119,44 +121,44 @@ Contoso integrated all of their data sources using Microsoft Fabric, including c
 
    ![Task-2.3_10.png](media/selecthub.png)
 
-1. In Azure AI hub, scroll down the left navigation bar  to the **Shared resources** section and click on **Connections** and scroll up.
-2. Click on the **+ New Connection** button.
+2. In Azure AI hub, scroll down the left navigation bar  to the **Shared resources** section and click on **Connections** and scroll up.
+3. Click on the **+ New Connection** button.
 
 >**Note:** If the left side bar is collapsed, please click on **expand** from the above of the **left side bar** and scroll below.
 
 ![Task-2.3_10.png](media/labMedia/ai_3.png)
 	
-3. Select **Azure OpenAI Service**.
+4. Select **Azure OpenAI Service**.
 
 ![Task-2.3_10.png](media/labMedia/ai_4.png)
 
-3. You will find two Azure OpenAI resources. Create a connection with both by clicking on the **Add connection** button.
+5. You will find two Azure OpenAI resources, gpt-4 (1) and gpt-4o (2). Create a connection with both by clicking on the **Add connection** button.
 
 ![Task-2.3_10.png](media/labMedia/ai_5.png)
 
-4. Once the **OpenAI services are connected**, click on **Back to select an asset type**.
+6. Once the **OpenAI services are connected**, click on **Back to select an asset type**.
 
 ![Task-2.3_10.png](media/labMedia/ai_6.png)
 
-5. Select **Azure AI Search**.
+7. Select **Azure AI Search**.
 
 ![Task-2.3_10.png](media/labMedia/ai_7.png)
 
-6. Click on **Add connection**.
+8. Click on **Add connection**.
 
 ![Task-2.3_10.png](media/labMedia/ai_8.png)
 
-7. Once the **AI Search is connected**, click on the **Close** button.
+9. Once the **AI Search is connected**, click on the **Close** button.
 
 >**Note:** If the **close** button is not visible, please reduce the screen size of the browser.
 
 ![Task-2.3_10.png](media/labMedia/ai_9.png)
 
-8. Here it is Azure Open AI and Azure AI Search Connections.
+10. Notice that **Azure Open AI** and **Azure AI Search** connections are established successfully.
 
 <img src="media/5.1.png" width="800"/>
 
-9. Click on **All projects** in the left navigation pane and select the **pre-created Project** displayed on your screen.
+11. Click on **All projects** in the left navigation pane and select the **pre-created Project** displayed on your screen.
   
 <img src="media/2.png" width="800"/>
 
@@ -198,7 +200,7 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 
 <img src="media/28_1.png" width="800"/>
 
->**Note:** Please wait for the index to load.
+>**Note:** Please wait for the index to load. It takes approximately 1-2 minutes.
 
 10. A screen similar to the screenshot below with the text **Index not found** will appear. Wait until the screen loads and click on **Indexes**.
 
@@ -233,7 +235,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 6. In the **Select flow type** dropdown, select **Chat flow** and then click on the **Upload** button.
 
->**Note:** If clicking on the upload button doesn't redirect you to the Prompt flow screen, click on the Upload button and retry. You might need to do this for twice or thrice.
+>**Note:** If clicking on the Upload button doesn't redirect you to the Prompt Flow screen, click the Upload button again twice or thrice. If it still doesn't work, refresh the page and try uploading again.
 
 <img src="media/34_1.png" width="800"/>
 
@@ -244,7 +246,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 <img src="media/35_1.png" width="800"/>
 
-8. Scroll down to the **lookup** section in the Prompt flow graph and click on it.
+8. Scroll down to the **lookup** node in the Prompt flow graph and click on it.
 
 9. Click on the **Validate and prase input** button in the flow.
 
@@ -303,7 +305,7 @@ Can you show me some yellow indian dresses for a wedding in Udaipur?
 
 Once the Prompt flow is deployed as an endpoint, It can be consumed in the webapplication. Let's see how the response look like in the webapp.
  
-23. Copy the below URL and paste it in the browser new tab.
+23. Open a new tab and Copy-paste the below URL in the broswer address bar, and then press **Enter**.
 
 ```BASH
 <inject key= "shoppingcopilotwebapp" enableCopy="false"/>
