@@ -43,23 +43,24 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot4.png)
  
-9. Navigate to path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, drag and select all the files in the folder and click on **Open** button.
+9. Copy the path **C:\LabFiles\01_Pre_Day\artifacts\aistudio\input**, paste it into the **File Name** field, and press Enter on the keyboard.
+10. Drag and select all the files in the folder and click on **Open** button.
 
 ![task-wb11.png](media/labMedia/bot5.png)
  
-10. Click on **Upload** button.
+11. Click on **Upload** button.
 
 ![task-wb11.png](media/labMedia/bot6.png)
  
-11. Wait for the files to get uploaded and click on close button.
+12. Wait for the files to get uploaded and click on close button.
 
 ![task-wb11.png](media/labMedia/bot7.png)
  
-12. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the URL path and save it on your notepad.
+13. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the URL path and save it on your notepad.
 
 ![task-wb11.png](media/labMedia/fabricurl.png)
 
-13. Copy paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **prj-ignite..**.
+14. Copy paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **prj-ignite..**.
 
 ``` BASH
 <inject key= "project" enableCopy="true"/>
@@ -70,38 +71,38 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_4.png](media/prjexpand.png)
 
-14. To connect with Fabric data **scroll down** in the left navigation pane and click on **Data**.
+15. To connect with Fabric data **scroll down** in the left navigation pane and click on **Data**.
 
 ![Task 3.1_4.png](media/labMedia/clickdata.png)
 
 >**Note:** Due to the screen resolution user might see blank screen, **Scroll up** to proceed with the next steps.
 
-15. Under the connect, create, or manage your data , click on **+ New Data** button
+16. Under the connect, create, or manage your data , click on **+ New Data** button
 
 ![Task 3.1_4.png](media/labMedia/newdata.png)
 
-16. Click on the **+ New Connection**.
+17. Click on the **+ New Connection**.
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-17. Click on the **Service** drop down and select **Microsoft OneLake**.
-18. Paste the URL copied in **OneLake Artifact URL** field in the 12th step (Remove **/Input** from the URL).
-19. Select **Microsoft Entra ID Based** in the **Authentication method** field.
-20. Enter the connection name as **fabric_onelake** and Click on **Create Connection** button.
+18. Click on the **Service** drop down and select **Microsoft OneLake**.
+19. Paste the URL copied in **OneLake Artifact URL** field in the 12th step (Remove **/Input** from the URL).
+20. Select **Microsoft Entra ID Based** in the **Authentication method** field.
+21. Enter the connection name as **fabric_onelake** and Click on **Create Connection** button.
 
 >**Note:** Remove **/Input** from the URL.
 
 ![Task 3.1_7.png](media/labMedia/url.png)
 
-21. Select the **fabric_onelake** connection created for  **Data Source** field and select the input folder and click on **Next**.
+22. Select the **fabric_onelake** connection created for  **Data Source** field and select the input folder and click on **Next**.
 
 ![Task 3.1_7.png](media/labMedia/storagepath.png)
 
-22. In the Data name field enter **input01** and click on **Create** button.
+23. In the Data name field enter **input01** and click on **Create** button.
 
 ![storagepath.png](media/labMedia/createdata.png)
 
-23. Once created, the **files** can be viewed under the input folder.
+24. Once created, the **files** can be viewed under the input folder.
 
 ![successdata.png](media/labMedia/successdata.png)
 
@@ -224,17 +225,18 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 <img src="media/32.1.png" width="800"/>
 
-4. Navigate to the path **C:\LabFiles\01_Pre_Day\artifacts\aistudio**, by clicking on the **browse** button.
+4. Copy paste the following path **C:\LabFiles\01_Pre_Day\artifacts\aistudio** in the **File name** field and hit **Enter** on the Keyboard.
 
-5. Click on **shopping-assistant-prompt-flow** and then click on the **Open** button.
+5. Click on **shopping-assistant-prompt-flow** zip folder and then click on the **Open** button.
 
    ![promptziploc.png](media/labMedia/promptziploc.png)
 
-6. In the Select flow type dropdown, select **Chat flow** and then click on the **Upload** button.
+6. In the **Select flow type** dropdown, select **Chat flow** and then click on the **Upload** button.
+
+>**Note:** If clicking on the upload button doesn't redirect you to the Prompt flow screen, click on the Upload button and retry. You might need to do this for twice or thrice.
 
 <img src="media/34_1.png" width="800"/>
 
->**Note:** If clicking on the upload button doesn't redirect you to the Prompt flow screen, click on the Upload button and retry. You might need to do this for twice or thrice.
 
 7. Click on the **Start compute session** button.
 
