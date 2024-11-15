@@ -84,7 +84,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![Task 3.1_6.png](media/labMedia/newconnect.png)
 
-17. Select service as **Microsoft OneLake**
+17. Select **Service** as **Microsoft OneLake**
 18. Paste the URL copied in **OneLake Artifact URL** field in the 12th step (Remove **/Input** from the URL).
 19. Select **Microsoft Entra ID Based** in the **Authentication method** field.
 20. Enter the connection name as **fabric_onelake** and Click on **Create Connection** button.
