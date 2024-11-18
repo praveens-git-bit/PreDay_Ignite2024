@@ -49,9 +49,11 @@
 
 4. Now paste the following **Password** and click on **Sign in**.
 
-```BASH
- <inject key= "AzureAdUserPassword" enableCopy="true"/>
-```
+|                                                       |
+---------------------------------------------------------
+|<inject key= "AzureAdUserPassword" enableCopy="true"/> |
+---------------------------------------------------------
+
 
 ![Started.](GetStarted/Task9.png)
 
