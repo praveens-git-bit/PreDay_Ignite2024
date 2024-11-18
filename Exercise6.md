@@ -82,7 +82,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 18. Run the **first cell** of the notebook to install the copilot packages.
 
->**Note:** This may take a while to execute, please wait till this load completely.
+>**Note:** Note: This may take a while to execute, please wait till this loads completely as seen by the **Play button** becoming visible again.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
 
@@ -102,7 +102,7 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.2.png)
 
-22. Click on a **+ Code** above the first cell of the notebook.
+22. Hover above the first cell and then click on a **+ Code** icon.
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
@@ -110,7 +110,7 @@ Load the "customerchurndata" table from the lakehouse into a Spark DataFrame. Th
 
 ![task-3.1.2.png](media/labMedia/exercise5_1.9.png)
 
->**Note:** Copilot may not respond as expected,please copy and paste the following code to obtain the result:
+>**Note:** Copilot may not respond as expected, please copy and paste the following code to obtain the result:
 
 ```
 # Load the table into a Spark DataFrame
@@ -122,62 +122,12 @@ df = spark_df.toPandas()
 
 >**Note:** It may take some time for the copilot to generate query.
 
-<!--
-24. Paste the following at the **end of your browser URL** and press the **Enter** key. 
-
-```
-&debug.enableCopilot=1&debug.enableChatWidget=1&debug.enableQuickAssist=1
-```
-
-![task-3.1.2.png](media/labMedia/exercise5_1.10.png)
-
-25. Click on a **+ Code** above the cell, place your **cursor** in the cell and then click on the **Copilot** button.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.10.1.png)
-
-26. Enter the below prompt in the Copilot textbox: 
-
-```
-Create a pivot table of average with min and max total amount by store contract and churn. Then show output of the pivot table.
-```
-
-27. Click on the **Send** icon.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.11.png)
-
-28. Click on the **Accept** button.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.12.png)
-
-29. Run the cell and observe the output.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.12.1.png)
-
-30. Add a **new code cell** to the notebook, paste following **query** to the cell and then **run** the **cell**.
-
-```
-%%chat 
-Create a seaborn scatterplot with Tenure Total Amount and Churn
-```
-
-![task-3.1.2.png](media/labMedia/exercise5_1.13.png)
-
-31. Introduce an error in a previous cell by **removing a character** in the code.
-
-32. Run the **code cell** with the error.
-
-33. Click on **Fix with copilot**.
-
-![task-3.1.2.png](media/labMedia/exercise5_1.14.png)
-
--->
-
 With the data prepared with the help of Copilot, Data Scientists like you can explore the data to understand the patterns it contains.
 
 The rest of the notebook has similar PySpark queries to explore customer churn prediction.
 
 
-### Task 6.2: Leverage AI skills for Q&A
+### Task 6.2: Leverage AI skills
 
 AI Skill, a new capability in Fabric, allows Data Analysts like Serena to create their own generative AI experiences. Serena believes that generative AI offers a transformative way to interact with data, significantly boosting data-driven decision-making in organizations worldwide. 
 
@@ -191,7 +141,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 ![task-5.2](media/labMedia/AIskill2.png)
 
-3. Enter Name as **Contoso-Assistance** 
+3. Enter Name as **Contoso-Assistance**  as the Create AI Skill name.
 
 ![task-5.2](media/labMedia/AIskill3.png)
 
@@ -286,6 +236,6 @@ who are the top 5 customers by total sales amount?
 
 ![task-5.2](media/labMedia/AIskill14.png)
 
-16. Notice that AI skill is published successfully.
+16. Notice that AI skill is **published successfully**.
 
 ![task-5.2](media/labMedia/AIskill15.png)
