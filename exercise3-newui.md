@@ -19,29 +19,29 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
     
 ![task-1.3.02.png](newuimedia/task-1.3.02.png)
 
-3. Click on Filter and under Type select Lakehouse.
+3. Click on **Filter** and under **Type** select **Lakehouse**.
     
 ![task-1.3.02.png](newuimedia/task-1.3-ext-shortcut1.png)
 
-4. Click on the lakehouse.
+4. Click on the **lakehouse**.
 
->**Note:** There are 3 options for lakehouse, namely Lakehouse, Semantic model (Default) and SQL endpoint. Make sure you select the Lakehouse option.
+>**Note:** There are 3 options for lakehouse, namely Lakehouse, Semantic model (Default) and SQL endpoint. Make sure you select the **Lakehouse** option.
 
 ![task-1.3.02.png](newuimedia/task-wb11.png)
 
-5. Click on the three dots next to Files folder and select New subfolder.
+5. Click on the three dots next to **Files** folder and select **New subfolder**.
 
 ![task-1.3.02.png](newuimedia/bot1.png)
 
-6. Enter name of folder as input and click on Create button.
+6. Enter name of folder as **input** and click on **Create** button.
 
 ![task-1.3.02.png](newuimedia/bot2.png)
 
-7. Click on the three dots next to the newly created folder input and select Upload, then Upload files.
+7. Click on the three dots next to the newly created folder **input** and select **Upload**, then **Upload files**.
 
 ![task-1.3.02.png](newuimedia/bot3.png)
 
-8. In the Upload files window, click on the browse icon.
+8. In the Upload files window, click on the **browse** icon.
 
 ![task-1.3.02.png](newuimedia/bot4.png)
 
@@ -50,11 +50,11 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
    
 ![task-1.3.02.png](newuimedia/bot5.png)
 
-11. Click on Upload button.
+11. Click on **Upload** button.
 
 ![task-1.3.02.png](newuimedia/bot6.png)
 
-12. Wait for the files to get uploaded and click on close button.
+12. Wait for the files to get uploaded and click on **close** button.
 
 ![task-1.3.02.png](newuimedia/bot7.png)
 
@@ -73,19 +73,19 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-1.3.02.png](newuimedia/selectproject.png)
 
-15. Click on the Expand icon, if the left navigation is hidden.
+15. Click on the **Expand** icon, if the left navigation is hidden.
 
 ![task-1.3.02.png](newuimedia/prjexpand.png)
 
-16. To connect with the data stored in Onelake, scroll down in the left navigation pane and click on Data.
+16. To connect with the data stored in Onelake, **scroll down** in the left navigation pane and click on **Data + indexes**.
 
-![task-1.3.02.png](newuimedia/clickdata.png)
+![task-1.3.02.png](newuimedia/prj-nv12.png)
 
 >**Note:** Due to the screen resolution you might see a difference in the screenshot and actual lab interface, **Scroll up** to proceed with the next steps.
 
-17. Under the connect, create, or manage your data , click on **+ New Data**
+17. Under **Data files** tab , click on **+ New Data**
 
-![task-1.3.02.png](newuimedia/newdata.png)
+![task-1.3.02.png](newuimedia/prj-nv13.png)
 
 16. Click on the **+ New Connection**.
 
@@ -193,7 +193,7 @@ Let’s see how Eva, the Data Engineer, indexed OneLake data in Azure AI Studio.
 
 ![task-1.3.02.png](newuimedia/25_1.png)
 
-7. In the **Azure OpenAI connection** dropdown, select **<inject key= "openai2" enableCopy="false"/>** and then click on the Next button.
+7. In the **Azure OpenAI connection** dropdown, select **<inject key= "openai2" enableCopy="false"/>** and then click on the **Next** button.
 
 ![task-1.3.02.png](newuimedia/26_1.1.png)
 
@@ -212,7 +212,7 @@ Let’s see how Eva, the Data Engineer, indexed OneLake data in Azure AI Studio.
 
 ![task-1.3.02.png](newuimedia/prj-nv5.png)
 
-11. Click on Indexes tab and check the Status which will show as Ready. Continue with the next task.
+11. Click on **Indexes** tab and check the **Status** which will show as **Ready**. Continue with the next task.
 
 ![task-1.3.02.png](newuimedia/prj-nv7.png)
 
@@ -299,7 +299,7 @@ Can you show me some Indian dresses for a wedding in Udaipur?
 
 21. Click on the **send** icon.
 
-![task-1.3.02.png](newuimedia/prj-nv11.png)
+![task-1.3.02.png](newuimedia/prj-nv11new.png)
 
 21. Observe the **response**.
 
