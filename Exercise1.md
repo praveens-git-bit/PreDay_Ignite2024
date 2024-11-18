@@ -8,9 +8,10 @@
 
 Open the new tab in the browser and copy paste the below URL to verify app service streaming data.
 
-```BASH
-<inject key= "WebAppBrowse" enableCopy="true"/>
-```
+|                                               |
+ ------------------------------------------------
+|<inject key= "WebAppBrowse" enableCopy="true"/> |
+ ------------------------------------------------
 
 **Wait** for the page to load. You will see a page like the one shown below.
 
@@ -44,9 +45,11 @@ https://app.fabric.microsoft.com/home
 
 4. Copy paste the Worksapce name **<inject key= "WorkspaceName" enableCopy="false"/>** in the **Name** field and click on **Apply** to create the workspace.
 
-```BASH
- <inject key= "WorkspaceName" enableCopy="true"/>
-```
+
+|                                               |
+ -------------------------------------------------
+|<inject key= "WorkspaceName" enableCopy="true"/> |
+ -------------------------------------------------
 
 >**Note:** Only use the workspace name provided above.
 
@@ -116,9 +119,10 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 6.Copy the **Data Lake Storage endpoint** from the below and paste it into the **URL** field. Select **Organization account** for the **Authentication Kind**, and then click on **Sign in**.
 
-```BASH
-<inject key= "storageEndpoint" enableCopy="true"/>
-```
+|                                                    |
+-----------------------------------------------------
+| <inject key= "storageEndpoint" enableCopy="true"/> |
+-----------------------------------------------------
 
 ![task-1.3-ext-shortcut-11.png](media/labMedia/task-1.3-ext-shortcut-11.png)
 
@@ -295,9 +299,7 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 >**Note:** If a pop-up page **Options** appears, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
 
-
 <img src="media/56.png" width="800"/> 
-
 
 14. Click on the **close** icon at top right of the **Dataflow** window.
 
@@ -313,11 +315,9 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 
 <img src="media/57.png" width="800"/> 
 
-
 15. Select the connection and click on **Next** button.
 
   <img src="media/58.png" width="800"/> 
-
 
 16. Expand Lakehouse, expand the workspace **<inject key= "WorkspaceName" enableCopy="false"/>**, then select **lakehouse**.
 
