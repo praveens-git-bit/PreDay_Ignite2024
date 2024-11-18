@@ -65,7 +65,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 14. In a new tab of your VM browser copy-paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **prj-ignite..**.
 
 ``` BASH
-<inject key= "project" enableCopy="true"/>
+  <inject key= "project" enableCopy="true"/>
 ```
 
 >**Note:** Close any pop-up that appears on the screen throught the lab.
@@ -231,7 +231,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 
 ![task-1.3.02.png](newuimedia/32.1.png)
 
-4. CCopy paste the following path **C:\LabFiles\01_Pre_Day\artifacts\aistudio** in the **File name** field and then click on **Open** button.
+4. Copy paste the following path **C:\LabFiles\01_Pre_Day\artifacts\aistudio** in the **File name** field and then click on **Open** button.
 
 ![task-1.3.02.png](newuimedia/32.1.1.png)
 
@@ -292,7 +292,7 @@ Prompt flow in Azure AI Studio offers a comprehensive, streamlined environment f
 20. Replace the default **prompt** and paste the **prompt** given below in chat box.
 
 ```
-Can you show me some yellow indian dresses for a wedding in Udaipur?
+Can you show me some Indian dresses for a wedding in Udaipur?
 ```
 
 21. Click on the **send** icon.
