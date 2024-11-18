@@ -130,6 +130,8 @@ Let’s step into Data Engineer, Eva’s shoes to see how.
 
 2. In Azure AI hub, expand the left **navigation pane**, select **Connected resources** under **Hub** section and click on the **+ New Connection** button.
 
+>**Note:** If it is the old UI, click on **Connections** under Shared Resources, and then click the **+ New Connection** button.
+
 ![task-1.3.02.png](newuimedia/prj-nv1.png)
 
 3. Select **Azure OpenAI Service**.
