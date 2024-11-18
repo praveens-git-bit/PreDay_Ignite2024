@@ -63,9 +63,10 @@ RealtimeDataTo-KQL-DB
 
 11. Enter the value for the **Event Hub namespace** as <inject key="eventhubNamespace" enableCopy="false"/> and enter the **Event Hub** value as **thermostat**.
 
-```BASH
-<inject key="eventhubNamespace" enableCopy="true"/>
-```
+|                                                     |
+|-----------------------------------------------------|
+| <inject key="eventhubNamespace" enableCopy="true"/> |
+-------------------------------------------------------
 
 ```
 thermostat
