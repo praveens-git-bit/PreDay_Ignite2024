@@ -41,15 +41,17 @@
 
 3. On the **Microsoft Azure** browser tab, paste the provided **Username** to **Sign in** and click **Next**.
 
+```BASH
 <inject key= "AzureAdUserEmail" enableCopy="true"/>
-
+```
 
 ![Started.](GetStarted/Task8.png)
 
 4. Now paste the following **Password** and click on **Sign in**.
 
+```BASH
  <inject key= "AzureAdUserPassword" enableCopy="true"/>
-
+```
 
 ![Started.](GetStarted/Task9.png)
 
