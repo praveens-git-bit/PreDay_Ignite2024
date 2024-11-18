@@ -27,7 +27,7 @@ https://app.powerbi.com
 5. In the **Server** field, paste <inject key="mssqlServer" enableCopy="false"/> , In **Database** field paste **SalesDb**.
 
 |                                                     |
-|-----------------------------------------------------|
+ -----------------------------------------------------
 | <inject key="mssqlServer" enableCopy="true"/>       |
 -------------------------------------------------------
 
@@ -64,7 +64,9 @@ Mirrored_SalesDb1
 
 10. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
 
-![Task-6.1_11.png](media/labMedia/Task-6.1_11.png)
+![Task-6.1_11.png](media/labMedia/Task-6.1_11-Copy.png)
+
+>**Note:** It might take approximately 3-5 minutes for the Rows replicated column to get populated. Try clicking on the Refresh icon again.
 
 11. Close the **Monitor replication** window.
 
@@ -80,11 +82,11 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
 ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
-2. Expand the **Schemas** and You can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
+2. Expand the **Schemas** and lick on **DimProduct** table to see data preview. and then click on **New SQL query** button from the menu bar.
 
 ![Task-6.2_2.png](media/labMedia/Task-6.2_2.png)
 
->**Note:** Click on the Refresh button if you are not able view the Tables.
+>**Note:** Click on the **Refresh** button if you are not able view the Tables.
 
 3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
 
@@ -107,9 +109,11 @@ on fct.[ProductKey]=prd.[ProductKey]
 where [SalesAmount] > 6000
 ```
 
-4. Click on **Run**. 
+4. Click on **Run** and view the results. 
 
 ![Task-6.2_3.png](media/labMedia/sqlquery.png)
+
+>**Note:** If SQL query is not retrieving any results, please wait for a while, refresh the page, and try running the query again.
 
 ---
 
