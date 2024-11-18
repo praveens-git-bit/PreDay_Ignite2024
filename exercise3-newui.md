@@ -58,7 +58,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-1.3.02.png](newuimedia/bot7.png)
 
-13. Click on the three dots next to the **input** folder and click on **Properties** then click on **Copy to clipboard** button next of the URL path, save it on your notepad and remove **/input** from the end of the URL. This will be used in the further step.
+13. Click on the three dots next to the **Files** folder, then select Properties. Next, click the **Copy to clipboard** button next to the URL path. Save the URL in your notepad, and if the URL was copied from the input folder, remove **/input** from the end of the URL. This will be used in the further step.
 
 ![task-1.3.02.png](newuimedia/fabricurl.png)
 
