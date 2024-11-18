@@ -54,7 +54,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 ![task-wb11.png](media/labMedia/bot6.png)
  
-12. Wait for the files to get uploaded and click on close button.
+12. Wait for the files to get uploaded and click on **close** button.
 
 ![task-wb11.png](media/labMedia/bot7.png)
  
