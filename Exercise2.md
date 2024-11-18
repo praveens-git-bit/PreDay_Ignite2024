@@ -6,11 +6,7 @@ This exercise shows how Microsoft Fabric with Databricks enabled Contoso to solv
 
 Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.
 
-1. Go back to the browser tab where you have the Resource Group <inject key= "resourcegroup" enableCopy="false"/> open.
-
-```BASH
-<inject key= "resourcegroup" enableCopy="true"/>
-```
+1. Go back to the browser tab where you have the Resource Group **<inject key= "resourcegroup" enableCopy="false"/>** open.
 
 2. Search for the Azure Databricks in the Resource group search field and click on **adb-ignite...**.
 
