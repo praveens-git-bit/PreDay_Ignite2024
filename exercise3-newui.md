@@ -172,10 +172,14 @@ Contoso indexed OneLake data in Azure AI Studio to improve the efficiency of sea
 Let’s see how Eva, the Data Engineer, indexed OneLake data in Azure AI Studio.
 
 1. In the left navigation pane, click on **Go to Project** button.
+   
+>**Note:** If you are using the old UI, click on **All Projects** in the left navigation pane.
 
 ![task-1.3.02.png](newuimedia/prj-nv3.png)
 
 2. Scroll down in the left navigation pane and click on **Data + indexes**, switch to **Indexes** tab then click on the **+ New index** button.
+
+>**Note:** If you are using the old UI, click on the **Indexes** under Components and then click on the **+ New index** button
 
 ![task-1.3.02.png](newuimedia/prj-nv4.png)
 
