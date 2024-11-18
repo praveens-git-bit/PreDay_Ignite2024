@@ -64,9 +64,9 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 14. In a new tab of your VM browser copy-paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **prj-ignite..**.
 
-```
- <inject key= "project" enableCopy="true"/>
-```
+|---                                         |
+| <inject key= "project" enableCopy="true"/> |
+|                                            |
 
 >**Note:** Close any pop-up that appears on the screen throught the lab.
 
