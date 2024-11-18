@@ -42,6 +42,9 @@
 3. On the **Microsoft Azure** browser tab, paste the provided **Username** to **Sign in** and click **Next**.
 
 ```BASH
+export USER_EMAIL= "AzureAdUserEmail"
+```
+```BASH
 <inject key= "AzureAdUserEmail" enableCopy="true"/>
 ```
 
