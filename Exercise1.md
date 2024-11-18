@@ -142,7 +142,7 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-11. And there you go! Your shortcut is now ready! Simply click (do not expand) on the newly created shortcut named **litwaredata**.
+11. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
 
 ![task-wb7.png](media/labMedia/64.1.png)
 
@@ -195,8 +195,8 @@ for file in csv_files:
 
 ![task-wb8S.png](media/labMedia/64.8.png)
 
-7. Once a **Green tick** appears in the cell below, **execution is successful**.
-8. **Stop the Spark session** from the above.
+7. Once the **execution is successful** you'll see a **Green tick** appears at the bottom of cell.
+8. Click on the Stop icon in the ribbon at the top to **Stop the Spark session**.
 9. Click on **Lakehouse** in the left navigation bar.
 
 ![task-wb8S.png](media/64.9.png)
@@ -221,7 +221,7 @@ You now have all the table in **OneLake** for Contoso to leverage. Next, we proc
 
 Using another great feature in Fabric’s Data Factory, called Fast Copy, Contoso’s Data Engineer, Eva, quickly ingests terabytes of data with dataflows, thanks to the scalable Copy Activity in the pipeline. With so much data from Litware, there is bound to be a lot of clean up needed. Let’s step into Eva’s shoes to explore how she used fast copy to ingest data and Copilot to transform it, just in time to derive meaningful customer insights before their big Thanksgiving Sale!
 
-You will experience how easy it is to use Fast Copy to transform 100M rows of Litware's sales data into the Lakehouse.
+You will experience how easy it is to use Fast Copy to transform Litware's sales data into the Lakehouse.
 
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Data Engineering** is selected as an "Experience") and then select **Data Factory**.
 
@@ -231,11 +231,13 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 ![task-1.2.02.png](media/labMedia/task-1.2.02.png)
 
-3. Click on the drop down of the **New Query** icon and click on the **Get data**.
+3. Click on the **New Query** drop down and click on the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**).
 
->**Note:** If **New Query** is not visible due to the screen resolution, please click directly on top part of the **Get data**.
+>**Note:**  If the **New query** dropdown is not visible click on **Get data** icon available at the same place.
 
 ![getdataSs.png](media/labMedia/getdataSs.png)
+
+There are 150+ source connections available to in Dataflow Gen2.
 
 4. In the pop-up window, scroll down to **OneLake data hub** and click on **lakehouse**.
 
@@ -249,7 +251,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 ![task-wb9.S.png](media/chosedata001.png)
 
-7. Select the **sales_data.csv** checkbox, then **click** on the **Create** button.
+7. Scroll down and select the **sales_data.csv** checkbox, then **click** on the **Create** button.
 
 ![task-wb9.S.png](media/labMedia/chosesalesdata.png)
 
@@ -302,6 +304,8 @@ Remove empty rows from GrossRevenue and NetRevenue columns.
 <img src="media/56.png" width="800"/> 
 
 14. Click on the **close** icon at top right of the **Dataflow** window.
+
+>**Note:** If necessary, scroll up to show the close icon.
 
 <img src="media/dataflowclose.png" width="800"/> 
 
