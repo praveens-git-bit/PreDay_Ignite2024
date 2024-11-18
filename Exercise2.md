@@ -9,7 +9,7 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 1. Go back to the browser tab where you have the Resource Group <inject key= "resourcegroup" enableCopy="false"/> open.
 
 ```BASH
- <inject key= "resourcegroup" enableCopy="true"/>
+<inject key= "resourcegroup" enableCopy="true"/>
 ```
 
 2. Search for the Azure Databricks in the Resource group search field and click on **adb-ignite...**.
