@@ -64,7 +64,7 @@ Let’s step into the shoes of Eva, the Data Engineer, as she launches Azure AI 
 
 14. Copy paste the below URL in the new browser tab to open Azure AI Studio Project and click on the **prj-ignite..**.
 
-``` BASH
+```BASH
 <inject key= "project" enableCopy="true"/>
 ```
 ![task-wb11.png](media/labMedia/selectproject.png)
