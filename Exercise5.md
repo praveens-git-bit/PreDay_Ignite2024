@@ -43,6 +43,8 @@ Contoso-Eventhouse
 
 7. Enter the name as **RealtimeDataTo-KQL-DB** and tick a checkbox **Enhanced Capabilities(preview)** then click on **Create** button.
 
+>**Note:** If the Enhanced Capabilities (Preview) checkbox does not appear, enter the name and click on **Create**.
+
 ```
 RealtimeDataTo-KQL-DB
 ```
