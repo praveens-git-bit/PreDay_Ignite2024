@@ -1,8 +1,8 @@
-### Exercise 5: Real-time Intelligence experience - Explore Streaming data using Copilot for KQL DB
+### Exercise 5: Real-time Intelligence experience: Explore Streaming data using Copilot for KQL DB
 
 Imagine, it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are flocking to their stores in large numbers. We are about to witness the very culmination of Contoso's phenomenal transformation with Microsoft Fabric and Azure Databricks. Specifically, we will see how near real-time data is used to make decisions for the next moment in Contoso's stores to ensure optimal temperatures are maintained for their customers while they shop at the big sale!
 
-### Task 5.1: Ingest real-time/historical data into Eventhouse using Eventstream
+### Task 5.1: Ingest real-time data into Eventhouse using Eventstream
 
 
 In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data from the event hub into the KQL Database to monitor in-store temperatures in real time.
@@ -19,7 +19,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
 ![eventhouse1.png](media/labMedia/eventhouse1.png)
 
-3. Enter the name "Contoso-Eventhouse".
+3. Enter the name **Contoso-Eventhouse**.
 
 ```
 Contoso-Eventhouse
@@ -53,7 +53,7 @@ RealtimeDataTo-KQL-DB
 
 ![eventhouse12.png](media/labMedia/eventhouse12.png)
 
-9. Click on the **Azure Event Hubs connect** button.
+9. Click on the **Connect** button for **Azure Event Hubs**.
 
 ![task-5.2.1new1.0.4.png](media/labMedia/task-5.2.1new1.0.4.png)
 
@@ -64,7 +64,7 @@ RealtimeDataTo-KQL-DB
 11. Enter the value for the **Event Hub namespace** as <inject key="eventhubNamespace" enableCopy="false"/> and enter the **Event Hub** value as **thermostat**.
 
 |                                                     |
-|-----------------------------------------------------|
+ ----------------------------------------------------- 
 | <inject key="eventhubNamespace" enableCopy="true"/> |
 -------------------------------------------------------
 
@@ -120,7 +120,7 @@ thermostat
 
 ![sel-kql-db.png](media/labMedia/sel-kql-db.png)
 
-20. Select the **Event processing before ingestion** radio button, enter "RealTimeData" as the Destination name.
+20. Select the **Event processing before ingestion** radio button, enter "**RealTimeData**" as the Destination name.
 
 ```
 RealTimeData
@@ -132,7 +132,7 @@ RealTimeData
 
 23. In the **KQL Database** dropdown select **Contoso-Eventhouse**.
 
-24. Click on the **Create new** button.
+24. In the **KQL Destination table** field, click on **Create new** button..
 
 ![eventhouse5.png](media/labMedia/eventhouse5.png)
 
@@ -157,7 +157,7 @@ thermostat
 
 ![task-5.2.15.png](media/labMedia/task-5.2.15.png)
 
->**Note:** Wait for the data ingestion from EventHub to KQL DB.
+>**Note:** Wait for the data ingestion from EventHub to KQL DB, In the RealTimeData canvas, the status will appear as **Active**, confirming that the streaming has started successfully.
 
 29. Once you see that the streaming has started, click on **Refresh** and wait for the data to preview.
 
@@ -167,7 +167,7 @@ Real-time data from the event hub has been ingested successfully into the KQL Da
 
 
 
-### Task 5.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
+### Task 5.2: Analyze and discover patterns, identify anomalies and outliers using Copilot
 
 Kusto Query Language is a powerful tool. In this scenario KQL is used to explore Contoso’s data, discover patterns, identify anomalies and outliers, create statistical modeling, and more.
 
@@ -185,7 +185,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 ![eventhouse9.png](media/labMedia/eventhouse9.png)
 
-4. In the KQL Queryset name field, "Query Thermostat Data in Near Real-time using KQL Script" and click on the **Create** button.
+4. In the **KQL Queryset name** field, copy-paste the following, "Query Thermostat Data in Near Real-time using KQL Script" and then click on the **Create** button.
 
 ```
 Query Thermostat Data in Near Real-time using KQL Script
