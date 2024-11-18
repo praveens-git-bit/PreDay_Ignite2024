@@ -59,7 +59,7 @@ website_bounce_rate_model
 
 ![task-new6.1.png](media/labMedia/task-new6.1.png)
 
-12. Select **Semantic models** tab and select your Semantic model.
+12. Click on the **Semantic models** tab and select **website_bounce_rate_model** semantic model from the left pane.
 
 ![task-new6.2.png](media/labMedia/task-new6.2.png)
 
@@ -71,7 +71,7 @@ website_bounce_rate_model
 
 ![task-new6.3.png](media/labMedia/qna1.png)
 
-15. Click on the **Copilot** icon and collapse the other panes for Filters, Visualizations and Data.
+15. Click on the **Copilot** icon and collapse the other panes for Filters, **Visualizations** and **Data**.
 
 ![task-new6.4.png](media/labMedia/task-new6.4.png)
 
@@ -102,7 +102,7 @@ The first option, 'What’s in my data?' provides an overview of the contents of
 
 ![promptguide2.1.png](media/labMedia/promptguide2.1.png)
 
-18. Click in the Copilot chat box field and enter the prompt below.
+18. Click in the **Copilot chat** box field and enter the **prompt** below.
 
 ```
 Create a report Bounce Rate analysis, to show the correlation between customer sentiment, particularly among millennials and Gen Z, unsuccessful product searches across different devices, and the website's bounce rate by customer generations.  
@@ -126,7 +126,7 @@ Based on this report, we notice that the website bounce rate for Contoso is espe
 
 We’ll ask Copilot for suggestions based on the results and data in the report. 
 
-20. Enter the below flollowing prompt in Copilot, and press the **Send** button.
+20. Enter the below prompt in Copilot, and press the **Send** button.
 
 ```
 Based on the data in the page, what can be done to improve the bounce rate of millennials? 
@@ -142,7 +142,7 @@ Based on the data in the page, what can be done to improve the bounce rate of mi
 
 ![visualizations.png](media/labMedia/visualizations.png)
 
-23. Click on **Copilot (preview)** within the visual.
+23. Click on **Copilot (preview)** button within the visual.
 
 ![open-narrative.png](media/labMedia/open-narrative.png)
 	
@@ -150,7 +150,7 @@ Based on the data in the page, what can be done to improve the bounce rate of mi
 
 25. Click on **Update** and observe the generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
  
-> **Note:** If you don't see 'Give an executive summary' option, click in the Copilot narrative chat box field, enter the prompt below, and click on **Update**.
+> **Note:** If you see the prompt populated in the Copilot text box move to the next step otherwise, click on the Copilot narrative text box, enter the given below prompt, and then click on Update.
 
 ```
 Summarize the data, provide an executive summary, indicating important takeaways.
@@ -164,5 +164,13 @@ Summarize the data, provide an executive summary, indicating important takeaways
 27. Click on the **Close** button in the pop-up window.
 
 ![close-copilot.png](media/labMedia/close-copilot.png)
-	
+
+See how easy it was to get an executive summary with absolutely no IT resource dependency!
+
+28. Click on **Happy** from **Customer Sentimental Distribution - pie chart visual** and observe how the Executive summary is updating.
+
+>**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response.
+
+![interactionofvisual2.png](media/interactionofvisual2.png)
+
 The summary could also be generated in another language if specified. Additionally, the summary updates if you filter the report on any visual.
